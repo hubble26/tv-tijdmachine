@@ -19,11 +19,18 @@
     </a>
     <form class="zoek" role="search" onsubmit="return false">
       <label class="sr-only" for="zoekveld">Zoek in de collectie</label>
-      <input id="zoekveld" type="search" placeholder="Zoek op titel, zender, jaar…" autocomplete="off">
+      <div class="zoekbalk">
+        <input id="zoekveld" type="search" placeholder="Zoek op titel, zender, jaar…" autocomplete="off">
+        <button type="button" id="spreek" class="spreek" aria-label="Vraag het met je stem" title="Vraag het met je stem">
+          <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 15a3.5 3.5 0 0 0 3.5-3.5v-6a3.5 3.5 0 1 0-7 0v6A3.5 3.5 0 0 0 12 15Zm6-3.5a1 1 0 1 0-2 0 4 4 0 0 1-8 0 1 1 0 1 0-2 0 6 6 0 0 0 5 5.91V20H8.5a1 1 0 1 0 0 2h7a1 1 0 1 0 0-2H13v-2.59A6 6 0 0 0 18 11.5Z"/></svg>
+        </button>
+      </div>
       <select id="filter-zender" aria-label="Filter op zender"><option value="">Alle zenders</option></select>
       <select id="filter-genre" aria-label="Filter op genre"><option value="">Alle genres</option></select>
+      <label class="schakel"><input type="checkbox" id="toon-prive"> Familievideo's</label>
     </form>
   </header>
+  <p id="spraak-status" class="spraak-status" aria-live="polite" hidden></p>
 
   <main>
     <section class="kast" aria-label="Kies een periode">

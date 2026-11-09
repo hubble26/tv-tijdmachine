@@ -1,86 +1,7765 @@
 [
-  {
-    "id": "voorbeeld-001",
-    "titel": "Voorbeeldopname: avondjournaal",
-    "zender": "Nederland 1",
-    "datum": "1980-04-30",
-    "jaar": 1980,
-    "genre": "Nieuws",
-    "duur": "25 min",
-    "drager": "VHS",
-    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
-    "voorbeeld": true
-  },
-  {
-    "id": "voorbeeld-002",
-    "titel": "Voorbeeldopname: zaterdagavondshow",
-    "zender": "Nederland 2",
-    "datum": "1983-11-12",
-    "jaar": 1983,
-    "genre": "Amusement",
-    "duur": "60 min",
-    "drager": "VHS",
-    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
-    "voorbeeld": true
-  },
-  {
-    "id": "voorbeeld-003",
-    "titel": "Voorbeeldopname: Elfstedentocht-verslag",
-    "zender": "Nederland 1",
-    "datum": "1985-02-21",
-    "jaar": 1985,
-    "genre": "Sport",
-    "duur": "180 min",
-    "drager": "Betamax",
-    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
-    "voorbeeld": true
-  },
-  {
-    "id": "voorbeeld-004",
-    "titel": "Voorbeeldopname: EK-finale",
-    "zender": "Nederland 1",
-    "datum": "1988-06-25",
-    "jaar": 1988,
-    "genre": "Sport",
-    "duur": "120 min",
-    "drager": "VHS",
-    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
-    "voorbeeld": true
-  },
-  {
-    "id": "voorbeeld-005",
-    "titel": "Voorbeeldopname: nieuwsuitzending val van de Muur",
-    "zender": "Nederland 3",
-    "datum": "1989-11-10",
-    "jaar": 1989,
-    "genre": "Nieuws",
-    "duur": "30 min",
-    "drager": "VHS",
-    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
-    "voorbeeld": true
-  },
-  {
-    "id": "voorbeeld-006",
-    "titel": "Voorbeeldopname: eerste uitzendavond commerciële zender",
-    "zender": "RTL-Véronique",
-    "datum": "1989-10-02",
-    "jaar": 1989,
-    "genre": "Amusement",
-    "duur": "45 min",
-    "drager": "VHS",
-    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
-    "voorbeeld": true
-  },
-  {
-    "id": "voorbeeld-007",
-    "titel": "Voorbeeldopname: muziekprogramma",
-    "zender": "Nederland 2",
-    "datum": "1992",
-    "jaar": 1992,
-    "genre": "Muziek",
-    "duur": "50 min",
-    "drager": "VHS",
-    "beschrijving": "Voorbeeldregel zonder exacte datum, alleen een jaartal.",
-    "voorbeeld": true
-  }
+ {
+  "id": "0001",
+  "titel": "REAAL Wim Kok",
+  "jaar": 1992,
+  "genre": "Documentaire",
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0002",
+  "titel": "Gouda 4 3",
+  "datum": "1992-01",
+  "jaar": 1992,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0003",
+  "titel": "Zomergasten - Ischa Meyer 1",
+  "datum": "1992-06-10",
+  "jaar": 1992,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0004",
+  "titel": "Zomergasten - Ischa Meyer 2",
+  "datum": "1992-06-10",
+  "jaar": 1992,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0005",
+  "titel": "verjaardag George",
+  "datum": "1992-07-19",
+  "jaar": 1992,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0006",
+  "titel": "Pili con el gato",
+  "datum": "1992-07-21",
+  "jaar": 1992,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0007",
+  "titel": "Alphen ad Rijn",
+  "datum": "1992-07-23",
+  "jaar": 1992,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0008",
+  "titel": "nuestra casa",
+  "datum": "1992-08-09",
+  "jaar": 1992,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0009",
+  "titel": "Nederland 1948-1973",
+  "datum": "1992-12-09",
+  "jaar": 1992,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0010",
+  "titel": "25jr Elf Petroland in Nederland met Pili",
+  "jaar": 1992,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0011",
+  "titel": "9111 Hojel Reaal",
+  "jaar": 1992,
+  "genre": "Documentaire",
+  "formaten": [
+   "m2t"
+  ]
+ },
+ {
+  "id": "0012",
+  "titel": "Castilla-La Mancha",
+  "jaar": 1992,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0013",
+  "titel": "Memoria del 92 - Lo mejor de la Expo",
+  "jaar": 1992,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0014",
+  "titel": "Polygoon - Beeld van Ned1965-1970 dl 1",
+  "jaar": 1992,
+  "zender": "Polygoon",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0015",
+  "titel": "Polygoon - Beeld van Ned1965-1970 dl 2",
+  "jaar": 1992,
+  "zender": "Polygoon",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0016",
+  "titel": "NOS journaal met reaal",
+  "datum": "1993-01-11",
+  "jaar": 1993,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0017",
+  "titel": "RTL journaal met Reaal",
+  "datum": "1993-01-11",
+  "jaar": 1993,
+  "zender": "RTL",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0018",
+  "titel": "Miep 70 jaar",
+  "datum": "1993-02-13",
+  "jaar": 1993,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0019",
+  "titel": "Oprah Winfrey + Michael Jackson",
+  "datum": "1993-02-15",
+  "jaar": 1993,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0020",
+  "titel": "Een tevreden natie -1",
+  "datum": "1993-05-23",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0021",
+  "titel": "Een tevreden Natie - 2",
+  "datum": "1993-05-30",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0022",
+  "titel": "Back to the sixties 60 61",
+  "datum": "1993-06-01",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0023",
+  "titel": "De wrekers",
+  "datum": "1993-06-01",
+  "jaar": 1993,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0024",
+  "titel": "Een tevreden Natie -3",
+  "datum": "1993-06-06",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0025",
+  "titel": "Back to the sixties 62",
+  "datum": "1993-06-07",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0026",
+  "titel": "Back to the sixties 63",
+  "datum": "1993-06-08",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0027",
+  "titel": "Back to the sixties 64",
+  "datum": "1993-06-12",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0028",
+  "titel": "Back to the sixties 65",
+  "datum": "1993-06-16",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0029",
+  "titel": "Back to the sixties 66",
+  "datum": "1993-06-19",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0030",
+  "titel": "Back to the sixties 67",
+  "datum": "1993-06-22",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0031",
+  "titel": "Back to the sixties 68",
+  "datum": "1993-06-28",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0032",
+  "titel": "Back to the sixties 69",
+  "datum": "1993-06-29",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0033",
+  "titel": "Marvin 2",
+  "datum": "1993-07-30",
+  "jaar": 1993,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0034",
+  "titel": "Opening Pet's place",
+  "datum": "1993-11-16",
+  "jaar": 1993,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0035",
+  "titel": "Sonneveld theater 1962 1963",
+  "datum": "1994-04-03",
+  "jaar": 1994,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0036",
+  "titel": "Sonneveld over Sonneveld",
+  "datum": "1994-04-08",
+  "jaar": 1994,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0037",
+  "titel": "Sonneveld met Marijke Merckens",
+  "datum": "1994-04-15",
+  "jaar": 1994,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0038",
+  "titel": "Back to the seventies 70",
+  "datum": "1994-07-24",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0039",
+  "titel": "Back to the seventies 71",
+  "datum": "1994-07-25",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0040",
+  "titel": "Back to the seventies 72",
+  "datum": "1994-07-26",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0041",
+  "titel": "Back to the seventies 73",
+  "datum": "1994-07-28",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0042",
+  "titel": "Back to the seventies 74",
+  "datum": "1994-08-02",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0043",
+  "titel": "Back to the seventies 1975",
+  "datum": "1994-08-03",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0044",
+  "titel": "Back to the seventies 1976",
+  "datum": "1994-08-04",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0045",
+  "titel": "Back to the seventies 1977",
+  "datum": "1994-08-05",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0046",
+  "titel": "Back to the seventies 78",
+  "datum": "1994-08-06",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0047",
+  "titel": "Back to the seventies 1979",
+  "datum": "1994-08-24",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0048",
+  "titel": "Back to the seventies 70-74",
+  "datum": "1994-08-25",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0049",
+  "titel": "Back to the seventies 75-79",
+  "datum": "1994-08-29",
+  "jaar": 1994,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0050",
+  "titel": "Doopviering Alexander",
+  "datum": "1994-09",
+  "jaar": 1994,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0051",
+  "titel": "Pink Floyd in Earls court London",
+  "datum": "1994-11-15",
+  "jaar": 1994,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0052",
+  "titel": "The Doors - Roadhouse Blues",
+  "datum": "1994-11-16",
+  "jaar": 1994,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0053",
+  "titel": "NOS Jaaroverzicht 1994",
+  "datum": "1994-12-27",
+  "jaar": 1994,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0054",
+  "titel": "Doopviering Alexander",
+  "jaar": 1994,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0055",
+  "titel": "Ted 70 jr",
+  "jaar": 1994,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0056",
+  "titel": "Ted en Miep in Calpe - Spanje",
+  "jaar": 1994,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0057",
+  "titel": "Watersnoodramp Hierennu m4v",
+  "datum": "1995-01-30",
+  "jaar": 1995,
+  "genre": "Documentaire",
+  "formaten": []
+ },
+ {
+  "id": "0058",
+  "titel": "Watersnoodramp Hierennu",
+  "datum": "1995-01-30",
+  "jaar": 1995,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0059",
+  "titel": "NOS journaal Watersnoodramp",
+  "datum": "1995-02-01",
+  "jaar": 1995,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0060",
+  "titel": "NOS journaal watersnood",
+  "datum": "1995-02-02",
+  "jaar": 1995,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0061",
+  "titel": "RTL en NOS watersnoodramp",
+  "datum": "1995-02-03",
+  "jaar": 1995,
+  "zender": "NOS",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0062",
+  "titel": "verjaardag wesley",
+  "datum": "1995-04-23",
+  "jaar": 1995,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0063",
+  "titel": "Zomergasten - Harry Mulisch",
+  "datum": "1995-07-30",
+  "jaar": 1995,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0064",
+  "titel": "V Kooten & Bie - Deksel vd desk 1",
+  "datum": "1995-10-08",
+  "jaar": 1995,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0065",
+  "titel": "30 jr Gouden Televizier Ring Gala",
+  "datum": "1995-10-13",
+  "jaar": 1995,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0066",
+  "titel": "Dertig jaar gouden televizierring",
+  "datum": "1995-10-13",
+  "jaar": 1995,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0067",
+  "titel": "vKooten &Bie - Deksel vd d 2/3",
+  "datum": "1995-10-15",
+  "jaar": 1995,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0068",
+  "titel": "vKooten&De Bie - Deksel vd d 4",
+  "datum": "1995-10-29",
+  "jaar": 1995,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0069",
+  "titel": "De Vara 70 jaar dl1",
+  "datum": "1995-11-03",
+  "jaar": 1995,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0070",
+  "titel": "De Vara 70 jaar dl2",
+  "datum": "1995-11-03",
+  "jaar": 1995,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0071",
+  "titel": "De Vara 70 jaar dl3",
+  "datum": "1995-11-03",
+  "jaar": 1995,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0072",
+  "titel": "v Kooten&Bie - Deksel vd desk 5",
+  "datum": "1995-11-12",
+  "jaar": 1995,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0073",
+  "titel": "v Kooten&Bie - Deksel vd desk 6",
+  "datum": "1995-11-19",
+  "jaar": 1995,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0074",
+  "titel": "BBC interview Princess Diana",
+  "datum": "1995-11-20",
+  "jaar": 1995,
+  "zender": "BBC",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0075",
+  "titel": "v Kooten&Bie - Deksel v d desk 7",
+  "datum": "1995-11-26",
+  "jaar": 1995,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0076",
+  "titel": "Deksel van de Desk 9",
+  "datum": "1995-12-10",
+  "jaar": 1995,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0077",
+  "titel": "Alexander - su primer año dl 1",
+  "jaar": 1995,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0078",
+  "titel": "Alexander - su primer año dl 2",
+  "jaar": 1995,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0079",
+  "titel": "tm 00 Hoogenb famreunie -Clemens H.",
+  "jaar": 1995,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0080",
+  "titel": "Vara 70 jaar - 1 van 3",
+  "jaar": 1995,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0081",
+  "titel": "Vara 70 jaar - 2 van 3",
+  "jaar": 1995,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0082",
+  "titel": "Vara 70 jaar - 3 van 3",
+  "jaar": 1995,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0083",
+  "titel": "Kenmerk Milieu - Alphen ad Rijn",
+  "datum": "1996-04-18",
+  "jaar": 1996,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0084",
+  "titel": "M. Jackson history in music video",
+  "datum": "1996-04-19",
+  "jaar": 1996,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0085",
+  "titel": "40jr huwelijk Ted Miep 1",
+  "datum": "1996-05-05",
+  "jaar": 1996,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0086",
+  "titel": "40jr huwelijk Ted Miep 2",
+  "datum": "1996-05-05",
+  "jaar": 1996,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0087",
+  "titel": "40jr huwelijk Ted Miep",
+  "datum": "1996-05-05",
+  "jaar": 1996,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0088",
+  "titel": "Opa oma 40 jr huwelijk 1",
+  "datum": "1996-05-05",
+  "jaar": 1996,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0089",
+  "titel": "Opa oma 40 jr huwelijk 2",
+  "datum": "1996-05-05",
+  "jaar": 1996,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0090",
+  "titel": "Opa oma 40 jr huwelijk 4",
+  "datum": "1996-05-05",
+  "jaar": 1996,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0091",
+  "titel": "Opa oma 40 jr huwelijk 5",
+  "datum": "1996-05-05",
+  "jaar": 1996,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0092",
+  "titel": "Opa oma 40 jr huwelijk 6",
+  "datum": "1996-05-05",
+  "jaar": 1996,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0093",
+  "titel": "verjaardag Alexander",
+  "datum": "1996-05-18",
+  "jaar": 1996,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi",
+   "mpg"
+  ]
+ },
+ {
+  "id": "0094",
+  "titel": "De Nieuwsfabriek",
+  "datum": "1996-06-30",
+  "jaar": 1996,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0095",
+  "titel": "trouwdag Teddy",
+  "datum": "1996-09-27",
+  "jaar": 1996,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0096",
+  "titel": "Elfstedentocht",
+  "datum": "1997-01-04",
+  "jaar": 1997,
+  "genre": "Sport",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0097",
+  "titel": "NOS journaal",
+  "datum": "1997-01-04",
+  "jaar": 1997,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0098",
+  "titel": "NOS jaaroverzicht 1997",
+  "datum": "1997-12-27",
+  "jaar": 1997,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0099",
+  "titel": "Miep 75 jaar",
+  "datum": "1998-02-15",
+  "jaar": 1998,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0100",
+  "titel": "RTL5 Beursupdate met SNSReaal",
+  "datum": "1998-04-02",
+  "jaar": 1998,
+  "zender": "RTL",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0101",
+  "titel": "huwelijk Pr Maurits Pri Marilene",
+  "datum": "1998-05-29",
+  "jaar": 1998,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0102",
+  "titel": "Zomergasten - W. van Kooten dl 1",
+  "datum": "1998-08-16",
+  "jaar": 1998,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0103",
+  "titel": "Zomergasten - W. van Kooten dl 2",
+  "datum": "1998-08-16",
+  "jaar": 1998,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0104",
+  "titel": "Kerst bij George en Pilar 1",
+  "datum": "1998-12-25",
+  "jaar": 1998,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0105",
+  "titel": "Kerst bij George en Pilar 2",
+  "datum": "1998-12-25",
+  "jaar": 1998,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0106",
+  "titel": "Kerst bij George en Pilar",
+  "datum": "1998-12-25",
+  "jaar": 1998,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0107",
+  "titel": "Huis van Oranje - Koningin Beatrix",
+  "jaar": 1999,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0108",
+  "titel": "Huis van Oranje - Prins Bernhard",
+  "jaar": 1999,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0109",
+  "titel": "Huis van Oranje - Prins Claus",
+  "jaar": 1999,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0110",
+  "titel": "Huis van Oranje - Maurits en pr Marilene",
+  "jaar": 1999,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0111",
+  "titel": "Huis van Oranje - Prins Willem Alexander",
+  "jaar": 1999,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0112",
+  "titel": "Huis van Oranje - Prinses Irene",
+  "jaar": 1999,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0113",
+  "titel": "Huizen Hoogenbosch C. Hoogenbosch",
+  "jaar": 1999,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0114",
+  "titel": "Fox kids planet live",
+  "datum": "2000-06-30",
+  "jaar": 2000,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0115",
+  "titel": "Alexander Walvisdiploma",
+  "datum": "2000-11-15",
+  "jaar": 2000,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0116",
+  "titel": "Sinterklaas intocht in Nederland",
+  "jaar": 2000,
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0117",
+  "titel": "Op bezoek bij Opa en Oma",
+  "datum": "2001-04-01",
+  "jaar": 2001,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0118",
+  "titel": "verjaardag opa",
+  "datum": "2001-04-01",
+  "jaar": 2001,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0119",
+  "titel": "NOS jaaroverzicht 2001",
+  "datum": "2001-12-27",
+  "jaar": 2001,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0120",
+  "titel": "Spijkers gulden jaaroverzicht",
+  "datum": "2001-12-31",
+  "jaar": 2001,
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0121",
+  "titel": "Close Up - Jan Wolkers 75 jaar",
+  "jaar": 2001,
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0122",
+  "titel": "huwelijk WA en Maxima 3",
+  "datum": "2002-02-02",
+  "jaar": 2002,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0123",
+  "titel": "huwelijk WA en Maxima 4",
+  "datum": "2002-02-02",
+  "jaar": 2002,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0124",
+  "titel": "huwelijk WA Maxima 1",
+  "datum": "2002-02-02",
+  "jaar": 2002,
+  "genre": "Koningshuis",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0125",
+  "titel": "huwelijk WA Maxima 2",
+  "datum": "2002-02-02",
+  "jaar": 2002,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0126",
+  "titel": "Zomergasten - Mies Bouwman dl 1",
+  "datum": "2002-08-11",
+  "jaar": 2002,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0127",
+  "titel": "Zomergasten - Mies Bouwman dl 2",
+  "datum": "2002-08-11",
+  "jaar": 2002,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0128",
+  "titel": "Zomergasten - Cees Fasseur dl 1",
+  "datum": "2002-08-18",
+  "jaar": 2002,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0129",
+  "titel": "Zomergasten - Cees Fasseur dl 2",
+  "datum": "2002-08-18",
+  "jaar": 2002,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0130",
+  "titel": "Miep 80 jr 1",
+  "datum": "2003-02-09",
+  "jaar": 2003,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0131",
+  "titel": "Miep 80 jr",
+  "datum": "2003-02-09",
+  "jaar": 2003,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0132",
+  "titel": "RAM Fons Rademakers",
+  "datum": "2003-09-21",
+  "jaar": 2003,
+  "genre": "Documentaire",
+  "formaten": [
+   "rm"
+  ]
+ },
+ {
+  "id": "0133",
+  "titel": "NOS jaaroverzicht 2003",
+  "datum": "2003-12-27",
+  "jaar": 2003,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0134",
+  "titel": "Alexander op skates",
+  "jaar": 2003,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0135",
+  "titel": "Hoogenbosch Ted 80 jaar",
+  "datum": "2004-03-29",
+  "jaar": 2004,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0136",
+  "titel": "Alexander jarig 10 jaar",
+  "jaar": 2004,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0137",
+  "titel": "Opnames Ted Hoogenbosch tape2",
+  "jaar": 2004,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0138",
+  "titel": "Ted 1 diversen",
+  "jaar": 2004,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0139",
+  "titel": "Ted1 - opnames Ted 2004",
+  "jaar": 2004,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0140",
+  "titel": "Boswaid kinderboekenweek",
+  "jaar": 2004,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi",
+   "mp4",
+   "scn"
+  ]
+ },
+ {
+  "id": "0141",
+  "titel": "pakjesavond 1",
+  "jaar": 2004,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi",
+   "mp4",
+   "scn"
+  ]
+ },
+ {
+  "id": "0142",
+  "titel": "pakjesavond",
+  "jaar": 2004,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "scn"
+  ]
+ },
+ {
+  "id": "0143",
+  "titel": "Heike Thuis",
+  "datum": "2005-04-17",
+  "jaar": 2005,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mpg"
+  ]
+ },
+ {
+  "id": "0144",
+  "titel": "Heike Mond",
+  "datum": "2005-05-12",
+  "jaar": 2005,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mpg"
+  ]
+ },
+ {
+  "id": "0145",
+  "titel": "Heike Spd",
+  "datum": "2005-05-14",
+  "jaar": 2005,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mpg"
+  ]
+ },
+ {
+  "id": "0146",
+  "titel": "Heike Kunst auf dem Gipfel",
+  "datum": "2005-05-16",
+  "jaar": 2005,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0147",
+  "titel": "Heike 16 mei Kunst Auf Dem Gipfel",
+  "datum": "2005-05",
+  "jaar": 2005,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0148",
+  "titel": "Shania 6 jaar",
+  "datum": "2005-10-23",
+  "jaar": 2005,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0149",
+  "titel": "MAX Catherine met Jos Brink",
+  "datum": "2005-11-21",
+  "jaar": 2005,
+  "zender": "MAX",
+  "genre": "Documentaire",
+  "formaten": [
+   "asf"
+  ]
+ },
+ {
+  "id": "0150",
+  "titel": "Ted1 - opnames Ted 2005",
+  "jaar": 2005,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0151",
+  "titel": "Ted1 diverse opnames",
+  "jaar": 2005,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0152",
+  "titel": "Ted3 Gerard Graffner 75 jaar",
+  "jaar": 2005,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0153",
+  "titel": "Slaghout",
+  "datum": "2006-02-01",
+  "jaar": 2006,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4",
+   "mpg"
+  ]
+ },
+ {
+  "id": "0154",
+  "titel": "50 jaar getrouwd",
+  "datum": "2006-02-02",
+  "jaar": 2006,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0155",
+  "titel": "50 jr getrouwd film gemaakt door Marlous",
+  "datum": "2006-02-04",
+  "jaar": 2006,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0156",
+  "titel": "Ted en Miep 50 jr getrouwd",
+  "datum": "2006-02-05",
+  "jaar": 2006,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0157",
+  "titel": "Hanswijk - Slaghout",
+  "datum": "2006-06-17",
+  "jaar": 2006,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0158",
+  "titel": "Slaghout",
+  "datum": "2006-06-17",
+  "jaar": 2006,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0159",
+  "titel": "25 jr bij Reaal",
+  "datum": "2006-12-02",
+  "jaar": 2006,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0160",
+  "titel": "Andere tijden de jaren dertig",
+  "jaar": 2006,
+  "zender": "NTR",
+  "genre": "Documentaire",
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0161",
+  "titel": "Anna v Burenln 43",
+  "jaar": 2006,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0162",
+  "titel": "George 25 Jr Bij Reaal",
+  "datum": "2006-12-02",
+  "jaar": 2006,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0163",
+  "titel": "George 49 1min",
+  "jaar": 2006,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0164",
+  "titel": "Verjaardag George",
+  "jaar": 2006,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4",
+   "mpg"
+  ]
+ },
+ {
+  "id": "0165",
+  "titel": "KRO Profiel Jan Wolkers",
+  "datum": "2007-02-07",
+  "jaar": 2007,
+  "zender": "KRO-NCRV",
+  "genre": "Documentaire",
+  "formaten": [
+   "asf"
+  ]
+ },
+ {
+  "id": "0166",
+  "titel": "HD Godfried Bomans",
+  "datum": "2007-02-27",
+  "jaar": 2007,
+  "genre": "Documentaire",
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0167",
+  "titel": "TROS Joop vd Ende 65jr",
+  "datum": "2007-03-16",
+  "jaar": 2007,
+  "zender": "TROS",
+  "genre": "Documentaire",
+  "formaten": [
+   "asf"
+  ]
+ },
+ {
+  "id": "0168",
+  "titel": "Portret v/e prins W Alexander 40 jr",
+  "datum": "2007-04-27",
+  "jaar": 2007,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0169",
+  "titel": "egmond 2",
+  "datum": "2007-05-09",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0170",
+  "titel": "Egmond ad Hoef",
+  "datum": "2007-05-09",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0171",
+  "titel": "Heike 6",
+  "datum": "2007-05-27",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0172",
+  "titel": "Verjaardag Shania",
+  "datum": "2007-10-27",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0173",
+  "titel": "Cees Hoogenbosch 75 jr",
+  "datum": "2007-10-31",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0174",
+  "titel": "egmond aan zee",
+  "datum": "2007-09-23",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0175",
+  "titel": "Alina",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0176",
+  "titel": "egmond",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0177",
+  "titel": "feb 1",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0178",
+  "titel": "mei Heike 1",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0179",
+  "titel": "mei Heike Bunter Abend",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0180",
+  "titel": "verjaardag Alexander",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0181",
+  "titel": "wijn",
+  "jaar": 2007,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi",
+   "mpg"
+  ]
+ },
+ {
+  "id": "0182",
+  "titel": "Willem-alexander",
+  "jaar": 2007,
+  "genre": "Koningshuis",
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0183",
+  "titel": "Kerstdiner bij Teddy",
+  "datum": "2008-12-20",
+  "jaar": 2008,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0184",
+  "titel": "33 Kerst bij Teddy en Hans",
+  "jaar": 2008,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0185",
+  "titel": "Gouden Televizier Ring Gala",
+  "jaar": 2008,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0186",
+  "titel": "huwelijk Chantal",
+  "jaar": 2008,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0187",
+  "titel": "Ted4 diversen",
+  "jaar": 2008,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0188",
+  "titel": "Gouden Televizier Ring Gala",
+  "datum": "2009-10-23",
+  "jaar": 2009,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0189",
+  "titel": "NCRV Dokument Slapend rijk deel 2",
+  "jaar": 2009,
+  "zender": "KRO-NCRV",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0190",
+  "titel": "Slapend rijk deel 1",
+  "jaar": 2009,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0191",
+  "titel": "Alexander jarig 16 jaar",
+  "datum": "2010-05",
+  "jaar": 2010,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0192",
+  "titel": "45e Gouden Televizier Ring Gala",
+  "datum": "2010-10-22",
+  "jaar": 2010,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0193",
+  "titel": "Winter",
+  "datum": "2010-12-01",
+  "jaar": 2010,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0194",
+  "titel": "Another year",
+  "jaar": 2010,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0195",
+  "titel": "Herfst 2010",
+  "jaar": 2010,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mpg"
+  ]
+ },
+ {
+  "id": "0196",
+  "titel": "Ted4 Verpleeghuis Oudshoorn",
+  "jaar": 2010,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0197",
+  "titel": "Winter 2010 converted",
+  "jaar": null,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0198",
+  "titel": "Winter 2010",
+  "jaar": null,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m2t",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0199",
+  "titel": "Saskia jarig 12 jaar",
+  "datum": "2011-07-09",
+  "jaar": 2011,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0200",
+  "titel": "verjaardag Saskia van Gelder",
+  "datum": "2011-07-09",
+  "jaar": 2011,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0201",
+  "titel": "Feest Nico",
+  "datum": "2011-08-13",
+  "jaar": 2011,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0202",
+  "titel": "46e Gouden Televizier Ring Gala",
+  "datum": "2011-10-21",
+  "jaar": 2011,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0203",
+  "titel": "Saskia 12 1min",
+  "jaar": 2011,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0204",
+  "titel": "1 minuut Egmond",
+  "datum": "2012-01-07",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0205",
+  "titel": "feestje Yolanda 56 jr",
+  "datum": "2012-02-05",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0206",
+  "titel": "Verjaardag Yolanda 16 9",
+  "datum": "2012-02-05",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0207",
+  "titel": "Verjaardag Yolanda",
+  "datum": "2012-02-05",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0208",
+  "titel": "Maggie Hoogenbosch",
+  "datum": "2012-04-27",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0209",
+  "titel": "DWDD oerknal",
+  "datum": "2012-05-17",
+  "jaar": 2012,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "avi"
+  ]
+ },
+ {
+  "id": "0210",
+  "titel": "Alexander 18 jaar",
+  "datum": "2012-05-19",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0211",
+  "titel": "Dirk en Rinie 40 jr getrouwd",
+  "datum": "2012-05-20",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0212",
+  "titel": "Hans 55 jaar",
+  "datum": "2012-08-25",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0213",
+  "titel": "Den Haag en Rijswijk",
+  "datum": "2012-09",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0214",
+  "titel": "47e Gouden Televizier Ring Gala",
+  "datum": "2012-10-19",
+  "jaar": 2012,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0215",
+  "titel": "Cees Hoogenbosch 80 jr",
+  "datum": "2012-11-04",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0216",
+  "titel": "landal Aelderholt",
+  "datum": "2012-12-26",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0217",
+  "titel": "Familie diner bij Yolanda",
+  "datum": "2012-12-29",
+  "jaar": 2012,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0218",
+  "titel": "La Cantante Bonnita Elouise",
+  "datum": "2012-12",
+  "jaar": 2012,
+  "genre": "Muziek",
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0219",
+  "titel": "Borgen [20130124]",
+  "datum": "2013-01-24",
+  "jaar": 2013,
+  "genre": "Serie & film",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0220",
+  "titel": "NOS Journaal 0900 uur",
+  "datum": "2013-01-28",
+  "jaar": 2013,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0221",
+  "titel": "NOS Journaal 2000 uur",
+  "datum": "2013-01-28",
+  "jaar": 2013,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0222",
+  "titel": "NOS Troonsafstand Kon. Beatrix",
+  "datum": "2013-01-28",
+  "jaar": 2013,
+  "zender": "NOS",
+  "genre": "Koningshuis",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0223",
+  "titel": "Nieuwsuur",
+  "datum": "2013-01-29",
+  "jaar": 2013,
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0224",
+  "titel": "NOS Journaal 2000 uur",
+  "datum": "2013-01-29",
+  "jaar": 2013,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0225",
+  "titel": "De tiende van Tijl",
+  "datum": "2013-01-30",
+  "jaar": 2013,
+  "genre": "Amusement",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0226",
+  "titel": "NOS Journaal 2000 uur",
+  "datum": "2013-01-31",
+  "jaar": 2013,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0227",
+  "titel": "Zorge Deutschland",
+  "datum": "2013-01",
+  "jaar": 2013,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0228",
+  "titel": "NOS Journaal 2000 uur",
+  "datum": "2013-02-01",
+  "jaar": 2013,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0229",
+  "titel": "Pauw & Witteman",
+  "datum": "2013-02-01",
+  "jaar": 2013,
+  "genre": "Talkshow",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0230",
+  "titel": "Nieuwsuur",
+  "datum": "2013-02-02",
+  "jaar": 2013,
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0231",
+  "titel": "NOS Journaal 2000 uur",
+  "datum": "2013-02-02",
+  "jaar": 2013,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0232",
+  "titel": "Buitenhof",
+  "datum": "2013-02-03",
+  "jaar": 2013,
+  "genre": "Talkshow",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0233",
+  "titel": "NOS Journaal 2000 uur",
+  "datum": "2013-02-03",
+  "jaar": 2013,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0234",
+  "titel": "De Wereld Draait Door",
+  "datum": "2013-02-04",
+  "jaar": 2013,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0235",
+  "titel": "EenVandaag",
+  "datum": "2013-02-04",
+  "jaar": 2013,
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0236",
+  "titel": "De Wereld Draait Door met G en Y",
+  "datum": "2013-02-06",
+  "jaar": 2013,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0237",
+  "titel": "Nieuwsuur",
+  "datum": "2013-02-19",
+  "jaar": 2013,
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0238",
+  "titel": "EenVandaag",
+  "datum": "2013-02-25",
+  "jaar": 2013,
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0239",
+  "titel": "NOS Journaal 8 uur",
+  "datum": "2013-02-25",
+  "jaar": 2013,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0240",
+  "titel": "Troonswisseling",
+  "datum": "2013-04-30",
+  "jaar": 2013,
+  "genre": "Koningshuis",
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0241",
+  "titel": "Nico 70 jaar",
+  "datum": "2013-07-20",
+  "jaar": 2013,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mov"
+  ]
+ },
+ {
+  "id": "0242",
+  "titel": "Uit eten in Zoetermeer",
+  "datum": "2013-10-05",
+  "jaar": 2013,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0243",
+  "titel": "Gouden Televizier Ring Gala",
+  "datum": "2013-10-18",
+  "jaar": 2013,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0244",
+  "titel": "thuis",
+  "datum": "2013-11-15",
+  "jaar": 2013,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0245",
+  "titel": "DWDD University : Einstein",
+  "datum": "2013-11-19",
+  "jaar": 2013,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0246",
+  "titel": "Drie Koningen van Oranje",
+  "datum": "2013-11-29",
+  "jaar": 2013,
+  "genre": "Koningshuis",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0247",
+  "titel": "Navidades 2013",
+  "datum": "2013-12-25",
+  "jaar": 2013,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0248",
+  "titel": "Navidades en Merida",
+  "datum": "2013-12-25",
+  "jaar": 2013,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0249",
+  "titel": "verjaardag Yolanda 1",
+  "datum": "2014-02-04",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0250",
+  "titel": "verjaardag Yolanda 2",
+  "datum": "2014-02-04",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0251",
+  "titel": "This world-how china fooled the world",
+  "datum": "2014-02",
+  "jaar": 2014,
+  "genre": "Documentaire",
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0252",
+  "titel": "Familie etentje bij Peter en Connie",
+  "datum": "2014-03-22",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0253",
+  "titel": "Marlous 50 jaar",
+  "datum": "2014-04-20",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0254",
+  "titel": "verjaardag Tim 26 jaar",
+  "datum": "2014-04-20",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0255",
+  "titel": "HartvanNederland Voetbal",
+  "datum": "2014-07-08",
+  "jaar": 2014,
+  "genre": "Sport",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0256",
+  "titel": "Marvin 21",
+  "datum": "2014-07-13",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0257",
+  "titel": "vakantie Deventer Zutphen",
+  "datum": "2014-08",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0258",
+  "titel": "vakantie Eefde Deventer",
+  "datum": "2014-08",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0259",
+  "titel": "vakantie Eefde Zutphen",
+  "datum": "2014-08",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0260",
+  "titel": "vakantie Kröller Möller",
+  "datum": "2014-08",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0261",
+  "titel": "vakantie Ruurloo",
+  "datum": "2014-08",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0262",
+  "titel": "vakantie Zutphen",
+  "datum": "2014-08",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0263",
+  "titel": "49e Gouden Televizier Ring Gala",
+  "datum": "2014-10-16",
+  "jaar": 2014,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0264",
+  "titel": "kraamvisite bij Jayden",
+  "datum": "2014-11-01",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0265",
+  "titel": "kraamv bij Jayden Hoogenbosch",
+  "datum": "2014-11-01",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0266",
+  "titel": "45-8 Later",
+  "datum": "2014-11-08",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0267",
+  "titel": "NOS Jaaroverzicht 2014",
+  "datum": "2014-12-26",
+  "jaar": 2014,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0268",
+  "titel": "Andere Tijden - de jaren negentig",
+  "datum": "2014-12-30",
+  "jaar": 2014,
+  "zender": "NTR",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0269",
+  "titel": "Kerst bij George en Yolanda",
+  "datum": "2014-12",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0270",
+  "titel": "Kerst bij G en Y met Bart,Tim HD",
+  "datum": "2014-12",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0271",
+  "titel": "Kerst bij Gen Y met Bart en Tim",
+  "datum": "2014-12",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0272",
+  "titel": "Kerst met G Y en Alexander",
+  "datum": "2014-12",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0273",
+  "titel": "Kerst met G en Y en Alexander",
+  "datum": "2014-12",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0274",
+  "titel": "IMG 1386",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0275",
+  "titel": "Super8-naar Hitchcock film A'dam",
+  "jaar": 2014,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0276",
+  "titel": "Elly Bovee 70 jaar",
+  "datum": "2015-01-31",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0277",
+  "titel": "Een Vandaag over V&D",
+  "datum": "2015-02-17",
+  "jaar": 2015,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0278",
+  "titel": "Nico 72 jaar 2",
+  "datum": "2015-03-28",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0279",
+  "titel": "Nico 72 jaar",
+  "datum": "2015-03-28",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0280",
+  "titel": "Bintangs 2",
+  "datum": "2015-06-07",
+  "jaar": 2015,
+  "genre": "Muziek",
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0281",
+  "titel": "ex Bintangs 1",
+  "datum": "2015-06-07",
+  "jaar": 2015,
+  "genre": "Muziek",
+  "formaten": [
+   "mov"
+  ]
+ },
+ {
+  "id": "0282",
+  "titel": "Museumhoeve Overslot",
+  "datum": "2015-06-07",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mov",
+   "m4v"
+  ]
+ },
+ {
+  "id": "0283",
+  "titel": "Vakantie 2015 1",
+  "datum": "2015-06-13",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0284",
+  "titel": "Vakantie 2015 2",
+  "datum": "2015-06-13",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0285",
+  "titel": "SpanjeReis",
+  "datum": "2015-09",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0286",
+  "titel": "Andere Tijden - lichting 1967",
+  "datum": "2015-10-13",
+  "jaar": 2015,
+  "zender": "NTR",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0287",
+  "titel": "Shania 16 jaar",
+  "datum": "2015-10-24",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0288",
+  "titel": "Diashow Dirk 70 met muziek 2",
+  "datum": "2015-10-25",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0289",
+  "titel": "Feest Dirk",
+  "datum": "2015-10-25",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0290",
+  "titel": "Dirk 70 jaar",
+  "datum": "2015-10",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0291",
+  "titel": "2e Kerstdag bij Dirk en Rinnie",
+  "datum": "2015-12-16",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0292",
+  "titel": "Kerst Alexander filmt",
+  "jaar": 2015,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0293",
+  "titel": "Yolanda 60",
+  "datum": "2016-02-06",
+  "jaar": 2016,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0294",
+  "titel": "Yolanda60 diashow",
+  "datum": "2016-02-06",
+  "jaar": 2016,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0295",
+  "titel": "Nieuwsuur - geen doorstart V&D",
+  "datum": "2016-02-16",
+  "jaar": 2016,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0296",
+  "titel": "NOS journaal - geen doorstart V&D",
+  "datum": "2016-02-16",
+  "jaar": 2016,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0297",
+  "titel": "DWDD - Doorstart V&D mislukt",
+  "datum": "2016-02-17",
+  "jaar": 2016,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0298",
+  "titel": "Mr Robot 5",
+  "datum": "2016-02-17",
+  "jaar": 2016,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0299",
+  "titel": "Nieuwsuur - V&D doorstart mislukt",
+  "datum": "2016-02-17",
+  "jaar": 2016,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0300",
+  "titel": "NOS journaal - V&D",
+  "datum": "2016-02-17",
+  "jaar": 2016,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0301",
+  "titel": "BBC China 5",
+  "datum": "2016-02-18",
+  "jaar": 2016,
+  "zender": "BBC",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0302",
+  "titel": "Tegenl- De Chinese wereldorde",
+  "datum": "2016-02-21",
+  "jaar": 2016,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0303",
+  "titel": "Radar - ZwitserLeven",
+  "datum": "2016-02-22",
+  "jaar": 2016,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0304",
+  "titel": "Mr Robot 6",
+  "datum": "2016-02-24",
+  "jaar": 2016,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0305",
+  "titel": "Mr Robot 7",
+  "datum": "2016-03-02",
+  "jaar": 2016,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0306",
+  "titel": "De omstreden keuze v e kroonpr.",
+  "datum": "2016-03-05",
+  "jaar": 2016,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0307",
+  "titel": "Michael Jackson's journey",
+  "datum": "2016-03-08",
+  "jaar": 2016,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0308",
+  "titel": "Mr Robot 9",
+  "datum": "2016-03-09",
+  "jaar": 2016,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0309",
+  "titel": "Binnen bij het Boekenbal 1",
+  "datum": "2016-03-10",
+  "jaar": 2016,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0310",
+  "titel": "De avond van de filmmuziek",
+  "datum": "2016-03-13",
+  "jaar": 2016,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0311",
+  "titel": "De Nationale boekenquiz 1",
+  "datum": "2016-03-14",
+  "jaar": 2016,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0312",
+  "titel": "De Nationale boekenquiz 2016 2",
+  "datum": "2016-03-15",
+  "jaar": 2016,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0313",
+  "titel": "van Kooten&Bie boekenweek 2016",
+  "datum": "2016-03-15",
+  "jaar": 2016,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0314",
+  "titel": "mr Robot 11",
+  "datum": "2016-03-16",
+  "jaar": 2016,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0315",
+  "titel": "NTR Binnen bij het Boekenbal",
+  "datum": "2016-03-18",
+  "jaar": 2016,
+  "zender": "NTR",
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0316",
+  "titel": "Mr Robot 12",
+  "datum": "2016-03-23",
+  "jaar": 2016,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0317",
+  "titel": "DWDD - overlijden Johan Cruijff",
+  "datum": "2016-03-24",
+  "jaar": 2016,
+  "zender": "VARA",
+  "genre": "Sport",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0318",
+  "titel": "Nieuwsuur - overlijden Johan Cruijff",
+  "datum": "2016-03-24",
+  "jaar": 2016,
+  "genre": "Sport",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0319",
+  "titel": "NOS journaal - overlijden J Cruijff",
+  "datum": "2016-03-24",
+  "jaar": 2016,
+  "zender": "NOS",
+  "genre": "Sport",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0320",
+  "titel": "NOS Sport - overlijden J Cruijff",
+  "datum": "2016-03-24",
+  "jaar": 2016,
+  "zender": "NOS",
+  "genre": "Sport",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0321",
+  "titel": "Verjaardag Nico 73",
+  "datum": "2016-04-02",
+  "jaar": 2016,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0322",
+  "titel": "Tegenlicht - Invasie van de drones",
+  "datum": "2016-04-17",
+  "jaar": 2016,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0323",
+  "titel": "VPRO Inside Obama's Whiteh 1",
+  "datum": "2016-05-23",
+  "jaar": 2016,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0324",
+  "titel": "VPRO Inside Obama's Whiteh 2",
+  "datum": "2016-05-24",
+  "jaar": 2016,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0325",
+  "titel": "VPRO Inside Obama's Whiteh 3",
+  "datum": "2016-05-25",
+  "jaar": 2016,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0326",
+  "titel": "VPRO Inside Obama's White 4",
+  "datum": "2016-05-26",
+  "jaar": 2016,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0327",
+  "titel": "Egmond ad Hoef",
+  "datum": "2016-09-03",
+  "jaar": 2016,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0328",
+  "titel": "Gouden Televizier ring gala 2016",
+  "datum": "2016-10-13",
+  "jaar": 2016,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0329",
+  "titel": "DWDD 65 jr tv met Mies Bouwman",
+  "datum": "2016-10-14",
+  "jaar": 2016,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0330",
+  "titel": "Juliana geen gewone koningin",
+  "datum": "2016-10-25",
+  "jaar": 2016,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0331",
+  "titel": "Buitenhof met Jolande Withuis",
+  "datum": "2016-10-30",
+  "jaar": 2016,
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0332",
+  "titel": "De schaduw vd ramp-15 jr na 9-11",
+  "datum": "2016-11-09",
+  "jaar": 2016,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0333",
+  "titel": "Het uur van de wolf- B Buch",
+  "datum": "2016-11-14",
+  "jaar": 2016,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0334",
+  "titel": "Tegenlicht - Geldscheppers",
+  "datum": "2016-11-27",
+  "jaar": 2016,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0335",
+  "titel": "Kerst bij Marlous en Harry",
+  "datum": "2016-12-24",
+  "jaar": 2016,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0336",
+  "titel": "NOS Uit het leven van 2016-2",
+  "datum": "2016-12-24",
+  "jaar": 2016,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0337",
+  "titel": "Oranje jaaroverzicht 2016",
+  "datum": "2016-12-24",
+  "jaar": 2016,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0338",
+  "titel": "Kerst bij George en Yolanda",
+  "datum": "2016-12-25",
+  "jaar": 2016,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0339",
+  "titel": "The Rolling Stones - Havana Moon",
+  "datum": "2016-12-26",
+  "jaar": 2016,
+  "genre": "Muziek",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0340",
+  "titel": "The Rolling St. - A trip a Latin Am.",
+  "datum": "2016-12-26",
+  "jaar": 2016,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0341",
+  "titel": "NOS Jaaroverzicht journaal 2016",
+  "datum": "2016-12-27",
+  "jaar": 2016,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0342",
+  "titel": "Maxim Binda",
+  "datum": "2017-01-07",
+  "jaar": 2017,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0343",
+  "titel": "Rinnie Kerkhoven 70 jaar 1",
+  "datum": "2017-01-29",
+  "jaar": 2017,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0344",
+  "titel": "Rinnie Kerkhoven 70 jaar",
+  "datum": "2017-01-29",
+  "jaar": 2017,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0345",
+  "titel": "B Buch - verdw tussen feit en fictie",
+  "datum": "2017-02-27",
+  "jaar": 2017,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0346",
+  "titel": "U kijkt zo lief-over 50 jr tv-debat",
+  "datum": "2017-03-11",
+  "jaar": 2017,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0347",
+  "titel": "Andere Tijden - Watergate",
+  "datum": "2017-03-18",
+  "jaar": 2017,
+  "zender": "NTR",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0348",
+  "titel": "1972 Chuck Berry at the BBC",
+  "datum": "2017-03-24",
+  "jaar": 2017,
+  "zender": "BBC",
+  "genre": "Muziek",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0349",
+  "titel": "Rock 'n' r - 1 Sweet little sixteen",
+  "datum": "2017-03-24",
+  "jaar": 2017,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0350",
+  "titel": "Rock 'n' r - 2 Whole lotta shakin'",
+  "datum": "2017-03-24",
+  "jaar": 2017,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0351",
+  "titel": "Spying on the R-1 Ch 4 - 2017",
+  "datum": "2017-04-04",
+  "jaar": 2017,
+  "zender": "Channel 4",
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0352",
+  "titel": "Spying on the R 2 Ch4 - 2017",
+  "datum": "2017-04-11",
+  "jaar": 2017,
+  "zender": "Channel 4",
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0353",
+  "titel": "Willem Alexander 50",
+  "datum": "2017-04-26",
+  "jaar": 2017,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0354",
+  "titel": "Sonja B Vragen zonder antwoord",
+  "datum": "2017-05-04",
+  "jaar": 2017,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0355",
+  "titel": "Karen 20 jaar",
+  "datum": "2017-05-06",
+  "jaar": 2017,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0356",
+  "titel": "Marco Vanderbroeck",
+  "datum": "2017-05-09",
+  "jaar": 2017,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0357",
+  "titel": "Jackie without Jack",
+  "datum": "2017-06-27",
+  "jaar": 2017,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0358",
+  "titel": "George 60 jaar",
+  "datum": "2017-07-15",
+  "jaar": 2017,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0359",
+  "titel": "Pink Fl Pulse Dark side of the m",
+  "datum": "2017-07-22",
+  "jaar": 2017,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0360",
+  "titel": "Zmrgasten Rosanne Hertzberger",
+  "datum": "2017-07-23",
+  "jaar": 2017,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0361",
+  "titel": "Zmrgasten - Eberhard vdLaan",
+  "datum": "2017-07-30",
+  "jaar": 2017,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0362",
+  "titel": "The Art of Spain 1",
+  "datum": "2017-07-31",
+  "jaar": 2017,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0363",
+  "titel": "BBC2 Secrets of Silicon Valley 1",
+  "datum": "2017-08-06",
+  "jaar": 2017,
+  "zender": "BBC",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0364",
+  "titel": "Jinek",
+  "datum": "2017-08-18",
+  "jaar": 2017,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0365",
+  "titel": "Andere TiSp De ballen vd jaren 80",
+  "datum": "2017-08-19",
+  "jaar": 2017,
+  "zender": "NTR",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0366",
+  "titel": "Zomergasten - Claudia de Breij",
+  "datum": "2017-08-27",
+  "jaar": 2017,
+  "zender": "VPRO",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0367",
+  "titel": "Gouden Tele- Ring Gala 2017",
+  "datum": "2017-10-12",
+  "jaar": 2017,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0368",
+  "titel": "52e gouden televizierring gala",
+  "datum": "2017-10-12",
+  "jaar": 2017,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0369",
+  "titel": "DWDD- Jan Wolkers 10 jr dood",
+  "datum": "2017-10-18",
+  "jaar": 2017,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0370",
+  "titel": "Het Uur van de W-Jan Wolkers",
+  "datum": "2017-10-23",
+  "jaar": 2017,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0371",
+  "titel": "DocTalk Jan Wolkers spreekt",
+  "datum": "2017-10-23",
+  "jaar": 2017,
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0372",
+  "titel": "NOS journaal - item Kennedy",
+  "datum": "2017-10-26",
+  "jaar": 2017,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0373",
+  "titel": "doc Maarten Hoogenbosch",
+  "datum": "2017-11-21",
+  "jaar": 2017,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0374",
+  "titel": "Romy",
+  "datum": "2017-12-03",
+  "jaar": 2017,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0375",
+  "titel": "Petra 65 jaar",
+  "datum": "2017-12-10",
+  "jaar": 2017,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0376",
+  "titel": "NOS Oranje Jaaroverzicht",
+  "datum": "2017-12-23",
+  "jaar": 2017,
+  "zender": "NOS",
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0377",
+  "titel": "Kerst",
+  "datum": "2017-12-25",
+  "jaar": 2017,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0378",
+  "titel": "NOS Jaaroverzicht Journaal",
+  "datum": "2017-12-27",
+  "jaar": 2017,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0379",
+  "titel": "NOS Uit het leven van 2017",
+  "datum": "2017-12-29",
+  "jaar": 2017,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0380",
+  "titel": "Test",
+  "jaar": null,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0381",
+  "titel": "BBC The Queen's Coronation",
+  "datum": "2018-01-14",
+  "jaar": 2018,
+  "zender": "BBC",
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0382",
+  "titel": "NOS Beatrix 80",
+  "datum": "2018-01-31",
+  "jaar": 2018,
+  "zender": "NOS",
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0383",
+  "titel": "NOS Wij zijn 80",
+  "datum": "2018-01-31",
+  "jaar": 2018,
+  "zender": "NOS",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0384",
+  "titel": "Nieuwsuur - met Bitcoin",
+  "datum": "2018-02-02",
+  "jaar": 2018,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0385",
+  "titel": "Panorama - Bitcoin",
+  "datum": "2018-02-12",
+  "jaar": 2018,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0386",
+  "titel": "Nieuwsuur",
+  "datum": "2018-02-14",
+  "jaar": 2018,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0387",
+  "titel": "NOS Journaal",
+  "datum": "2018-02-14",
+  "jaar": 2018,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0388",
+  "titel": "2013 Andere Tijden - R Lubbers",
+  "datum": "2018-02-14",
+  "jaar": 2018,
+  "zender": "NTR",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0389",
+  "titel": "Het Uur vdWolf J MJarre",
+  "datum": "2018-02-15",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0390",
+  "titel": "2Doc - The Reagan show",
+  "datum": "2018-02-21",
+  "jaar": 2018,
+  "zender": "KRO-NCRV",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0391",
+  "titel": "Tegenlicht - Shoppen in China",
+  "datum": "2018-02-25",
+  "jaar": 2018,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0392",
+  "titel": "In Memoriam Mies Bouwman",
+  "datum": "2018-02-26",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0393",
+  "titel": "Jinek - overlijden Mies Bouwman",
+  "datum": "2018-02-26",
+  "jaar": 2018,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0394",
+  "titel": "DWDD - overlijden Mies Bouwman",
+  "datum": "2018-02-27",
+  "jaar": 2018,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0395",
+  "titel": "Een van de Acht - Mies Bouwman",
+  "datum": "2018-02-28",
+  "jaar": 2018,
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0396",
+  "titel": "Gorbatsjov-Reagan / Duel",
+  "datum": "2018-03-27",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0397",
+  "titel": "Nico Kerkhoven 75 jaar",
+  "datum": "2018-03-31",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0398",
+  "titel": "MLK The assasination tapes",
+  "datum": "2018-04-03",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0399",
+  "titel": "Bloemencorso in Lisse",
+  "datum": "2018-04-21",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0400",
+  "titel": "NOS 5 jaar koning Wi Alexander",
+  "datum": "2018-04-29",
+  "jaar": 2018,
+  "zender": "NOS",
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0401",
+  "titel": "Den Helder - Hoogenb schoenen",
+  "datum": "2018-05-02",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0402",
+  "titel": "Bitcoin naar de maan! En terug",
+  "datum": "2018-05-10",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0403",
+  "titel": "journaal met Joost Hoogenbosch",
+  "datum": "2018-05-11",
+  "jaar": 2018,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0404",
+  "titel": "The Fourth Estate deel 1",
+  "datum": "2018-05-29",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0405",
+  "titel": "The fourth state dl 2",
+  "datum": "2018-06-05",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0406",
+  "titel": "Laatste RTL Late Night",
+  "datum": "2018-06-08",
+  "jaar": 2018,
+  "zender": "RTL",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0407",
+  "titel": "Hoeverdorpsfeest 2018",
+  "datum": "2018-06-10",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0408",
+  "titel": "VPRO Game of phones",
+  "datum": "2018-06-10",
+  "jaar": 2018,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0409",
+  "titel": "The Fourth Estate 3",
+  "datum": "2018-06-12",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0410",
+  "titel": "The fourh Estate dl4",
+  "datum": "2018-06-19",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0411",
+  "titel": "Het Uur van de Wolf The Beatles",
+  "datum": "2018-06-21",
+  "jaar": 2018,
+  "zender": "VPRO",
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0412",
+  "titel": "Monique 60 jaar",
+  "datum": "2018-06-22",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0413",
+  "titel": "Het markante leven van M Jackson",
+  "datum": "2018-06-25",
+  "jaar": 2018,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0414",
+  "titel": "M Jackson - The ultimate icon",
+  "datum": "2018-06-25",
+  "jaar": 2018,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0415",
+  "titel": "BBC2 The fourth estate 2",
+  "datum": "2018-07-01",
+  "jaar": 2018,
+  "zender": "BBC",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0416",
+  "titel": "España",
+  "datum": "2018-08-05",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0417",
+  "titel": "Abuela Julia",
+  "datum": "2018-08-07",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0418",
+  "titel": "Juli80",
+  "datum": "2018-08-07",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0419",
+  "titel": "2DOC - de achtste dag",
+  "datum": "2018-09-03",
+  "jaar": 2018,
+  "zender": "KRO-NCRV",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0420",
+  "titel": "America in Color jaren 1930",
+  "datum": "2018-10-03",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0421",
+  "titel": "America in Color jaren 1940",
+  "datum": "2018-10-10",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0422",
+  "titel": "Gouden Televizierring Gala 2018",
+  "datum": "2018-10-11",
+  "jaar": 2018,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0423",
+  "titel": "America in color jaren 1950",
+  "datum": "2018-10-17",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0424",
+  "titel": "VPRO Tegenlicht",
+  "datum": "2018-10-21",
+  "jaar": 2018,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0425",
+  "titel": "America in color jaren 1960",
+  "datum": "2018-10-24",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0426",
+  "titel": "Alexander Propedeuse",
+  "datum": "2018-11-01",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0427",
+  "titel": "afstudeerborrel Carolien",
+  "datum": "2018-11-03",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0428",
+  "titel": "Tegenlicht - klik- en kluseconomie",
+  "datum": "2018-11-04",
+  "jaar": 2018,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0429",
+  "titel": "Intocht Sinterklaas 2018",
+  "datum": "2018-11-17",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0430",
+  "titel": "Panorama The Skripal case",
+  "datum": "2018-11-22",
+  "jaar": 2018,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0431",
+  "titel": "Espana 40 anos de democracia",
+  "datum": "2018-12-15",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0432",
+  "titel": "Rob de Nijs niet voor het laatst",
+  "datum": "2018-12-26",
+  "jaar": 2018,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0433",
+  "titel": "Kerst 2018",
+  "datum": "2018-12-26",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0434",
+  "titel": "Unknown Brood",
+  "datum": "2018-12-27",
+  "jaar": 2018,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0435",
+  "titel": "Lebbis - de bovengrens",
+  "datum": "2018-12-28",
+  "jaar": 2018,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0436",
+  "titel": "Uit het Leven 2018",
+  "datum": "2018-12-28",
+  "jaar": 2018,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0437",
+  "titel": "Dionnes diner",
+  "datum": "2018-12-29",
+  "jaar": 2018,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0438",
+  "titel": "Grammy Awards",
+  "datum": "2018-12-29",
+  "jaar": 2018,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0439",
+  "titel": "Oranje jaaroverzicht 2018",
+  "datum": "2018-12-29",
+  "jaar": 2018,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0440",
+  "titel": "NOS Jaaroverzicht 2018",
+  "datum": "2018-12-30",
+  "jaar": 2018,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0441",
+  "titel": "Film - Easy Rider",
+  "jaar": null,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0442",
+  "titel": "La noche temática - Andy Warhol",
+  "jaar": null,
+  "genre": "Documentaire",
+  "formaten": []
+ },
+ {
+  "id": "0443",
+  "titel": "La noche temática - Andy Warhol - ipad",
+  "jaar": null,
+  "genre": "Documentaire",
+  "formaten": []
+ },
+ {
+  "id": "0444",
+  "titel": "Teddy diashow concept",
+  "jaar": null,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0445",
+  "titel": "2doc-van verlies kun je niet betalen",
+  "datum": "2019-01-01",
+  "jaar": 2019,
+  "zender": "KRO-NCRV",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0446",
+  "titel": "Jinek",
+  "datum": "2019-01-01",
+  "jaar": 2019,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0447",
+  "titel": "Andere Tijden Special - het weer",
+  "datum": "2019-01-02",
+  "jaar": 2019,
+  "zender": "NTR",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0448",
+  "titel": "De Kennedy's 1",
+  "datum": "2019-01-05",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0449",
+  "titel": "Brexit - the uncivil war",
+  "datum": "2019-01-07",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0450",
+  "titel": "Pink Floyd - The dark side of the m",
+  "datum": "2019-01-11",
+  "jaar": 2019,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0451",
+  "titel": "De Kennedy's 2",
+  "datum": "2019-01-12",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0452",
+  "titel": "Orson Welles",
+  "datum": "2019-01-14",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0453",
+  "titel": "Brexit vote House of Commons",
+  "datum": "2019-01-15",
+  "jaar": 2019,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0454",
+  "titel": "De Kennedy's 3",
+  "datum": "2019-01-19",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0455",
+  "titel": "De Kennedy's 4",
+  "datum": "2019-01-26",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0456",
+  "titel": "Sneeuw in Egmond",
+  "datum": "2019-02-01",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0457",
+  "titel": "De Kennedy's 5",
+  "datum": "2019-02-02",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0458",
+  "titel": "Tegenlicht - de chinese dollar",
+  "datum": "2019-02-03",
+  "jaar": 2019,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0459",
+  "titel": "De Kennedy's",
+  "datum": "2019-02-10",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0460",
+  "titel": "Peter 60 jr",
+  "datum": "2019-02-16",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0461",
+  "titel": "feb apr tweeling Bart en Suus 2",
+  "datum": "2019-04-07",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0462",
+  "titel": "Feest Joke en Dick Hak",
+  "datum": "2019-04-07",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0463",
+  "titel": "BBC The Zapruder footage",
+  "datum": "2019-04-14",
+  "jaar": 2019,
+  "zender": "BBC",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0464",
+  "titel": "De (h)eerlijke jaren 50 1",
+  "datum": "2019-05-09",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0465",
+  "titel": "De heerlijke jaren 50 -2-",
+  "datum": "2019-05-16",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0466",
+  "titel": "Thatcher a very British revolution 1",
+  "datum": "2019-05-20",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0467",
+  "titel": "De (h)eerlijke jaren 50 -3-",
+  "datum": "2019-05-23",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0468",
+  "titel": "Thatcher a very British revolution 2",
+  "datum": "2019-05-27",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0469",
+  "titel": "Thather a very British revolution 3",
+  "datum": "2019-06-03",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0470",
+  "titel": "Thatcher a very british revolution 4",
+  "datum": "2019-06-10",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0471",
+  "titel": "Thatcher a very British revolution 5",
+  "datum": "2019-06-17",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0472",
+  "titel": "Terschelling -1",
+  "datum": "2019-06-24",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0473",
+  "titel": "Terschelling dl 2",
+  "datum": "2019-06-24",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0474",
+  "titel": "BBC Inside the Bank of England 1",
+  "datum": "2019-07-02",
+  "jaar": 2019,
+  "zender": "BBC",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0475",
+  "titel": "Inside the Bank of England 2",
+  "datum": "2019-07-09",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0476",
+  "titel": "Inside ...Facebook's difficult year",
+  "datum": "2019-07-16",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0477",
+  "titel": "Panorama / Britain's Brexit Crisis",
+  "datum": "2019-07-18",
+  "jaar": 2019,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0478",
+  "titel": "NOS journaal hitterecord",
+  "datum": "2019-07-25",
+  "jaar": 2019,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0479",
+  "titel": "Feest Nico Elly",
+  "datum": "2019-08-25",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0480",
+  "titel": "Tricky Dick - doc Nixon",
+  "datum": "2019-08-26",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0481",
+  "titel": "Tricky Dick - doc Nixon",
+  "datum": "2019-08-27",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0482",
+  "titel": "Tricky Dick - doc Nixon",
+  "datum": "2019-08-28",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0483",
+  "titel": "Fay en Nina",
+  "datum": "2019-09-24",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0484",
+  "titel": "Bart en Suus geven de fles.",
+  "datum": "2019-10-15",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0485",
+  "titel": "Het verborgen verl. Terschelling",
+  "datum": "2019-10-18",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0486",
+  "titel": "Tegenlicht - De grote Dataroof",
+  "datum": "2019-10-27",
+  "jaar": 2019,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0487",
+  "titel": "2DOC - 1989",
+  "datum": "2019-11-10",
+  "jaar": 2019,
+  "zender": "KRO-NCRV",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0488",
+  "titel": "Andere tijden Prins Bernhard",
+  "datum": "2019-11-30",
+  "jaar": 2019,
+  "zender": "NTR",
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0489",
+  "titel": "Pauw laatste uitzending",
+  "datum": "2019-12-20",
+  "jaar": 2019,
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0490",
+  "titel": "In Europa - 1 - de piloot ..",
+  "datum": "2019-12-22",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0491",
+  "titel": "Kerst 4 fotos",
+  "datum": "2019-12-26",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0492",
+  "titel": "Kerst met ons samengesteld gezin",
+  "datum": "2019-12-26",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0493",
+  "titel": "Kerst",
+  "datum": "2019-12-28",
+  "jaar": 2019,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0494",
+  "titel": "In Europa - 2 - de pop van Poetin",
+  "datum": "2019-12-29",
+  "jaar": 2019,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0495",
+  "titel": "Uit het leven 2019",
+  "datum": "2019-12-29",
+  "jaar": 2019,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0496",
+  "titel": "Andere tijden - 2000-2010",
+  "datum": "2019-12-30",
+  "jaar": 2019,
+  "zender": "NTR",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0497",
+  "titel": "NOS jaaroverzicht 2019",
+  "datum": "2019-12-30",
+  "jaar": 2019,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0498",
+  "titel": "Oranje jaaroverzicht 2019",
+  "datum": "2019-12-31",
+  "jaar": 2019,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0499",
+  "titel": "BBC - The Icons",
+  "jaar": null,
+  "zender": "BBC",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0500",
+  "titel": "ScreenRecording 02-02-2019 16-55-12",
+  "jaar": null,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0501",
+  "titel": "Jinek eerste afl op RTL4",
+  "datum": "2020-01-03",
+  "jaar": 2020,
+  "zender": "RTL",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0502",
+  "titel": "In europa 3-Bankier ... tralies",
+  "datum": "2020-01-05",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0503",
+  "titel": "In Europa 4-zwijgen als het graf",
+  "datum": "2020-01-12",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0504",
+  "titel": "In Europa 5 - the love bridge",
+  "datum": "2020-02-02",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0505",
+  "titel": "NOS journaal Covid Beurs",
+  "datum": "2020-02-06",
+  "jaar": 2020,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0506",
+  "titel": "In Europa 6 - wanneer het ijs smelt",
+  "datum": "2020-02-09",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0507",
+  "titel": "DWDD - aankondigng stoppen",
+  "datum": "2020-02-12",
+  "jaar": 2020,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0508",
+  "titel": "In Europa 7 - Aan de ... geschied.",
+  "datum": "2020-02-16",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0509",
+  "titel": "Het Coronavirus / feiten en fabels",
+  "datum": "2020-02-27",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0510",
+  "titel": "De zware jas van Beatrix 1",
+  "datum": "2020-03-18",
+  "jaar": 2020,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0511",
+  "titel": "De zware jas van Beatrix 2",
+  "datum": "2020-03-25",
+  "jaar": 2020,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0512",
+  "titel": "laatste DWDD",
+  "datum": "2020-03-27",
+  "jaar": 2020,
+  "zender": "VARA",
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0513",
+  "titel": "RCruit progress video best",
+  "datum": "2020-03-29",
+  "jaar": 2020,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0514",
+  "titel": "Tegenlicht - Corona Crash",
+  "datum": "2020-03-29",
+  "jaar": 2020,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0515",
+  "titel": "De zware jas van Beatrix - 3",
+  "datum": "2020-04-01",
+  "jaar": 2020,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0516",
+  "titel": "Tegenlicht - Virus vergezichten",
+  "datum": "2020-04-05",
+  "jaar": 2020,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0517",
+  "titel": "De zware jas van Beatrix 4",
+  "datum": "2020-04-08",
+  "jaar": 2020,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0518",
+  "titel": "Tegenlicht - Kijken naar de rijken",
+  "datum": "2020-04-12",
+  "jaar": 2020,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0519",
+  "titel": "The impact of 5 minutes",
+  "datum": "2020-04-16",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0520",
+  "titel": "Sonja 80",
+  "datum": "2020-04-29",
+  "jaar": 2020,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0521",
+  "titel": "Dodenherdenking",
+  "datum": "2020-05-04",
+  "jaar": 2020,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0522",
+  "titel": "Egmond in de oorlog",
+  "datum": "2020-05-04",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0523",
+  "titel": "Tegenlicht - a h front vd ..oorlog",
+  "datum": "2020-05-17",
+  "jaar": 2020,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0524",
+  "titel": "Fay & Nina 1 jr",
+  "datum": "2020-06-11",
+  "jaar": 2020,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0525",
+  "titel": "Fay & Nina 1 jaar",
+  "datum": "2020-06-13",
+  "jaar": 2020,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0526",
+  "titel": "TV Monument Tineke de Nooij",
+  "datum": "2020-09-26",
+  "jaar": 2020,
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0527",
+  "titel": "Tegenlicht retouren",
+  "datum": "2020-09-27",
+  "jaar": 2020,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0528",
+  "titel": "55e G Tel. G 2020 - rode loper",
+  "datum": "2020-10-08",
+  "jaar": 2020,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0529",
+  "titel": "55e Gouden televizierring gala",
+  "datum": "2020-10-08",
+  "jaar": 2020,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0530",
+  "titel": "In Europa 7 - Frodes ijsk oorlog",
+  "datum": "2020-10-25",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0531",
+  "titel": "H Mulisch-schepper van zichzelf",
+  "datum": "2020-10-26",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0532",
+  "titel": "In europa",
+  "datum": "2020-11-01",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0533",
+  "titel": "In Europa",
+  "datum": "2020-11-08",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0534",
+  "titel": "In Europa de gesmoorde revolutie",
+  "datum": "2020-11-15",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0535",
+  "titel": "In europa - zwijgen en goud",
+  "datum": "2020-11-22",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0536",
+  "titel": "In Europa 8van20 zes ... dictatuur",
+  "datum": "2020-11-29",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0537",
+  "titel": "In Europa",
+  "datum": "2020-12-06",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0538",
+  "titel": "In Europa Griekenland",
+  "datum": "2020-12-13",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0539",
+  "titel": "NOS journ lockdown vanaf 14 dec",
+  "datum": "2020-12-14",
+  "jaar": 2020,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0540",
+  "titel": "persconferentie Rutte",
+  "datum": "2020-12-14",
+  "jaar": 2020,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0541",
+  "titel": "In Europa 19 Britain",
+  "datum": "2020-12-20",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0542",
+  "titel": "Kerst 2020 1",
+  "datum": "2020-12-24",
+  "jaar": 2020,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0543",
+  "titel": "150 jaar De Bijenkorf",
+  "datum": "2020-12-26",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0544",
+  "titel": "NOS Oranje jaaroverzicht 2020",
+  "datum": "2020-12-26",
+  "jaar": 2020,
+  "zender": "NOS",
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0545",
+  "titel": "In Europa 20",
+  "datum": "2020-12-27",
+  "jaar": 2020,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0546",
+  "titel": "NOS Jaaroverzicht 2020",
+  "datum": "2020-12-28",
+  "jaar": 2020,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0547",
+  "titel": "Uit het Leven 2020",
+  "datum": "2020-12-30",
+  "jaar": 2020,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0548",
+  "titel": "Matthijs gaat door 1e afl",
+  "datum": "2020-12-31",
+  "jaar": 2020,
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0549",
+  "titel": "Covid-19. heel veel journaals",
+  "jaar": null,
+  "genre": "Nieuws",
+  "formaten": []
+ },
+ {
+  "id": "0550",
+  "titel": "Fay&Nina 1 jr a",
+  "jaar": null,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0551",
+  "titel": "Fay&Nina 1 jr b",
+  "jaar": null,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0552",
+  "titel": "Fay&Nina 1 jr c",
+  "jaar": null,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0553",
+  "titel": "reclame 1",
+  "jaar": null,
+  "genre": "Amusement",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0554",
+  "titel": "reclame2",
+  "jaar": null,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0555",
+  "titel": "reclame3",
+  "jaar": null,
+  "genre": "Amusement",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0556",
+  "titel": "NOS journ na Persco lockdown",
+  "datum": "2021-01-12",
+  "jaar": 2021,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0557",
+  "titel": "NOS jrn val kabinet Rutte 3",
+  "datum": "2021-01-15",
+  "jaar": 2021,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0558",
+  "titel": "Inauguratie Biden Harris",
+  "datum": "2021-01-20",
+  "jaar": 2021,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0559",
+  "titel": "Personferentie nav avondklok",
+  "datum": "2021-01-20",
+  "jaar": 2021,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0560",
+  "titel": "Sneeuw",
+  "datum": "2021-02-07",
+  "jaar": 2021,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0561",
+  "titel": "Clemens 85jr",
+  "datum": "2021-04-20",
+  "jaar": 2021,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0562",
+  "titel": "Fay en Nina 2jr",
+  "datum": "2021-06-11",
+  "jaar": 2021,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0563",
+  "titel": "Stoomtrein 3",
+  "datum": "2021-08-06",
+  "jaar": 2021,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0564",
+  "titel": "Harry 70jr",
+  "datum": "2021-09-04",
+  "jaar": 2021,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0565",
+  "titel": "2Doc 9 11 Life under attack",
+  "datum": "2021-09-11",
+  "jaar": 2021,
+  "zender": "KRO-NCRV",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0566",
+  "titel": "Tegenlicht De handel in voorkennis",
+  "datum": "2021-09-12",
+  "jaar": 2021,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0567",
+  "titel": "70 jr tv Nieuws 1",
+  "datum": "2021-10-01",
+  "jaar": 2021,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0568",
+  "titel": "70jr tv Je beste vriend",
+  "datum": "2021-10-02",
+  "jaar": 2021,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0569",
+  "titel": "70jr tv - Achtergr bij het nieuws",
+  "datum": "2021-10-03",
+  "jaar": 2021,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0570",
+  "titel": "70jr tv - Geschiedenis",
+  "datum": "2021-10-03",
+  "jaar": 2021,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0571",
+  "titel": "70jr tv Vreemder dan fictie",
+  "datum": "2021-10-03",
+  "jaar": 2021,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0572",
+  "titel": "70jr tv Live U was erbij thuis",
+  "datum": "2021-10-04",
+  "jaar": 2021,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0573",
+  "titel": "70jr tv Persoonlijke verhalen",
+  "datum": "2021-10-04",
+  "jaar": 2021,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0574",
+  "titel": "Simon&Garf The Harmony Game",
+  "datum": "2021-10-09",
+  "jaar": 2021,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0575",
+  "titel": "Simon&Garf in Central Park",
+  "datum": "2021-10-09",
+  "jaar": 2021,
+  "genre": "Muziek",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0576",
+  "titel": "Gouden Televizier Gala",
+  "datum": "2021-10-14",
+  "jaar": 2021,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0577",
+  "titel": "Gouden TelRing Gala - Rode loper",
+  "datum": "2021-10-14",
+  "jaar": 2021,
+  "genre": "Amusement",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0578",
+  "titel": "Dirk en Nico Kerkhoven",
+  "datum": "2021-10-25",
+  "jaar": 2021,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0579",
+  "titel": "verjaardag Dirk",
+  "datum": "2021-10-25",
+  "jaar": 2021,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0580",
+  "titel": "Tegenlicht - De digimens",
+  "datum": "2021-11-07",
+  "jaar": 2021,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0581",
+  "titel": "Golden Earring - That Day 1",
+  "datum": "2021-11-08",
+  "jaar": 2021,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0582",
+  "titel": "Golden Earring - That day 2",
+  "datum": "2021-11-09",
+  "jaar": 2021,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0583",
+  "titel": "Eadh Avb 1e voor",
+  "datum": "2021-11-10",
+  "jaar": 2021,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0584",
+  "titel": "Sinterklaasfeest bij Bart en Suus",
+  "datum": "2021-12-04",
+  "jaar": 2021,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0585",
+  "titel": "Net5 Prinses Amalia",
+  "datum": "2021-12-06",
+  "jaar": 2021,
+  "zender": "Net5",
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0586",
+  "titel": "Oranje jaaroverzicht 2021",
+  "datum": "2021-12-25",
+  "jaar": 2021,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0587",
+  "titel": "NOS Jaaroverzicht 2021",
+  "datum": "2021-12-28",
+  "jaar": 2021,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0588",
+  "titel": "Uit het Leven 2021",
+  "datum": "2021-12-29",
+  "jaar": 2021,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0589",
+  "titel": "Elvis / The rebirth of the King",
+  "datum": "2022-01-08",
+  "jaar": 2022,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0590",
+  "titel": "Tegenlicht - Digitale detox",
+  "datum": "2022-01-25",
+  "jaar": 2022,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0591",
+  "titel": "Het porseleinen huwelijk 1van4",
+  "datum": "2022-01-31",
+  "jaar": 2022,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0592",
+  "titel": "Een porseleinen huwelijk 2van4",
+  "datum": "2022-02-01",
+  "jaar": 2022,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0593",
+  "titel": "Een porseleinen huwelijk 3van4",
+  "datum": "2022-02-02",
+  "jaar": 2022,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0594",
+  "titel": "Het porseleinen huwelijk 4van4",
+  "datum": "2022-02-03",
+  "jaar": 2022,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0595",
+  "titel": "Verjaardag Yolanda Fay en Nina",
+  "datum": "2022-02-06",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0596",
+  "titel": "Yolanda 66 jr",
+  "datum": "2022-02-06",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0597",
+  "titel": "Nico 79jr",
+  "datum": "2022-03-28",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0598",
+  "titel": "optreden Petro",
+  "datum": "2022-03-28",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0599",
+  "titel": "voordracht Nico",
+  "datum": "2022-03-28",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0600",
+  "titel": "Tamar de waarh v Renate Ruben 1",
+  "datum": "2022-05-25",
+  "jaar": 2022,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0601",
+  "titel": "Tamar De waarh v Renate Ruben 2",
+  "datum": "2022-05-26",
+  "jaar": 2022,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0602",
+  "titel": "Willibrord Frequin 1941-2022",
+  "datum": "2022-05-26",
+  "jaar": 2022,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0603",
+  "titel": "The unseen Queen",
+  "datum": "2022-06-05",
+  "jaar": 2022,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0604",
+  "titel": "Tegenlicht - Mobiliteit",
+  "datum": "2022-06-20",
+  "jaar": 2022,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0605",
+  "titel": "My life as a Rolling S Mick Jagger",
+  "datum": "2022-07-02",
+  "jaar": 2022,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0606",
+  "titel": "The Rolling S - Sticky Fingers",
+  "datum": "2022-07-02",
+  "jaar": 2022,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0607",
+  "titel": "The Rolling S- Totally stripped",
+  "datum": "2022-07-02",
+  "jaar": 2022,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0608",
+  "titel": "Rolling S - Keith Richards",
+  "datum": "2022-07-09",
+  "jaar": 2022,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0609",
+  "titel": "Rolling Stone - Ronnie Wood",
+  "datum": "2022-07-09",
+  "jaar": 2022,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0610",
+  "titel": "Rolling Stones - Licked live in NYC",
+  "datum": "2022-07-09",
+  "jaar": 2022,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0611",
+  "titel": "de vierd met Tim Hogenbosch",
+  "datum": "2022-07-22",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0612",
+  "titel": "Rolling Stone - Charlie Watts",
+  "datum": "2022-07-23",
+  "jaar": 2022,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0613",
+  "titel": "Rolling S- Live at Wiltern Theatre",
+  "datum": "2022-07-23",
+  "jaar": 2022,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0614",
+  "titel": "Rolling S- Some Girls live in Texas",
+  "datum": "2022-07-23",
+  "jaar": 2022,
+  "genre": "Muziek",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0615",
+  "titel": "Tegenlicht - Het geheim van ASML",
+  "datum": "2022-09-12",
+  "jaar": 2022,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0616",
+  "titel": "Begrafenis Queen Elizabeth II",
+  "datum": "2022-09-19",
+  "jaar": 2022,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0617",
+  "titel": "Prinsjesdag 2022 met Amalia",
+  "datum": "2022-09-20",
+  "jaar": 2022,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0618",
+  "titel": "2DOC-Whats left",
+  "datum": "2022-09-22",
+  "jaar": 2022,
+  "zender": "KRO-NCRV",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0619",
+  "titel": "57e GTelevizierring gala 2022",
+  "datum": "2022-10-06",
+  "jaar": 2022,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0620",
+  "titel": "Gn Televizier Gala Rode Loper",
+  "datum": "2022-10-06",
+  "jaar": 2022,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0621",
+  "titel": "AY gaan naar Costa Rica",
+  "datum": "2022-10-16",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0622",
+  "titel": "Familie Lunch",
+  "datum": "2022-10-16",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0623",
+  "titel": "Het plan van Alex en Yas",
+  "datum": "2022-10-16",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0624",
+  "titel": "Dirk 77 jaar",
+  "datum": "2022-10-23",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0625",
+  "titel": "Polygoon journaal 1 apr 1922",
+  "datum": "2022-11-30",
+  "jaar": 2022,
+  "zender": "Polygoon",
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0626",
+  "titel": "Sinterklaas Lisse",
+  "datum": "2022-12-10",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0627",
+  "titel": "Ik Vertrek - Costa Rica",
+  "datum": "2022-12-17",
+  "jaar": 2022,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0628",
+  "titel": "Eenvand- Politiek moment 2022",
+  "datum": "2022-12-19",
+  "jaar": 2022,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0629",
+  "titel": "Wetens jaaroverzicht 2022",
+  "datum": "2022-12-23",
+  "jaar": 2022,
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0630",
+  "titel": "AYNIL deel 1 met reclame",
+  "datum": "2022-12-24",
+  "jaar": 2022,
+  "genre": "Amusement",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0631",
+  "titel": "AYNIL deel 2 met reclame",
+  "datum": "2022-12-24",
+  "jaar": 2022,
+  "genre": "Amusement",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0632",
+  "titel": "AYNIL dl1 geen reclame",
+  "datum": "2022-12-24",
+  "jaar": 2022,
+  "genre": "Amusement",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0633",
+  "titel": "AYNIL dl2 geen reclame",
+  "datum": "2022-12-24",
+  "jaar": 2022,
+  "genre": "Amusement",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0634",
+  "titel": "AYNIL Lisse",
+  "datum": "2022-12-24",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0635",
+  "titel": "Kerst Egmond ad Hoef",
+  "datum": "2022-12-25",
+  "jaar": 2022,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0636",
+  "titel": "NOS Journaal jaarovz 2022",
+  "datum": "2022-12-28",
+  "jaar": 2022,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0637",
+  "titel": "Uit het Leven 2022",
+  "datum": "2022-12-29",
+  "jaar": 2022,
+  "genre": "Nieuws",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0638",
+  "titel": "Oranje Jaaroverzicht 2022",
+  "datum": "2022-12-31",
+  "jaar": 2022,
+  "genre": "Koningshuis",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0639",
+  "titel": "10jr Willem-A en de monarchie",
+  "datum": "2023-04-15",
+  "jaar": 2023,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0640",
+  "titel": "Keukenhof Lisse met Fien en Teun",
+  "datum": "2023-05-02",
+  "jaar": 2023,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0641",
+  "titel": "Tegenlicht - De prijs van AI",
+  "datum": "2023-06-08",
+  "jaar": 2023,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0642",
+  "titel": "Terug uit Thailand",
+  "datum": "2023-06-21",
+  "jaar": 2023,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0643",
+  "titel": "Fay en Nina 4 jaar",
+  "datum": "2023-06-24",
+  "jaar": 2023,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0644",
+  "titel": "Nederl op film - de Middenstand",
+  "datum": "2023-07-22",
+  "jaar": 2023,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0645",
+  "titel": "For all mankind",
+  "datum": "2023-07-30",
+  "jaar": 2023,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0646",
+  "titel": "Juli met smartphone",
+  "datum": "2023-08-07",
+  "jaar": 2023,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0647",
+  "titel": "Gouden Televizierring 58e Gala",
+  "datum": "2023-10-12",
+  "jaar": 2023,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0648",
+  "titel": "G Televizierring 58e Rode loper",
+  "datum": "2023-10-12",
+  "jaar": 2023,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0649",
+  "titel": "Sgt Peppers Musical Revolution",
+  "datum": "2023-11-04",
+  "jaar": 2023,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0650",
+  "titel": "Sounds of Liverpool at the BBC",
+  "datum": "2023-11-04",
+  "jaar": 2023,
+  "zender": "BBC",
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0651",
+  "titel": "The Beatles and The BBC",
+  "datum": "2023-11-04",
+  "jaar": 2023,
+  "zender": "BBC",
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0652",
+  "titel": "JFK One day in Am - Assassination",
+  "datum": "2023-11-05",
+  "jaar": 2023,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0653",
+  "titel": "JFK One day in America - Manhunt",
+  "datum": "2023-11-05",
+  "jaar": 2023,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0654",
+  "titel": "JFK One day in America - Revenge",
+  "datum": "2023-11-06",
+  "jaar": 2023,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0655",
+  "titel": "JFK The lost assassination tapes 2",
+  "datum": "2023-11-22",
+  "jaar": 2023,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0656",
+  "titel": "JFK The lost bullet",
+  "datum": "2023-11-22",
+  "jaar": 2023,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0657",
+  "titel": "JFK The movie that changed the w",
+  "datum": "2023-11-23",
+  "jaar": 2023,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0658",
+  "titel": "Sinterklaas Lisse",
+  "datum": "2023-12-03",
+  "jaar": 2023,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0659",
+  "titel": "Alexander met drone 2",
+  "datum": "2023-12-10",
+  "jaar": 2023,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0660",
+  "titel": "Alexander met drone",
+  "datum": "2023-12-10",
+  "jaar": 2023,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0661",
+  "titel": "Politiek moment 2023",
+  "datum": "2023-12-23",
+  "jaar": 2023,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0662",
+  "titel": "Kerst Egmond",
+  "datum": "2023-12-24",
+  "jaar": 2023,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0663",
+  "titel": "Uit het leven 2023",
+  "datum": "2023-12-29",
+  "jaar": 2023,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0664",
+  "titel": "jaaroverzicht Oranje",
+  "datum": "2023-12-31",
+  "jaar": 2023,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0665",
+  "titel": "NOS Jaaroverzicht 2023",
+  "datum": "2023-12-31",
+  "jaar": 2023,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0666",
+  "titel": "Pink Floyd - Wish you were here",
+  "datum": "2023-12-31",
+  "jaar": 2023,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0667",
+  "titel": "Yolanda Nina met Paw Patrol",
+  "datum": "2024-02-06",
+  "jaar": 2024,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0668",
+  "titel": "Het laatste woord - Dries v Agt",
+  "datum": "2024-02-09",
+  "jaar": 2024,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0669",
+  "titel": "NOS journaal - overl Dries v Agt",
+  "datum": "2024-02-09",
+  "jaar": 2024,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0670",
+  "titel": "Feest Peter en Connie",
+  "datum": "2024-02-17",
+  "jaar": 2024,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0671",
+  "titel": "Marlous 60",
+  "datum": "2024-04-20",
+  "jaar": 2024,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0672",
+  "titel": "Fay en Nina kleuren",
+  "datum": "2024-05-06",
+  "jaar": 2024,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0673",
+  "titel": "Alexander 30 jr",
+  "datum": "2024-05-18",
+  "jaar": 2024,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0674",
+  "titel": "Pitch Yasmine Ay Bottle Less",
+  "datum": "2024-06-07",
+  "jaar": 2024,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp3"
+  ]
+ },
+ {
+  "id": "0675",
+  "titel": "Hoeverdorpsfeest",
+  "datum": "2024-06-08",
+  "jaar": 2024,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0676",
+  "titel": "Fay en Nina 5 jr",
+  "datum": "2024-06-11",
+  "jaar": 2024,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0677",
+  "titel": "Argos med - banden v Bernhard",
+  "datum": "2024-06-16",
+  "jaar": 2024,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0678",
+  "titel": "Saskia van Gelder 25jr",
+  "datum": "2024-07-07",
+  "jaar": 2024,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0679",
+  "titel": "NOS j- Crowdstrike wereldwstoring",
+  "datum": "2024-07-19",
+  "jaar": 2024,
+  "zender": "NOS",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0680",
+  "titel": "2019 L Rondstadt - ... of my voice",
+  "datum": "2024-07-20",
+  "jaar": 2024,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0681",
+  "titel": "L Rondstadt 1976 old grey whistle t",
+  "datum": "2024-07-20",
+  "jaar": 2024,
+  "genre": "Muziek",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0682",
+  "titel": "Dolly - Linda and Emmylou",
+  "datum": "2024-07-20",
+  "jaar": 2024,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0683",
+  "titel": "De Erfenis - Rijndam",
+  "datum": "2024-08-04",
+  "jaar": 2024,
+  "genre": "Serie & film",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0684",
+  "titel": "De erfgenaam",
+  "datum": "2024-08-13",
+  "jaar": 2024,
+  "genre": "Serie & film",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0685",
+  "titel": "Hart van Nederland kledingbank",
+  "datum": "2024-08-17",
+  "jaar": 2024,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0686",
+  "titel": "Gouden Televizier-ring Gala 59e",
+  "datum": "2024-10-17",
+  "jaar": 2024,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0687",
+  "titel": "R Loper - G Televizier-ring G59e",
+  "datum": "2024-10-17",
+  "jaar": 2024,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0688",
+  "titel": "Bar Laat - Harry Mulisch",
+  "datum": "2024-11-13",
+  "jaar": 2024,
+  "genre": "Talkshow",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0689",
+  "titel": "Sinterklaas 2024",
+  "datum": "2024-12-01",
+  "jaar": 2024,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0690",
+  "titel": "video van sint",
+  "datum": "2024-12-01",
+  "jaar": 2024,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0691",
+  "titel": "NOS Jaaroverzicht 2024",
+  "datum": "2024-12-29",
+  "jaar": 2024,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0692",
+  "titel": "Oranje Jaaroverzicht",
+  "datum": "2024-12-29",
+  "jaar": 2024,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0693",
+  "titel": "NOS Uit het leven 2024",
+  "datum": "2024-12-30",
+  "jaar": 2024,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0694",
+  "titel": "De oorlog die nooit ophoudt 1van3",
+  "datum": "2025-01-03",
+  "jaar": 2025,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0695",
+  "titel": "Tegenlicht - ...- het internet in crisis",
+  "datum": "2025-01-05",
+  "jaar": 2025,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0696",
+  "titel": "De oorlog die nooit oph- 2 Verraad",
+  "datum": "2025-01-10",
+  "jaar": 2025,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0697",
+  "titel": "Paul Simon - In restless dreams",
+  "datum": "2025-01-14",
+  "jaar": 2025,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0698",
+  "titel": "3 De oorlog die nooit ophVervolgd",
+  "datum": "2025-01-17",
+  "jaar": 2025,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0699",
+  "titel": "Paul Simon - In restless dreams 2",
+  "datum": "2025-01-21",
+  "jaar": 2025,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0700",
+  "titel": "Fleetw Mac The Dance -",
+  "datum": "2025-02-15",
+  "jaar": 2025,
+  "genre": "Muziek",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0701",
+  "titel": "Fleetw M Christine M-",
+  "datum": "2025-02-15",
+  "jaar": 2025,
+  "genre": "Muziek",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0702",
+  "titel": "Stijdmakkers - Wim Brands",
+  "datum": "2025-02-20",
+  "jaar": 2025,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0703",
+  "titel": "Andere t sp - Johan Cruijf eerste b",
+  "datum": "2025-03-24",
+  "jaar": 2025,
+  "zender": "NTR",
+  "genre": "Sport",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0704",
+  "titel": "Herinneringsvideo Pieterberg",
+  "datum": "2025-03-30",
+  "jaar": 2025,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "m4v",
+   "mp4"
+  ]
+ },
+ {
+  "id": "0705",
+  "titel": "Bach - Branderburger Conc 1van2",
+  "datum": "2025-06-02",
+  "jaar": 2025,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0706",
+  "titel": "Bach - Branderburger Conc 2van2",
+  "datum": "2025-06-02",
+  "jaar": 2025,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0707",
+  "titel": "Fay en Nina 6 jaar",
+  "datum": "2025-06-14",
+  "jaar": 2025,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0708",
+  "titel": "Escher deel 1",
+  "datum": "2025-06-15",
+  "jaar": 2025,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0709",
+  "titel": "Escher deel 2",
+  "datum": "2025-06-15",
+  "jaar": 2025,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0710",
+  "titel": "Navo top Den Haag 22 jun",
+  "datum": "2025-06-22",
+  "jaar": 2025,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0711",
+  "titel": "NOS jrnNavo top Den Haag 23 juni",
+  "datum": "2025-06-23",
+  "jaar": 2025,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0712",
+  "titel": "Andere T - de oorspr v h internet",
+  "datum": "2025-06-24",
+  "jaar": 2025,
+  "zender": "NTR",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0713",
+  "titel": "Navo top Den Haag 24 jun",
+  "datum": "2025-06-24",
+  "jaar": 2025,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0714",
+  "titel": "NOS jan Navo top Den Haag 25-06",
+  "datum": "2025-06-25",
+  "jaar": 2025,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0715",
+  "titel": "Live Aid at 40 - 1",
+  "datum": "2025-07-06",
+  "jaar": 2025,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0716",
+  "titel": "Live Aid at 40 - 2",
+  "datum": "2025-07-06",
+  "jaar": 2025,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0717",
+  "titel": "Het uur van de wolf - Rutger Hauer",
+  "datum": "2025-08-05",
+  "jaar": 2025,
+  "zender": "VPRO",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0718",
+  "titel": "Zaanse Schans",
+  "datum": "2025-08-17",
+  "jaar": 2025,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0719",
+  "titel": "Dirk 80 jr",
+  "datum": "2025-10-02",
+  "jaar": 2025,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0720",
+  "titel": "Gouden Televizier Gala 60e",
+  "datum": "2025-10-16",
+  "jaar": 2025,
+  "genre": "Amusement",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0721",
+  "titel": "Gouden T Gala-Rode loper",
+  "datum": "2025-10-16",
+  "jaar": 2025,
+  "genre": "Amusement",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0722",
+  "titel": "100 jaar Vara 1 van 7",
+  "datum": "2025-11-02",
+  "jaar": 2025,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0723",
+  "titel": "100 jaar Vara 2 van 7",
+  "datum": "2025-11-02",
+  "jaar": 2025,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0724",
+  "titel": "100 jaar Vara 3van7",
+  "datum": "2025-11-02",
+  "jaar": 2025,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0725",
+  "titel": "100 jaar Vara 4van7",
+  "datum": "2025-11-02",
+  "jaar": 2025,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0726",
+  "titel": "100 jaar vara 5van7",
+  "datum": "2025-11-02",
+  "jaar": 2025,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0727",
+  "titel": "100 jaar vara 6van7",
+  "datum": "2025-11-02",
+  "jaar": 2025,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0728",
+  "titel": "100 jaar Vara 7van7",
+  "datum": "2025-11-02",
+  "jaar": 2025,
+  "zender": "VARA",
+  "genre": "Documentaire",
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0729",
+  "titel": "Dirk 80 jaar",
+  "datum": "2025-11-02",
+  "jaar": 2025,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0730",
+  "titel": "Frenkie 1 jaar",
+  "datum": "2025-11-09",
+  "jaar": 2025,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0731",
+  "titel": "Frenkie 1 jr feest",
+  "datum": "2025-11-09",
+  "jaar": 2025,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0732",
+  "titel": "Interview Sundar Pichai",
+  "datum": "2025-11-19",
+  "jaar": 2025,
+  "genre": "Documentaire",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0733",
+  "titel": "Sinterklaasfeest",
+  "datum": "2025-12-06",
+  "jaar": 2025,
+  "genre": "Familie",
+  "prive": true,
+  "formaten": [
+   "mp4"
+  ]
+ },
+ {
+  "id": "0734",
+  "titel": "NPO Doc One to One John Yoko 1",
+  "datum": "2025-12-14",
+  "jaar": 2025,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0735",
+  "titel": "NPO Doc One to One John Yoko 2",
+  "datum": "2025-12-14",
+  "jaar": 2025,
+  "genre": "Muziek",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0736",
+  "titel": "De Oranjes in 2025",
+  "datum": "2025-12-27",
+  "jaar": 2025,
+  "genre": "Koningshuis",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0737",
+  "titel": "Uit het leven 2025",
+  "datum": "2025-12-28",
+  "jaar": 2025,
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ },
+ {
+  "id": "0738",
+  "titel": "Jaaroverzicht NOS journaal 2025",
+  "datum": "2025-12-30",
+  "jaar": 2025,
+  "zender": "NOS",
+  "genre": "Nieuws",
+  "formaten": [
+   "m4v"
+  ]
+ }
 ]

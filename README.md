@@ -14,7 +14,26 @@ Gewone HTML, CSS en JavaScript, zonder build-stap en zonder afhankelijkheden. El
 | `scripts/csv-naar-json.mjs` | Zet een CSV-export om naar `data/opnames.json` |
 | `scripts/serve.mjs` | Lokale testserver |
 
-## Collectie bijwerken
+## Spraak
+
+Met de microfoonknop naast het zoekveld vraag je iets hardop, bijvoorbeeld: "Laat alle video's van de Rolling Stones zien". De site haalt de losse woorden ("laat", "alle", "video's", ...) weg en zoekt op de rest. Afgekorte titels zoals "Rolling S" en "M Jackson" worden ook gevonden. Dit werkt in Chrome, Edge en Safari. Firefox ondersteunt spraakherkenning niet. De site moet via https draaien, of lokaal via localhost.
+
+## Familievideo's
+
+Opnames die geen tv-uitzending zijn, krijgen genre "Familie" en `"prive": true`. Ze zijn standaard verborgen en verschijnen met het vinkje "Familievideo's". De indeling gebeurt automatisch op basis van de titel; een fout pas je aan in `data/opnames.json` of in de regels van `scripts/wix-naar-json.mjs`.
+
+## Collectie bijwerken vanaf Wix
+
+De volledige lijst staat op https://georgehoogenbosch.wixsite.com/media/kopie-van-home.
+
+```bash
+curl -sL -o pagina.html https://georgehoogenbosch.wixsite.com/media/kopie-van-home
+node scripts/wix-naar-json.mjs pagina.html
+```
+
+Het script voegt dubbele formaten (m4v, mp4, avi, HD) samen tot één opname en bepaalt zender en genre uit de titel.
+
+## Collectie bijwerken vanuit CSV
 
 1. Exporteer de lijst als CSV (Excel: *Opslaan als → CSV*).
 2. Voer uit: `node scripts/csv-naar-json.mjs pad/naar/export.csv`

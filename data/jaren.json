@@ -1,30 +1,274 @@
 {
-  "1980": {
-    "kop": "Een nieuwe koningin",
+  "1992": {
+    "kop": "Vliegramp in de Bijlmer",
     "gebeurtenissen": [
-      "30 april: Beatrix wordt ingehuldigd als koningin; in Amsterdam zijn er tegelijk zware krakersrellen.",
-      "De Olympische Zomerspelen in Moskou worden door veel westerse landen geboycot."
+      "4 oktober: een vrachtvliegtuig van El Al stort neer op twee flats in de Bijlmermeer.",
+      "In Maastricht wordt het Verdrag betreffende de Europese Unie ondertekend.",
+      "Barcelona organiseert de Olympische Spelen, Sevilla de wereldtentoonstelling Expo '92."
     ]
   },
-  "1985": {
-    "kop": "De Elfstedentocht is terug",
+  "1993": {
+    "kop": "Europa gaat open",
     "gebeurtenissen": [
-      "21 februari: na 22 jaar wordt weer een Elfstedentocht verreden; Evert van Benthem wint.",
-      "Live Aid: wereldwijd uitgezonden benefietconcerten in Londen en Philadelphia (13 juli)."
+      "1 januari: de Europese interne markt gaat van start.",
+      "Bill Clinton wordt president van de Verenigde Staten.",
+      "Op de Nederlandse tv is het tijdperk van de commerciële zenders begonnen: RTL 5 start."
     ]
   },
-  "1988": {
-    "kop": "Oranje Europees kampioen",
+  "1994": {
+    "kop": "Het eerste paarse kabinet",
     "gebeurtenissen": [
-      "25 juni: Nederland wint het EK voetbal in München, met de beroemde volley van Marco van Basten.",
-      "Olympische Spelen in Calgary (winter) en Seoul (zomer)."
+      "Wim Kok vormt het eerste paarse kabinet, zonder CDA.",
+      "Nelson Mandela wordt de eerste zwarte president van Zuid-Afrika.",
+      "De Kanaaltunnel tussen Engeland en Frankrijk wordt geopend."
     ]
   },
-  "1989": {
-    "kop": "De Muur valt, commerciële tv komt",
+  "1995": {
+    "kop": "Het water komt",
     "gebeurtenissen": [
-      "2 oktober: RTL-Véronique begint als eerste commerciële zender voor Nederland.",
-      "9 november: de Berlijnse Muur valt."
+      "Hoog water in de rivieren: in Gelderland worden zo'n 250.000 mensen geëvacueerd.",
+      "Ajax wint de Champions League.",
+      "Val van Srebrenica: Dutchbat kan de enclave niet beschermen."
+    ]
+  },
+  "1996": {
+    "kop": "Een nieuwe tv-tijd",
+    "gebeurtenissen": [
+      "Ramp met de Hercules op vliegbasis Eindhoven: 34 doden, onder wie leden van de Kapel van de Koninklijke Luchtmacht.",
+      "In Schotland wordt het kloonschaap Dolly geboren.",
+      "Olympische Spelen in Atlanta."
+    ]
+  },
+  "1997": {
+    "kop": "De laatste Elfstedentocht",
+    "gebeurtenissen": [
+      "4 januari: de vijftiende Elfstedentocht, gewonnen door Henk Angenent. Het is (tot nu toe) de laatste.",
+      "Prinses Diana komt om bij een auto-ongeluk in Parijs.",
+      "Hongkong gaat van het Verenigd Koninkrijk over naar China."
+    ]
+  },
+  "1998": {
+    "kop": "WK in Frankrijk",
+    "gebeurtenissen": [
+      "Oranje haalt de halve finale van het WK voetbal in Frankrijk, met de beroemde goal van Dennis Bergkamp tegen Argentinië.",
+      "Het tweede paarse kabinet-Kok treedt aan.",
+      "Google wordt opgericht."
+    ]
+  },
+  "1999": {
+    "kop": "De euro bestaat",
+    "gebeurtenissen": [
+      "1 januari: de euro wordt ingevoerd als girale munt; de munten en biljetten volgen in 2002.",
+      "Big Brother begint op Veronica en wordt een wereldwijd tv-format.",
+      "Iedereen maakt zich zorgen over de millenniumbug."
+    ]
+  },
+  "2000": {
+    "kop": "Het nieuwe millennium",
+    "gebeurtenissen": [
+      "13 mei: vuurwerkramp in Enschede.",
+      "Nederland en België organiseren samen het EK voetbal.",
+      "Het parlement neemt de wet aan die het homohuwelijk mogelijk maakt; in 2001 trouwen de eerste paren."
+    ]
+  },
+  "2001": {
+    "kop": "11 september",
+    "gebeurtenissen": [
+      "1 januari: cafébrand in Volendam.",
+      "11 september: aanslagen in New York en Washington, live te zien op televisie.",
+      "Mond-en-klauwzeer treft Nederland."
+    ]
+  },
+  "2002": {
+    "kop": "Willem-Alexander en Máxima trouwen",
+    "gebeurtenissen": [
+      "1 januari: de euromunten en -biljetten worden ingevoerd.",
+      "2 februari: huwelijk van Willem-Alexander en Máxima in Amsterdam.",
+      "6 mei: Pim Fortuyn wordt vermoord, negen dagen voor de verkiezingen."
+    ]
+  },
+  "2003": {
+    "kop": "Oorlog in Irak",
+    "gebeurtenissen": [
+      "De Verenigde Staten vallen Irak binnen.",
+      "Het eerste kabinet-Balkenende valt en wordt opgevolgd door Balkenende II.",
+      "Een warme, droge zomer met hittegolf in heel Europa."
+    ]
+  },
+  "2004": {
+    "kop": "Theo van Gogh vermoord",
+    "gebeurtenissen": [
+      "2 november: filmmaker Theo van Gogh wordt in Amsterdam vermoord.",
+      "Koningin Juliana (maart) en prins Bernhard (december) overlijden.",
+      "26 december: tsunami in de Indische Oceaan."
+    ]
+  },
+  "2005": {
+    "kop": "Nee tegen de Europese grondwet",
+    "gebeurtenissen": [
+      "Nederland stemt in een referendum tegen de Europese grondwet.",
+      "YouTube wordt opgericht.",
+      "Brand in het cellencomplex op Schiphol-Oost."
+    ]
+  },
+  "2006": {
+    "kop": "Het WK in Duitsland",
+    "gebeurtenissen": [
+      "WK voetbal in Duitsland; Oranje strandt in de achtste finale tegen Portugal.",
+      "Kabinet-Balkenende II valt; er komen vervroegde verkiezingen.",
+      "Twitter wordt opgericht."
+    ]
+  },
+  "2007": {
+    "kop": "De iPhone verschijnt",
+    "gebeurtenissen": [
+      "Apple presenteert de eerste iPhone.",
+      "Het kabinet-Balkenende IV met CDA, PvdA en ChristenUnie treedt aan.",
+      "Willem-Alexander wordt 40 jaar."
+    ]
+  },
+  "2008": {
+    "kop": "De kredietcrisis",
+    "gebeurtenissen": [
+      "Bank Lehman Brothers gaat failliet; de financiële crisis slaat toe.",
+      "De Nederlandse staat neemt Fortis/ABN AMRO Nederland over.",
+      "Barack Obama wordt gekozen tot president van de Verenigde Staten."
+    ]
+  },
+  "2009": {
+    "kop": "Aanslag op Koninginnedag",
+    "gebeurtenissen": [
+      "30 april: aanslag op de koninklijke familie in Apeldoorn.",
+      "Michael Jackson overlijdt.",
+      "Turkish Airlines-toestel stort neer bij Schiphol."
+    ]
+  },
+  "2010": {
+    "kop": "Oranje in de WK-finale",
+    "gebeurtenissen": [
+      "Nederland verliest de WK-finale in Zuid-Afrika van Spanje.",
+      "Het kabinet-Rutte I treedt aan, met gedoogsteun van de PVV.",
+      "Een strenge winter met veel sneeuw."
+    ]
+  },
+  "2011": {
+    "kop": "Schietpartij in Alphen",
+    "gebeurtenissen": [
+      "9 april: schietpartij in winkelcentrum De Ridderhof in Alphen aan den Rijn.",
+      "Kernramp in Fukushima na een aardbeving en tsunami in Japan.",
+      "Arabische Lente in Tunesië, Egypte en Libië."
+    ]
+  },
+  "2012": {
+    "kop": "Rutte-Asscher",
+    "gebeurtenissen": [
+      "Prins Friso raakt bedolven onder een lawine in Oostenrijk.",
+      "Het kabinet-Rutte II van VVD en PvdA treedt aan.",
+      "Olympische Spelen in Londen."
+    ]
+  },
+  "2013": {
+    "kop": "Een nieuwe koning",
+    "gebeurtenissen": [
+      "28 januari: koningin Beatrix kondigt haar aftreden aan.",
+      "30 april: troonswisseling; Willem-Alexander wordt koning.",
+      "Prins Friso overlijdt in augustus."
+    ]
+  },
+  "2014": {
+    "kop": "MH17",
+    "gebeurtenissen": [
+      "17 juli: vlucht MH17 wordt boven Oekraïne neergeschoten; 196 Nederlanders komen om.",
+      "Oranje wordt derde op het WK in Brazilië.",
+      "Rusland annexeert de Krim."
+    ]
+  },
+  "2015": {
+    "kop": "Vluchtelingen en V&D",
+    "gebeurtenissen": [
+      "Aanslagen in Parijs, op Charlie Hebdo (januari) en in november.",
+      "Een grote vluchtelingenstroom bereikt Europa.",
+      "Warenhuisketen V&D vraagt eind december faillissement aan."
+    ]
+  },
+  "2016": {
+    "kop": "Afscheid van Cruijff",
+    "gebeurtenissen": [
+      "Doorstart van V&D mislukt; de winkels gaan dicht.",
+      "24 maart: Johan Cruijff overlijdt.",
+      "Het Verenigd Koninkrijk stemt voor de Brexit; Donald Trump wint de Amerikaanse verkiezingen."
+    ]
+  },
+  "2017": {
+    "kop": "De Oranje Leeuwinnen",
+    "gebeurtenissen": [
+      "Het Nederlands vrouwenelftal wordt Europees kampioen in eigen land.",
+      "Koning Willem-Alexander wordt 50.",
+      "Na een recordformatie treedt het kabinet-Rutte III aan."
+    ]
+  },
+  "2018": {
+    "kop": "Afscheid van Mies Bouwman",
+    "gebeurtenissen": [
+      "26 februari: televisiepionier Mies Bouwman overlijdt.",
+      "Prinses Beatrix wordt 80.",
+      "De bitcoinkoers stort in na de piek van eind 2017."
+    ]
+  },
+  "2019": {
+    "kop": "Een hitterecord",
+    "gebeurtenissen": [
+      "25 juli: voor het eerst wordt in Nederland meer dan 40 graden gemeten.",
+      "Brexit sleept zich voort in het Britse parlement.",
+      "Aanslag in een tram in Utrecht."
+    ]
+  },
+  "2020": {
+    "kop": "Corona",
+    "gebeurtenissen": [
+      "Het coronavirus legt de wereld stil; in Nederland volgen lockdowns en persconferenties.",
+      "De laatste uitzending van De Wereld Draait Door (maart).",
+      "Joe Biden wint de Amerikaanse verkiezingen."
+    ]
+  },
+  "2021": {
+    "kop": "Avondklok",
+    "gebeurtenissen": [
+      "Het kabinet-Rutte III valt over de toeslagenaffaire.",
+      "Er komt een avondklok; in diverse steden zijn rellen.",
+      "Prinses Amalia wordt 18 jaar."
+    ]
+  },
+  "2022": {
+    "kop": "Oorlog in Oekraïne",
+    "gebeurtenissen": [
+      "24 februari: Rusland valt Oekraïne binnen.",
+      "Koningin Elizabeth II overlijdt na 70 jaar op de troon.",
+      "Prinses Amalia rijdt voor het eerst mee op Prinsjesdag."
+    ]
+  },
+  "2023": {
+    "kop": "Het jaar van AI",
+    "gebeurtenissen": [
+      "Kunstmatige intelligentie als ChatGPT wordt bij het grote publiek bekend.",
+      "Het kabinet-Rutte IV valt; Mark Rutte stopt als politicus.",
+      "De PVV wordt de grootste partij bij de Tweede Kamerverkiezingen."
+    ]
+  },
+  "2024": {
+    "kop": "Een nieuw kabinet",
+    "gebeurtenissen": [
+      "Dries van Agt overlijdt (februari).",
+      "Het kabinet-Schoof treedt aan.",
+      "Een storing bij CrowdStrike legt wereldwijd computersystemen plat."
+    ]
+  },
+  "2025": {
+    "kop": "De NAVO-top in Den Haag",
+    "gebeurtenissen": [
+      "In juni komen de NAVO-leiders bijeen in Den Haag.",
+      "Live Aid bestaat 40 jaar.",
+      "De VARA viert haar honderdjarig bestaan."
     ]
   }
 }
