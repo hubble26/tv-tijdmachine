@@ -178,3 +178,6 @@ main { padding: 0 max(16px, calc((100vw - 1100px) / 2)) 40px; }
   .scherm-wrap { padding: 10px; }
   .scherm { border-radius: 16px; min-height: 360px; }
 }
+
+/* "Bedoelde je …?" */
+.link-knop { font: inherit; color: var(--amber-zacht); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }

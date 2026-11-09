@@ -13,18 +13,67 @@ const norm = (s) => String(s ?? "").toLowerCase().normalize("NFD").replace(/[̀-
 // Woorden die je wel zegt maar waar je niet op wilt zoeken.
 const STOP = new Set(("ik wil wilt graag alle allemaal video videos video's filmpje filmpjes opname opnames uitzending uitzendingen programma programmas " +
   "laat zien toon toonde geef me mij eens even zoek zoeken vind vinden heb hebben we wij hebt jij je kun kan kunnen mag van over met de het een en " +
-  "die dat er op in uit voor naar is zijn waar wat welke alles tv televisie tijdmachine nou dan ook maar staan staat").split(" "));
+  "die dat er op in uit voor naar is zijn waar wat welke alles tv televisie tijdmachine nou dan ook maar staan staat " +
+  "and the of a s eh uh uhm hmm zou kunnen jullie hier daar iets ding dingen jaar jaren tijd periode").split(" "));
 
 // Wat spraakherkenning soms van een naam maakt.
-const ALIAS = [[/\byou too\b|\bu 2\b|\bjoe tu\b/g, "u2"], [/\bde wereld draait door\b/g, "dwdd"], [/\bcruyff\b/g, "cruijff"]];
+const ALIAS = [[/\byou too\b|\bu 2\b|\bjoe tu\b/g, "u2"], [/\b(van )?de wereld draait door\b/g, "dwdd"], [/\bcruyff\b/g, "cruijff"],
+  [/\bzomer gasten\b/g, "zomergasten"], [/\bsimon (and|en) garfunkel\b/g, "simon garfunkel"], [/\bvan kooten (en|and) de bie\b/g, "kooten bie"]];
 // Afkortingen die in de bestandsnamen voorkomen.
-const AFK = { zomergasten: ["zmrgasten"], televizier: ["tel", "tele"], journaal: ["journ", "jrn"], vankooten: ["kooten"] };
+const AFK = { zomergasten: ["zmrgasten", "zg"], televizier: ["tel", "tele"], journaal: ["journ", "jrn"], vankooten: ["kooten"], garfunkel: ["garf"], floyd: ["pf"] };
 
-function zoekwoorden(vraag) {
-  let q = norm(vraag);
-  for (const [re, v] of ALIAS) q = q.replace(re, v);
-  return [...new Set(q.split(" ").filter((w) => w && !STOP.has(w)))];
+// ---------- Jaartallen begrijpen ----------
+const EENHEID = { een: 1, twee: 2, drie: 3, vier: 4, vijf: 5, zes: 6, zeven: 7, acht: 8, negen: 9 };
+const TIENTAL = { twintig: 20, dertig: 30, veertig: 40, vijftig: 50, zestig: 60, zeventig: 70, tachtig: 80, negentig: 90 };
+const TIEN = { tien: 10, elf: 11, twaalf: 12, dertien: 13, veertien: 14, vijftien: 15, zestien: 16, zeventien: 17, achttien: 18, negentien: 19 };
+
+// "vijfennegentig" → 95, "dertien" → 13, "acht" → 8
+function getalWoord(w) {
+  if (/^\d{1,2}$/.test(w)) return Number(w);
+  if (w in TIEN) return TIEN[w];
+  if (w in TIENTAL) return TIENTAL[w];
+  if (w in EENHEID) return EENHEID[w];
+  const m = w.match(/^(een|twee|drie|vier|vijf|zes|zeven|acht|negen)en(twintig|dertig|veertig|vijftig|zestig|zeventig|tachtig|negentig)$/);
+  return m ? EENHEID[m[1]] + TIENTAL[m[2]] : null;
 }
+
+// Zet gesproken jaartallen om naar cijfers:
+// "negentien vijfennegentig" → 1995, "tweeduizend dertien" / "twintig dertien" → 2013,
+// "jaren tachtig" / "tachtiger jaren" / "jaren 80" → 1980-1989.
+function jaartallen(q) {
+  q = q.replace(/\b(?:de )?jaren (\d0|twintig|dertig|veertig|vijftig|zestig|zeventig|tachtig|negentig)\b|\b(twintig|dertig|veertig|vijftig|zestig|zeventig|tachtig|negentig)er jaren\b|\bjaren (\d{4})\b/g,
+    (_, a, b, c) => {
+      const dec = c ? Number(c) : (a && /^\d/.test(a)) ? Number(a) : TIENTAL[a || b];
+      const begin = dec >= 1000 ? dec : (dec >= 30 ? 1900 : 2000) + dec;
+      return ` ${begin}-${begin + 9} `;
+    });
+  q = q.replace(/\bnegentien ([a-z]+|\d{1,2})\b/g, (m, x) => { const n = getalWoord(x); return n != null && n < 100 ? String(1900 + n) : m; });
+  q = q.replace(/\b(?:tweeduizend(?: en)?|twintig) ([a-z]+|\d{1,2})\b/g, (m, x) => { const n = getalWoord(x); return n != null && n < 100 ? String(2000 + n) : m; });
+  q = q.replace(/\btweeduizend\b/g, "2000");
+  return q.replace(/\s+/g, " ").trim();
+}
+
+// Vraag → zoekwoorden + eventueel een periode (van/tot).
+function begrijp(vraag) {
+  let q = jaartallen(norm(vraag).replace(/(\d{4}) (\d{4})/g, "$1-$2"));
+  for (const [re, v] of ALIAS) q = q.replace(re, v);
+  let van = null, tot = null;
+  const woorden = [];
+  for (const w of q.split(" ")) {
+    let m;
+    if ((m = w.match(/^(19\d\d|20\d\d)-(19\d\d|20\d\d)$/))) { van = +m[1]; tot = +m[2]; continue; }
+    if (/^(19\d\d|20[0-4]\d)$/.test(w)) { van = van ?? +w; tot = +w; continue; }
+    if (w && !STOP.has(w)) woorden.push(w);
+  }
+  return { woorden: [...new Set(woorden)], van, tot };
+}
+
+// Leesbare vorm voor in het zoekveld: "rolling stones 1980-1989".
+function vraagTekst({ woorden, van, tot }) {
+  return [...woorden, van ? (van === tot ? String(van) : `${van}-${tot}`) : ""].filter(Boolean).join(" ");
+}
+
+function zoekwoorden(vraag) { return begrijp(vraag).woorden; }
 
 // Hooguit één letter verschil (cruijf ≈ cruijff, stone ≈ stones).
 function bijna(a, b) {
@@ -40,7 +89,9 @@ function bijna(a, b) {
 
 // 2 = volledige treffer, 1 = alleen via afkorting ("M Jackson", "Rolling S"), 0 = geen.
 function treffer(w, tokens, hooi) {
-  if (tokens.some((t) => t === w || (w.length > 2 && t.startsWith(w)) || bijna(w, t)) || (w.length > 3 && hooi.includes(w))) return 2;
+  // Begin van een woord telt alleen als er hooguit 3 letters achter komen ("jackson" ↔ "jacksons", maar "corona" ≠ "coronation").
+  if (tokens.some((t) => t === w || (w.length > 2 && t.startsWith(w) && t.length - w.length <= 3) || bijna(w, t))) return 2;
+  if (w.length > 4 && tokens.some((t) => t.length > w.length + 4 && t.includes(w) && !t.startsWith(w))) return 2; // samengesteld: "watersnoodramp" ∋ "ramp"
   if ((AFK[w] || []).some((a) => tokens.includes(a))) return 2;
   if (tokens.some((t) => t.length <= 3 && t.length < w.length && w.startsWith(t) && !/^\d/.test(t))) return 1;
   return 0;
@@ -120,7 +171,8 @@ function zoek(f) {
   let lijst = zichtbaar();
   if (f.genre === "Familie") lijst = state.opnames.filter((o) => o.genre === "Familie");
   lijst = lijst.filter((o) => (!f.zender || o.zender === f.zender) && (!f.genre || o.genre === f.genre) && pastBox(o, f.box));
-  const woorden = zoekwoorden(f.q);
+  const { woorden, van, tot } = begrijp(f.q);
+  if (van) lijst = lijst.filter((o) => o.jaar && o.jaar >= van && o.jaar <= tot);
   if (!woorden.length) return { lijst: sorteer(lijst, f.sorteer), woorden };
   const r = zoekScore(lijst, woorden);
   return { lijst: sorteer(r, f.sorteer), woorden };
@@ -228,11 +280,46 @@ function toonZoekresultaten(f) {
   $("#scherm").innerHTML = `
     <h2>${lijst.length} ${lijst.length === 1 ? "opname" : "opnames"}${waarop ? ` voor ${waarop}` : ""}</h2>
     ${lijst.length ? `<ul class="lijst">${lijst.map(kaart).join("")}</ul>`
-      : `<p class="leeg-scherm">Niets gevonden${waarop ? ` voor ${waarop}` : ""}. Probeer een ander woord${toonPrive() ? "" : ", of zet “Familievideo's” aan"}.</p>`}
+      : `<p class="leeg-scherm">Niets gevonden${waarop ? ` voor ${waarop}` : ""}. ${suggestieHtml(woorden)}Probeer een ander woord${toonPrive() ? "" : ", of zet “Familievideo's” aan"}.</p>`}
   `;
   koppelKaarten();
+  $("#suggestie")?.addEventListener("click", (e) => {
+    $("#zoekveld").value = e.currentTarget.dataset.q; state.gesproken = ""; route();
+  });
   document.title = "Zoeken · TV-Tijdmachine";
   return lijst.length;
+}
+
+// ---------- "Bedoelde je…?" ----------
+// Afstand tussen twee woorden (aantal letters toevoegen/weghalen/wijzigen).
+function afstand(a, b) {
+  const d = Array.from({ length: a.length + 1 }, (_, i) => [i]);
+  for (let j = 1; j <= b.length; j++) d[0][j] = j;
+  for (let i = 1; i <= a.length; i++)
+    for (let j = 1; j <= b.length; j++)
+      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+  return d[a.length][b.length];
+}
+
+let woordenschat = null;
+function suggestie(woorden) {
+  if (!woorden.length) return null;
+  woordenschat ??= [...new Set(state.opnames.flatMap((o) => norm(o.titel).split(" ")).filter((t) => t.length > 3 && !/^\d/.test(t)))];
+  let veranderd = false;
+  const nieuw = woorden.map((w) => {
+    if (w.length < 4 || woordenschat.includes(w)) return w;
+    const max = w.length > 7 ? 3 : 2;
+    let best = null, bd = max + 1;
+    for (const t of woordenschat) { if (Math.abs(t.length - w.length) > max) continue; const dd = afstand(w, t); if (dd < bd) { bd = dd; best = t; } }
+    if (best) { veranderd = true; return best; }
+    return w;
+  });
+  return veranderd ? nieuw.join(" ") : null;
+}
+
+function suggestieHtml(woorden) {
+  const s = suggestie(woorden);
+  return s ? `Bedoelde je <button type="button" class="link-knop" id="suggestie" data-q="${esc(s)}">“${esc(s)}”</button>? ` : "";
 }
 
 function toonWelkom(jaren) {
@@ -273,37 +360,69 @@ function initSpraak() {
     knop.addEventListener("click", () => status("Spraak werkt in deze browser niet. Gebruik Chrome, Edge of Safari, of typ je vraag."));
     return;
   }
+  // Blijf luisteren (continuous) en stop zelf na STILTE ms zonder nieuwe spraak,
+  // zodat een korte pauze ("eh…") de vraag niet afkapt. Na MAX ms stopt het altijd.
+  const STILTE = 1600, MAX = 12000;
   const rec = new SR();
   rec.lang = "nl-NL";
+  rec.continuous = true;
   rec.interimResults = true;
-  rec.maxAlternatives = 1;
-  let luistert = false, laatste = "";
+  rec.maxAlternatives = 3;
+  let luistert = false, definitief = [], voorlopig = "", stilteTimer = null, maxTimer = null, fout = false;
+
+  const stopNa = (ms) => { clearTimeout(stilteTimer); stilteTimer = setTimeout(() => rec.stop(), ms); };
 
   knop.addEventListener("click", () => {
     if (luistert) return rec.stop();
-    laatste = "";
+    definitief = []; voorlopig = ""; fout = false;
+    speechSynthesis?.cancel();
     try { rec.start(); } catch {}
   });
-  rec.onstart = () => { luistert = true; knop.classList.add("luistert"); knop.setAttribute("aria-label", "Stop met luisteren"); status("Ik luister… vraag bijvoorbeeld: “alle video's van Pink Floyd”."); };
+  rec.onstart = () => {
+    luistert = true; knop.classList.add("luistert"); knop.setAttribute("aria-label", "Stop met luisteren");
+    status("Ik luister… vraag bijvoorbeeld: “alle video's van Pink Floyd” of “journaals uit de jaren negentig”.");
+    stopNa(6000); // niemand begint te praten → na 6 s stoppen
+    clearTimeout(maxTimer); maxTimer = setTimeout(() => rec.stop(), MAX);
+  };
   rec.onresult = (e) => {
-    laatste = [...e.results].map((r) => r[0].transcript).join(" ");
-    status(`Je zei: “${laatste}”`);
+    voorlopig = "";
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      const r = e.results[i];
+      if (r.isFinal) definitief[i] = [...r].map((a) => a.transcript.trim()); // alle alternatieven bewaren
+      else voorlopig += r[0].transcript;
+    }
+    const tekst = [definitief.filter(Boolean).map((a) => a[0]).join(" "), voorlopig].join(" ").trim();
+    status(`Ik hoor: “${tekst}”…`);
+    stopNa(STILTE);
   };
   rec.onerror = (e) => {
-    const uitleg = { "not-allowed": "De microfoon is geblokkeerd. Sta de microfoon toe via het slotje in de adresbalk.", "no-speech": "Ik hoorde niets. Druk nog eens op de microfoon en praat iets harder.", "network": "Spraakherkenning heeft internet nodig." };
+    fout = e.error !== "no-speech" && e.error !== "aborted";
+    const uitleg = { "not-allowed": "De microfoon is geblokkeerd. Klik op het slotje links in de adresbalk en sta de microfoon toe.", "no-speech": "Ik hoorde niets. Druk nog eens op de microfoon en praat iets dichter bij de computer.", "network": "Spraakherkenning heeft internet nodig.", "audio-capture": "Er is geen microfoon gevonden." };
     status(uitleg[e.error] || `Spraak werkte niet (${e.error}).`);
   };
   rec.onend = () => {
-    luistert = false; knop.classList.remove("luistert"); knop.setAttribute("aria-label", "Vraag het met je stem");
-    if (!laatste) return;
-    $("#zoekveld").value = zoekwoorden(laatste).join(" ");
-    $("#filter-zender").value = ""; $("#filter-genre").value = "";
-    state.gesproken = laatste;
+    luistert = false; clearTimeout(stilteTimer); clearTimeout(maxTimer);
+    knop.classList.remove("luistert"); knop.setAttribute("aria-label", "Vraag het met je stem");
+    if (fout) return;
+    // Kandidaten: per alternatief (1e, 2e, 3e) de hele zin. Bij geen definitieve tekst: de voorlopige.
+    const delen = definitief.filter(Boolean);
+    const kandidaten = delen.length
+      ? [0, 1, 2].map((k) => delen.map((alts) => alts[k] ?? alts[0]).join(" ")).filter((v, i, a) => v && a.indexOf(v) === i)
+      : voorlopig.trim() ? [voorlopig.trim()] : [];
+    if (!kandidaten.length) return status("Ik hoorde niets. Druk nog eens op de microfoon.");
+    // Kies de herkenning die de meeste opnames oplevert (bij gelijkspel: de eerste, die Chrome het zekerst vond).
+    const basis = { zender: "", genre: "", box: "", sorteer: $("#sorteer").value };
+    const scores = kandidaten.map((k) => ({ k, b: begrijp(k), n: zoek({ ...basis, q: vraagTekst(begrijp(k)) }).lijst.length }));
+    const beste = scores.reduce((a, c) => (c.n > a.n ? c : a));
+    $("#zoekveld").value = vraagTekst(beste.b);
+    $("#filter-zender").value = ""; $("#filter-genre").value = ""; $("#filter-box").value = "";
+    state.gesproken = beste.k;
     if (location.hash) history.replaceState(null, "", location.pathname);
     route();
-    const n = zoek(filters()).lijst.length;
-    status(`Je zei: “${laatste}” — ${n ? `${n} ${n === 1 ? "opname" : "opnames"} gevonden` : "niets gevonden"}.`);
-    zegHardop(n ? `Ik heb ${n} ${n === 1 ? "opname" : "opnames"} gevonden.` : "Daar heb ik niets over gevonden.");
+    const n = beste.n;
+    status(`Je zei: “${beste.k}” — ${n ? `${n} ${n === 1 ? "opname" : "opnames"} gevonden` : "niets gevonden"}.`);
+    const s = n ? null : suggestie(beste.b.woorden);
+    zegHardop(n ? `Ik heb ${n} ${n === 1 ? "opname" : "opnames"} gevonden.` : s ? `Niets gevonden. Bedoelde je ${s}?` : "Daar heb ik niets over gevonden.");
   };
 }
 
