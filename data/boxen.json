@@ -27,7 +27,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "b1-004",
@@ -37,7 +38,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "b1-005",
@@ -47,7 +49,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "b1-006",
@@ -57,7 +60,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Barack Obama"
  },
  {
   "id": "b1-007",
@@ -67,7 +71,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wrekers",
+  "zeker": false
  },
  {
   "id": "b1-008",
@@ -157,7 +163,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Pauw & Witteman"
  },
  {
   "id": "b1-017",
@@ -167,7 +174,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b1-018",
@@ -177,7 +185,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b1-019",
@@ -187,7 +196,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b1-020",
@@ -197,7 +207,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b1-021",
@@ -207,7 +218,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b1-022",
@@ -227,7 +239,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b1-024",
@@ -237,7 +250,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b1-025",
@@ -267,7 +281,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Nieuwsuur"
  },
  {
   "id": "b1-028",
@@ -277,7 +292,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b1-029",
@@ -297,7 +313,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Only Yesterday (lied)",
+  "zeker": false
  },
  {
   "id": "b1-031",
@@ -317,7 +335,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Golden Earring"
  },
  {
   "id": "b1-033",
@@ -337,7 +356,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Sammy Davis jr.",
+  "zeker": false
  },
  {
   "id": "b1-035",
@@ -347,7 +368,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "b1-036",
@@ -357,7 +379,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "b1-037",
@@ -367,7 +390,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "b1-038",
@@ -377,7 +401,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "b1-039",
@@ -387,7 +412,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "b1-040",
@@ -397,7 +423,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "b1-041",
@@ -407,7 +434,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "b1-042",
@@ -417,7 +445,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "b1-043",
@@ -427,7 +456,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "b1-044",
@@ -437,7 +467,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "b1-045",
@@ -447,7 +478,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "VARA"
  },
  {
   "id": "b1-046",
@@ -527,7 +559,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Cabaret",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Freek de Jonge (cabaretier)",
+  "zeker": false
  },
  {
   "id": "b1-054",
@@ -537,7 +571,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Cabaret",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Wim Sonneveld"
  },
  {
   "id": "b1-055",
@@ -547,7 +582,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Cabaret",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Wim Sonneveld"
  },
  {
   "id": "b1-056",
@@ -557,7 +593,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Cabaret",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Wim Sonneveld"
  },
  {
   "id": "b1-057",
@@ -567,7 +604,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Cabaret",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Wim Sonneveld"
  },
  {
   "id": "b1-058",
@@ -577,7 +615,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Cabaret",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Freek de Jonge (cabaretier)",
+  "zeker": false
  },
  {
   "id": "b1-059",
@@ -587,7 +627,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Cabaret",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Wim Kan",
+  "zeker": false
  },
  {
   "id": "b1-060",
@@ -607,7 +649,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Cabaret",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Farce Majeure",
+  "zeker": false
  },
  {
   "id": "b1-062",
@@ -637,7 +681,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Cabaret",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Freek de Jonge (cabaretier)",
+  "zeker": false
  },
  {
   "id": "b1-065",
@@ -647,7 +693,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Cabaret",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Seth Gaaikema",
+  "zeker": false
  },
  {
   "id": "b1-066",
@@ -677,7 +725,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Oudejaarsshow",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Freek de Jonge (cabaretier)",
+  "zeker": false
  },
  {
   "id": "b1-069",
@@ -707,7 +757,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Oudejaarsshow",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Guido Weijers",
+  "zeker": false
  },
  {
   "id": "b1-072",
@@ -727,7 +779,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Oudejaarsshow",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b1-074",
@@ -737,7 +790,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Oudejaarsshow",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Spijkers met koppen"
  },
  {
   "id": "b1-075",
@@ -747,7 +801,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Oudejaarsshow",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Youp van 't Hek",
+  "zeker": false
  },
  {
   "id": "b1-076",
@@ -757,7 +813,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Oudejaarsshow",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Freek de Jonge (cabaretier)",
+  "zeker": false
  },
  {
   "id": "b1-077",
@@ -767,7 +825,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Oudejaarsshow",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Freek de Jonge (cabaretier)",
+  "zeker": false
  },
  {
   "id": "b1-078",
@@ -777,7 +837,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Oudejaarsshow",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Youp van 't Hek",
+  "zeker": false
  },
  {
   "id": "b1-079",
@@ -797,7 +859,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Oudejaarsshow",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Freek de Jonge (cabaretier)",
+  "zeker": false
  },
  {
   "id": "b1-081",
@@ -807,7 +871,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Oudejaarsshow",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Freek de Jonge (cabaretier)",
+  "zeker": false
  },
  {
   "id": "b1-082",
@@ -817,7 +883,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Oudejaarsshow",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Seth Gaaikema",
+  "zeker": false
  },
  {
   "id": "b1-083",
@@ -827,7 +895,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Kijken in de ziel",
+  "zeker": false
  },
  {
   "id": "b1-084",
@@ -877,7 +947,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Willem Nijholt",
+  "zeker": false
  },
  {
   "id": "b1-089",
@@ -887,7 +959,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Argos (radioprogramma)"
  },
  {
   "id": "b1-090",
@@ -907,7 +980,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "RTL Late Night"
  },
  {
   "id": "b1-092",
@@ -917,7 +991,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Paul Witteman",
+  "zeker": false
  },
  {
   "id": "b1-093",
@@ -927,7 +1003,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Talkshow",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b1-094",
@@ -937,7 +1014,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Talkshow",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b1-095",
@@ -967,7 +1045,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "b1-098",
@@ -987,7 +1066,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Talkshow",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b1-100",
@@ -1007,7 +1087,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Talkshow",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b1-102",
@@ -1017,7 +1098,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Vijftiende Elfstedentocht"
  },
  {
   "id": "b1-103",
@@ -1027,7 +1109,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Andere Tijden"
  },
  {
   "id": "b1-104",
@@ -1067,7 +1150,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Penoza",
+  "zeker": false
  },
  {
   "id": "b1-108",
@@ -1097,7 +1182,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Talkshow",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b1-111",
@@ -1157,7 +1243,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Talkshow",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b1-117",
@@ -1207,7 +1294,9 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "TV Monument",
+  "zeker": false
  },
  {
   "id": "b1-122",
@@ -1227,7 +1316,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Talkshow",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b1-124",
@@ -1287,7 +1377,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "VARA"
  },
  {
   "id": "b1-130",
@@ -1297,7 +1388,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "VARA"
  },
  {
   "id": "b1-131",
@@ -1307,7 +1399,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Godfried Bomans"
  },
  {
   "id": "b1-132",
@@ -1317,7 +1410,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "VARA"
  },
  {
   "id": "b1-133",
@@ -1327,7 +1421,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "VARA"
  },
  {
   "id": "b1-134",
@@ -1337,7 +1432,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "VARA"
  },
  {
   "id": "b1-135",
@@ -1347,7 +1443,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "VARA"
  },
  {
   "id": "b1-136",
@@ -1357,7 +1454,8 @@
   "boxnaam": "Televisie tm 2014",
   "rubriek": "Televisie",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "VARA"
  },
  {
   "id": "b2-001",
@@ -1517,7 +1615,9 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Jazz",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Count Basie",
+  "zeker": false
  },
  {
   "id": "b2-017",
@@ -1627,7 +1727,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Live from Abbey Road 2",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Diana Spencer"
  },
  {
   "id": "b2-028",
@@ -1657,7 +1758,9 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Classic Albums",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Shocking Blue (band)",
+  "zeker": false
  },
  {
   "id": "b2-031",
@@ -1687,7 +1790,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Classic Albums",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "The Doors"
  },
  {
   "id": "b2-034",
@@ -1707,7 +1811,9 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Classic Albums",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Classic Albums",
+  "zeker": false
  },
  {
   "id": "b2-036",
@@ -1717,7 +1823,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Classic Albums",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Paul Simon (artiest)"
  },
  {
   "id": "b2-037",
@@ -1757,7 +1864,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Classic Albums",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Fleetwood Mac"
  },
  {
   "id": "b2-041",
@@ -1807,7 +1915,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Pink Floyd",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Pink Floyd"
  },
  {
   "id": "b2-046",
@@ -1887,7 +1996,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Pink Floyd",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Het Uur van de Wolf (televisieprogramma)"
  },
  {
   "id": "b2-054",
@@ -1897,7 +2007,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Michael Jackson",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Het Uur van de Wolf (televisieprogramma)"
  },
  {
   "id": "b2-055",
@@ -1907,7 +2018,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Michael Jackson",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Michael Jackson"
  },
  {
   "id": "b2-056",
@@ -1917,7 +2029,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Michael Jackson",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Michael Jackson"
  },
  {
   "id": "b2-057",
@@ -1937,7 +2050,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Michael Jackson",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Michael Jackson"
  },
  {
   "id": "b2-059",
@@ -1957,7 +2071,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Michael Jackson",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Michael Jackson"
  },
  {
   "id": "b2-061",
@@ -1987,7 +2102,9 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Overig",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Frank Sinatra",
+  "zeker": false
  },
  {
   "id": "b2-064",
@@ -2017,7 +2134,9 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Overig",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Beatlemania",
+  "zeker": false
  },
  {
   "id": "b2-067",
@@ -2027,7 +2146,9 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Overig",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Pinkpop",
+  "zeker": false
  },
  {
   "id": "b2-068",
@@ -2037,7 +2158,9 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Overig",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Pinkpop",
+  "zeker": false
  },
  {
   "id": "b2-069",
@@ -2047,7 +2170,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Overig",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "The Beatles"
  },
  {
   "id": "b2-070",
@@ -2077,7 +2201,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Overig",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "b2-073",
@@ -2147,7 +2272,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Overig",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "b2-080",
@@ -2157,7 +2283,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Overig",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "The Beatles"
  },
  {
   "id": "b2-081",
@@ -2167,7 +2294,8 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Overig",
   "genre": "Muziek",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "The Beatles"
  },
  {
   "id": "b2-082",
@@ -2237,7 +2365,9 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Van Moskou tot Moermansk",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Van Moskou tot Moermansk",
+  "zeker": false
  },
  {
   "id": "b2-089",
@@ -2247,7 +2377,9 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Van Moskou tot Moermansk",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Van Moskou tot Moermansk",
+  "zeker": false
  },
  {
   "id": "b2-090",
@@ -2257,7 +2389,9 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Van Moskou tot Moermansk",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Van Moskou tot Moermansk",
+  "zeker": false
  },
  {
   "id": "b2-091",
@@ -2267,7 +2401,9 @@
   "boxnaam": "Televisie Muziek",
   "rubriek": "Van Moskou tot Moermansk",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Van Moskou tot Moermansk",
+  "zeker": false
  },
  {
   "id": "b3-001",
@@ -2277,7 +2413,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Special Kennedy",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "b3-002",
@@ -2287,7 +2424,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Special Kennedy",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "b3-003",
@@ -2297,7 +2435,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Special Kennedy",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "b3-004",
@@ -2307,7 +2446,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Special Kennedy",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-005",
@@ -2317,7 +2457,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Special Kennedy",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "b3-006",
@@ -2327,7 +2468,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Special Kennedy",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "b3-007",
@@ -2337,7 +2479,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Special Kennedy",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "b3-008",
@@ -2347,7 +2490,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Special Kennedy",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "b3-009",
@@ -2357,7 +2501,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Irene der Nederlanden"
  },
  {
   "id": "b3-010",
@@ -2367,7 +2512,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Bernhard van Lippe-Biesterfeld"
  },
  {
   "id": "b3-011",
@@ -2377,7 +2523,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Juliana der Nederlanden"
  },
  {
   "id": "b3-012",
@@ -2387,7 +2534,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Beatrix der Nederlanden"
  },
  {
   "id": "b3-013",
@@ -2397,7 +2545,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Willem-Alexander der Nederlanden"
  },
  {
   "id": "b3-014",
@@ -2457,7 +2606,9 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Lang Leve de Koningin",
+  "zeker": false
  },
  {
   "id": "b3-020",
@@ -2477,7 +2628,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Bernhard van Lippe-Biesterfeld"
  },
  {
   "id": "b3-022",
@@ -2517,7 +2669,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Nieuwsuur"
  },
  {
   "id": "b3-026",
@@ -2597,7 +2750,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Prinsjesdag"
  },
  {
   "id": "b3-034",
@@ -2607,7 +2761,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Willem-Alexander der Nederlanden"
  },
  {
   "id": "b3-035",
@@ -2617,7 +2772,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Máxima Zorreguieta"
  },
  {
   "id": "b3-036",
@@ -2627,7 +2783,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Juliana der Nederlanden"
  },
  {
   "id": "b3-037",
@@ -2637,7 +2794,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Willem-Alexander der Nederlanden"
  },
  {
   "id": "b3-038",
@@ -2667,7 +2825,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Koninklijke Huis",
   "genre": "Koningshuis",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Diana Spencer"
  },
  {
   "id": "b3-041",
@@ -2697,7 +2856,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Literatuur",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Cees Fasseur"
  },
  {
   "id": "b3-044",
@@ -2707,7 +2867,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Nieuws",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Nieuwsuur"
  },
  {
   "id": "b3-045",
@@ -2717,7 +2878,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Nieuws",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-046",
@@ -2727,7 +2889,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Andere Tijden"
  },
  {
   "id": "b3-047",
@@ -2737,7 +2900,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Godfried Bomans"
  },
  {
   "id": "b3-048",
@@ -2747,7 +2911,9 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Geschiedenis",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Martin Luther King",
+  "zeker": false
  },
  {
   "id": "b3-049",
@@ -2777,7 +2943,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Boeken",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Harry Mulisch"
  },
  {
   "id": "b3-052",
@@ -2867,7 +3034,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Boeken",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Harry Mulisch"
  },
  {
   "id": "b3-061",
@@ -2907,7 +3075,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Boeken",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Harry Mulisch"
  },
  {
   "id": "b3-065",
@@ -2917,7 +3086,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Economie/Informatie",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Harry Mulisch"
  },
  {
   "id": "b3-066",
@@ -2947,7 +3117,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Economie/Informatie",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-069",
@@ -2957,7 +3128,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Economie/Informatie",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Nieuwsuur"
  },
  {
   "id": "b3-070",
@@ -2967,7 +3139,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Economie/Informatie",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-071",
@@ -2987,7 +3160,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Economie/Informatie",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Pauw & Witteman"
  },
  {
   "id": "b3-073",
@@ -2997,7 +3171,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Economie/Informatie",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Buitenhof (televisieprogramma)"
  },
  {
   "id": "b3-074",
@@ -3027,7 +3202,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Economie/Informatie",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-077",
@@ -3047,7 +3223,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "b3-079",
@@ -3067,7 +3244,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "b3-081",
@@ -3087,7 +3265,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "b3-083",
@@ -3117,7 +3296,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "b3-086",
@@ -3137,7 +3317,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "b3-088",
@@ -3157,7 +3338,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "b3-090",
@@ -3387,7 +3569,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-113",
@@ -3397,7 +3580,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-114",
@@ -3407,7 +3591,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-115",
@@ -3417,7 +3602,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-116",
@@ -3427,7 +3613,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-117",
@@ -3437,7 +3624,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-118",
@@ -3447,7 +3635,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b3-119",
@@ -3457,7 +3646,8 @@
   "boxnaam": "Nieuws - Literatuur",
   "rubriek": "Jaaroverzicht",
   "genre": "Nieuws",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b4-001",
@@ -3511,7 +3701,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "RTL Late Night"
  },
  {
   "id": "b4-007",
@@ -3520,7 +3711,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "V&D"
  },
  {
   "id": "b4-008",
@@ -3538,7 +3730,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Zomergasten (televisieprogramma)"
  },
  {
   "id": "b4-010",
@@ -3547,7 +3740,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Zomergasten (televisieprogramma)"
  },
  {
   "id": "b4-011",
@@ -3574,7 +3768,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Warren Buffett",
+  "zeker": false
  },
  {
   "id": "b4-014",
@@ -3592,7 +3788,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Anne Frank",
+  "zeker": false
  },
  {
   "id": "b4-016",
@@ -3601,7 +3799,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Beatlemania",
+  "zeker": false
  },
  {
   "id": "b4-017",
@@ -3610,7 +3810,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "The Beatles"
  },
  {
   "id": "b4-018",
@@ -3619,7 +3820,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b4-019",
@@ -3628,7 +3830,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b4-020",
@@ -3637,7 +3840,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "b4-021",
@@ -3673,7 +3877,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Watergateschandaal"
  },
  {
   "id": "b4-025",
@@ -3727,7 +3932,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Big data",
+  "zeker": false
  },
  {
   "id": "b4-031",
@@ -3817,7 +4024,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Watergateschandaal"
  },
  {
   "id": "b4-041",
@@ -3826,7 +4034,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Annie M.G. Schmidt",
+  "zeker": false
  },
  {
   "id": "b4-042",
@@ -3853,7 +4063,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Jan Blokker",
+  "zeker": false
  },
  {
   "id": "b4-045",
@@ -3871,7 +4083,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "b4-047",
@@ -3880,7 +4093,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Elton John",
+  "zeker": false
  },
  {
   "id": "b4-048",
@@ -3898,7 +4113,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "b4-050",
@@ -3952,7 +4168,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tomorrow's World",
+  "zeker": false
  },
  {
   "id": "b4-056",
@@ -3997,7 +4215,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Martin Luther King"
  },
  {
   "id": "b4-061",
@@ -4006,7 +4225,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b4-062",
@@ -4051,7 +4271,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Albert Heijn (supermarkt)",
+  "zeker": false
  },
  {
   "id": "b4-067",
@@ -4060,7 +4282,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Facebook"
  },
  {
   "id": "b4-068",
@@ -4069,7 +4292,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Facebook"
  },
  {
   "id": "b4-069",
@@ -4087,7 +4311,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b4-071",
@@ -4096,7 +4321,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Andere Tijden"
  },
  {
   "id": "b4-072",
@@ -4105,7 +4331,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Annie M.G. Schmidt",
+  "zeker": false
  },
  {
   "id": "b4-073",
@@ -4114,7 +4342,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "China"
  },
  {
   "id": "b4-074",
@@ -4123,7 +4352,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b4-075",
@@ -4132,7 +4362,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b4-076",
@@ -4141,7 +4372,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b4-077",
@@ -4150,7 +4382,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "b4-078",
@@ -4159,7 +4392,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Ronald Reagan"
  },
  {
   "id": "b4-079",
@@ -4168,7 +4402,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Evacuatie van het Rivierenland"
  },
  {
   "id": "b4-080",
@@ -4177,7 +4412,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Easy Rider"
  },
  {
   "id": "b4-081",
@@ -4195,7 +4431,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "D-day",
+  "zeker": false
  },
  {
   "id": "b4-083",
@@ -4222,7 +4460,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "The Doors"
  },
  {
   "id": "b4-086",
@@ -4249,7 +4488,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "b4-089",
@@ -4294,7 +4534,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Vijftiende Elfstedentocht"
  },
  {
   "id": "b4-094",
@@ -4303,7 +4544,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Jim Morrison",
+  "zeker": false
  },
  {
   "id": "b4-095",
@@ -4348,7 +4591,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Alfred Hitchcock",
+  "zeker": false
  },
  {
   "id": "b4-100",
@@ -4357,7 +4602,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Godfried Bomans"
  },
  {
   "id": "b4-101",
@@ -4420,7 +4666,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Lehman Brothers",
+  "zeker": false
  },
  {
   "id": "b4-108",
@@ -4438,7 +4686,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Buddy Holly",
+  "zeker": false
  },
  {
   "id": "b4-110",
@@ -4447,7 +4697,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Watergateschandaal"
  },
  {
   "id": "b4-111",
@@ -4456,7 +4707,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Eagles",
+  "zeker": false
  },
  {
   "id": "b4-112",
@@ -4465,7 +4718,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Evacuatie van het Rivierenland"
  },
  {
   "id": "b4-113",
@@ -4483,7 +4737,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b4-115",
@@ -4492,7 +4747,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "b4-116",
@@ -4546,7 +4802,8 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Nieuwsuur"
  },
  {
   "id": "b4-122",
@@ -4555,7 +4812,9 @@
   "box": 4,
   "boxnaam": "Documentaire",
   "genre": "Documentaire",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Foutje, bedankt!",
+  "zeker": false
  },
  {
   "id": "b4-123",
@@ -4690,7 +4949,9 @@
   "box": 5,
   "boxnaam": "Televisie 2",
   "genre": "Amusement",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Youp van 't Hek",
+  "zeker": false
  },
  {
   "id": "b5-006",
@@ -4699,7 +4960,8 @@
   "box": 5,
   "boxnaam": "Televisie 2",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Wim Sonneveld"
  },
  {
   "id": "b5-007",
@@ -4870,7 +5132,8 @@
   "box": 5,
   "boxnaam": "Televisie 2",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "b5-026",
@@ -4897,7 +5160,8 @@
   "box": 5,
   "boxnaam": "Televisie 2",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "b5-029",
@@ -4906,7 +5170,8 @@
   "box": 5,
   "boxnaam": "Televisie 2",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "b5-030",
@@ -5167,7 +5432,9 @@
   "box": 5,
   "boxnaam": "Televisie 2",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "De Prooi (televisieserie)",
+  "zeker": false
  },
  {
   "id": "b5-059",
@@ -5473,7 +5740,8 @@
   "box": 5,
   "boxnaam": "Televisie 2",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Cees Fasseur"
  },
  {
   "id": "b5-093",
@@ -5482,7 +5750,8 @@
   "box": 5,
   "boxnaam": "Televisie 2",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Mies Bouwman"
  },
  {
   "id": "b5-094",
@@ -5509,7 +5778,8 @@
   "box": 5,
   "boxnaam": "Televisie 2",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Harry Mulisch"
  },
  {
   "id": "b5-097",
@@ -5518,7 +5788,8 @@
   "box": 5,
   "boxnaam": "Televisie 2",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Ischa Meijer"
  },
  {
   "id": "b5-098",
@@ -5527,7 +5798,8 @@
   "box": 5,
   "boxnaam": "Televisie 2",
   "genre": "Televisie",
-  "drager": "dvd/video"
+  "drager": "dvd/video",
+  "onderwerp": "Jan Wolkers"
  },
  {
   "id": "b5-099",

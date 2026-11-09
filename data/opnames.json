@@ -6,7 +6,8 @@
   "genre": "Documentaire",
   "formaten": [
    "avi"
-  ]
+  ],
+  "onderwerp": "Wim Kok"
  },
  {
   "id": "0003",
@@ -17,7 +18,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Ischa Meijer"
  },
  {
   "id": "0004",
@@ -28,7 +30,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Ischa Meijer"
  },
  {
   "id": "0009",
@@ -47,7 +50,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m2t"
-  ]
+  ],
+  "onderwerp": "Aanslagen op 11 september 2001"
  },
  {
   "id": "0012",
@@ -56,7 +60,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Castilië-La Mancha"
  },
  {
   "id": "0013",
@@ -65,7 +70,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Expo '92"
  },
  {
   "id": "0014",
@@ -75,7 +81,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Polygoonjournaal"
  },
  {
   "id": "0015",
@@ -85,7 +92,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Polygoonjournaal"
  },
  {
   "id": "0016",
@@ -96,7 +104,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0017",
@@ -107,7 +116,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0019",
@@ -117,7 +127,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Oprah Winfrey"
  },
  {
   "id": "0020",
@@ -147,7 +158,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0023",
@@ -157,7 +169,9 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "De Wrekers",
+  "zeker": false
  },
  {
   "id": "0024",
@@ -177,7 +191,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0026",
@@ -187,7 +202,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0027",
@@ -197,7 +213,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0028",
@@ -207,7 +224,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0029",
@@ -217,7 +235,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0030",
@@ -227,7 +246,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0031",
@@ -237,7 +257,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0032",
@@ -247,7 +268,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0034",
@@ -267,7 +289,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Wim Sonneveld"
  },
  {
   "id": "0036",
@@ -277,7 +300,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Wim Sonneveld"
  },
  {
   "id": "0037",
@@ -287,7 +311,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Wim Sonneveld"
  },
  {
   "id": "0038",
@@ -297,7 +322,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0039",
@@ -307,7 +333,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0040",
@@ -317,7 +344,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0041",
@@ -327,7 +355,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0042",
@@ -337,7 +366,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0043",
@@ -347,7 +377,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0044",
@@ -357,7 +388,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0045",
@@ -367,7 +399,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0046",
@@ -377,7 +410,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0047",
@@ -387,7 +421,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0048",
@@ -397,7 +432,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0049",
@@ -407,7 +443,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Popmuziek"
  },
  {
   "id": "0051",
@@ -417,7 +454,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Pink Floyd"
  },
  {
   "id": "0052",
@@ -427,7 +465,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Doors"
  },
  {
   "id": "0053",
@@ -438,7 +477,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0057",
@@ -446,7 +486,8 @@
   "datum": "1995-01-30",
   "jaar": 1995,
   "genre": "Documentaire",
-  "formaten": []
+  "formaten": [],
+  "onderwerp": "Evacuatie van het Rivierenland"
  },
  {
   "id": "0058",
@@ -456,7 +497,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Evacuatie van het Rivierenland"
  },
  {
   "id": "0059",
@@ -467,7 +509,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Evacuatie van het Rivierenland"
  },
  {
   "id": "0060",
@@ -478,7 +521,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Evacuatie van het Rivierenland"
  },
  {
   "id": "0061",
@@ -489,7 +533,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Evacuatie van het Rivierenland"
  },
  {
   "id": "0063",
@@ -500,7 +545,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Harry Mulisch"
  },
  {
   "id": "0064",
@@ -510,7 +556,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "0065",
@@ -520,7 +567,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0066",
@@ -530,7 +578,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0067",
@@ -540,7 +589,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "0068",
@@ -550,7 +600,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "0069",
@@ -561,7 +612,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0070",
@@ -572,7 +624,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0071",
@@ -583,7 +636,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0072",
@@ -593,7 +647,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "0073",
@@ -603,7 +658,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "0074",
@@ -614,7 +670,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Diana Spencer"
  },
  {
   "id": "0075",
@@ -624,7 +681,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "0076",
@@ -634,7 +692,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "0080",
@@ -644,7 +703,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0081",
@@ -654,7 +714,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0082",
@@ -664,7 +725,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0083",
@@ -684,7 +746,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Michael Jackson"
  },
  {
   "id": "0094",
@@ -704,7 +767,8 @@
   "genre": "Sport",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Vijftiende Elfstedentocht"
  },
  {
   "id": "0097",
@@ -715,7 +779,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0098",
@@ -726,7 +791,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0100",
@@ -747,7 +813,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Maurits van Oranje-Nassau, Van Vollenhoven"
  },
  {
   "id": "0102",
@@ -758,7 +825,8 @@
   "genre": "Talkshow",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "0103",
@@ -769,7 +837,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "0107",
@@ -778,7 +847,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Beatrix der Nederlanden"
  },
  {
   "id": "0108",
@@ -787,7 +857,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Bernhard van Lippe-Biesterfeld"
  },
  {
   "id": "0109",
@@ -796,7 +867,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Claus van Amsberg"
  },
  {
   "id": "0110",
@@ -805,7 +877,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Maurits van Oranje-Nassau, Van Vollenhoven"
  },
  {
   "id": "0111",
@@ -814,7 +887,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Willem-Alexander der Nederlanden"
  },
  {
   "id": "0112",
@@ -823,7 +897,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Irene der Nederlanden"
  },
  {
   "id": "0114",
@@ -833,7 +908,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Fox Kids"
  },
  {
   "id": "0116",
@@ -842,7 +918,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Sinterklaasintocht"
  },
  {
   "id": "0119",
@@ -853,7 +930,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0120",
@@ -863,7 +941,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Spijkers met koppen"
  },
  {
   "id": "0121",
@@ -872,7 +951,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Jan Wolkers"
  },
  {
   "id": "0122",
@@ -882,7 +962,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Máxima Zorreguieta"
  },
  {
   "id": "0123",
@@ -892,7 +973,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Máxima Zorreguieta"
  },
  {
   "id": "0124",
@@ -902,7 +984,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Máxima Zorreguieta"
  },
  {
   "id": "0125",
@@ -912,7 +995,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Máxima Zorreguieta"
  },
  {
   "id": "0126",
@@ -923,7 +1007,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mies Bouwman"
  },
  {
   "id": "0127",
@@ -934,7 +1019,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mies Bouwman"
  },
  {
   "id": "0128",
@@ -945,7 +1031,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Cees Fasseur"
  },
  {
   "id": "0129",
@@ -956,7 +1043,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Cees Fasseur"
  },
  {
   "id": "0132",
@@ -966,7 +1054,8 @@
   "genre": "Documentaire",
   "formaten": [
    "rm"
-  ]
+  ],
+  "onderwerp": "Fons Rademakers"
  },
  {
   "id": "0133",
@@ -977,7 +1066,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0149",
@@ -988,7 +1078,8 @@
   "genre": "Documentaire",
   "formaten": [
    "asf"
-  ]
+  ],
+  "onderwerp": "Jos Brink"
  },
  {
   "id": "0160",
@@ -998,7 +1089,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mpg"
-  ]
+  ],
+  "onderwerp": "Andere Tijden"
  },
  {
   "id": "0165",
@@ -1009,7 +1101,8 @@
   "genre": "Documentaire",
   "formaten": [
    "asf"
-  ]
+  ],
+  "onderwerp": "Jan Wolkers"
  },
  {
   "id": "0166",
@@ -1019,7 +1112,8 @@
   "genre": "Documentaire",
   "formaten": [
    "avi"
-  ]
+  ],
+  "onderwerp": "Godfried Bomans"
  },
  {
   "id": "0167",
@@ -1030,7 +1124,8 @@
   "genre": "Documentaire",
   "formaten": [
    "asf"
-  ]
+  ],
+  "onderwerp": "Joop van den Ende"
  },
  {
   "id": "0168",
@@ -1040,7 +1135,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Willem-Alexander der Nederlanden"
  },
  {
   "id": "0182",
@@ -1049,7 +1145,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "avi"
-  ]
+  ],
+  "onderwerp": "Willem-Alexander der Nederlanden"
  },
  {
   "id": "0185",
@@ -1058,7 +1155,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0188",
@@ -1068,7 +1166,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0189",
@@ -1097,7 +1196,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0194",
@@ -1106,7 +1206,9 @@
   "genre": "Serie & film",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Another Year",
+  "zeker": false
  },
  {
   "id": "0202",
@@ -1116,7 +1218,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0209",
@@ -1127,7 +1230,8 @@
   "genre": "Talkshow",
   "formaten": [
    "avi"
-  ]
+  ],
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "0214",
@@ -1137,7 +1241,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0218",
@@ -1157,7 +1262,8 @@
   "genre": "Serie & film",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Borgen (televisieserie)"
  },
  {
   "id": "0220",
@@ -1168,7 +1274,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0221",
@@ -1179,7 +1286,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0222",
@@ -1190,7 +1298,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Beatrix der Nederlanden"
  },
  {
   "id": "0223",
@@ -1200,7 +1309,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Nieuwsuur"
  },
  {
   "id": "0224",
@@ -1211,7 +1321,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0225",
@@ -1221,7 +1332,9 @@
   "genre": "Amusement",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "De tiende van Tijl",
+  "zeker": false
  },
  {
   "id": "0226",
@@ -1232,7 +1345,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0228",
@@ -1243,7 +1357,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0229",
@@ -1253,7 +1368,8 @@
   "genre": "Talkshow",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Pauw & Witteman"
  },
  {
   "id": "0230",
@@ -1263,7 +1379,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Nieuwsuur"
  },
  {
   "id": "0231",
@@ -1274,7 +1391,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0232",
@@ -1284,7 +1402,8 @@
   "genre": "Talkshow",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Buitenhof (televisieprogramma)"
  },
  {
   "id": "0233",
@@ -1295,7 +1414,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0234",
@@ -1306,7 +1426,8 @@
   "genre": "Talkshow",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "0235",
@@ -1316,7 +1437,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "EenVandaag"
  },
  {
   "id": "0236",
@@ -1327,7 +1449,8 @@
   "genre": "Talkshow",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "0237",
@@ -1337,7 +1460,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Nieuwsuur"
  },
  {
   "id": "0238",
@@ -1347,7 +1471,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "EenVandaag"
  },
  {
   "id": "0239",
@@ -1358,7 +1483,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0240",
@@ -1369,7 +1495,8 @@
   "formaten": [
    "mov",
    "m4v"
-  ]
+  ],
+  "onderwerp": "Troonswisseling in Nederland (2013)"
  },
  {
   "id": "0243",
@@ -1379,7 +1506,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0245",
@@ -1390,7 +1518,8 @@
   "genre": "Talkshow",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "0246",
@@ -1400,7 +1529,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Willem-Alexander der Nederlanden"
  },
  {
   "id": "0251",
@@ -1410,7 +1540,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mov"
-  ]
+  ],
+  "onderwerp": "China"
  },
  {
   "id": "0255",
@@ -1420,7 +1551,8 @@
   "genre": "Sport",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Hart van Nederland"
  },
  {
   "id": "0263",
@@ -1430,7 +1562,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0267",
@@ -1441,7 +1574,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0268",
@@ -1452,7 +1586,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Andere Tijden"
  },
  {
   "id": "0277",
@@ -1462,7 +1597,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "V&D"
  },
  {
   "id": "0280",
@@ -1472,7 +1608,8 @@
   "genre": "Muziek",
   "formaten": [
    "mov"
-  ]
+  ],
+  "onderwerp": "Bintangs"
  },
  {
   "id": "0281",
@@ -1482,7 +1619,8 @@
   "genre": "Muziek",
   "formaten": [
    "mov"
-  ]
+  ],
+  "onderwerp": "Bintangs"
  },
  {
   "id": "0286",
@@ -1493,7 +1631,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Andere Tijden"
  },
  {
   "id": "0295",
@@ -1503,7 +1642,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "V&D"
  },
  {
   "id": "0296",
@@ -1514,7 +1654,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "V&D"
  },
  {
   "id": "0297",
@@ -1525,7 +1666,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "V&D"
  },
  {
   "id": "0298",
@@ -1535,7 +1677,8 @@
   "genre": "Serie & film",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mr. Robot"
  },
  {
   "id": "0299",
@@ -1545,7 +1688,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "V&D"
  },
  {
   "id": "0300",
@@ -1556,7 +1700,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "V&D"
  },
  {
   "id": "0301",
@@ -1567,7 +1712,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "China"
  },
  {
   "id": "0303",
@@ -1577,7 +1723,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Radar (consumentenprogramma)"
  },
  {
   "id": "0304",
@@ -1587,7 +1734,8 @@
   "genre": "Serie & film",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mr. Robot"
  },
  {
   "id": "0305",
@@ -1597,7 +1745,8 @@
   "genre": "Serie & film",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mr. Robot"
  },
  {
   "id": "0307",
@@ -1607,7 +1756,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Michael Jackson"
  },
  {
   "id": "0308",
@@ -1617,7 +1767,8 @@
   "genre": "Serie & film",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mr. Robot"
  },
  {
   "id": "0309",
@@ -1627,7 +1778,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Boekenweek"
  },
  {
   "id": "0310",
@@ -1647,7 +1799,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Boekenweek"
  },
  {
   "id": "0312",
@@ -1657,7 +1810,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Boekenweek"
  },
  {
   "id": "0313",
@@ -1667,7 +1821,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Van Kooten en De Bie"
  },
  {
   "id": "0314",
@@ -1677,7 +1832,8 @@
   "genre": "Serie & film",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mr. Robot"
  },
  {
   "id": "0315",
@@ -1688,7 +1844,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Boekenweek"
  },
  {
   "id": "0316",
@@ -1698,7 +1855,8 @@
   "genre": "Serie & film",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mr. Robot"
  },
  {
   "id": "0317",
@@ -1709,7 +1867,8 @@
   "genre": "Sport",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Johan Cruijff"
  },
  {
   "id": "0318",
@@ -1719,7 +1878,8 @@
   "genre": "Sport",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Johan Cruijff"
  },
  {
   "id": "0319",
@@ -1730,7 +1890,8 @@
   "genre": "Sport",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Johan Cruijff"
  },
  {
   "id": "0320",
@@ -1741,7 +1902,8 @@
   "genre": "Sport",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Johan Cruijff"
  },
  {
   "id": "0322",
@@ -1752,7 +1914,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0323",
@@ -1763,7 +1926,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Barack Obama"
  },
  {
   "id": "0324",
@@ -1774,7 +1938,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Barack Obama"
  },
  {
   "id": "0325",
@@ -1785,7 +1950,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Barack Obama"
  },
  {
   "id": "0326",
@@ -1796,7 +1962,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Barack Obama"
  },
  {
   "id": "0328",
@@ -1806,7 +1973,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0329",
@@ -1817,7 +1985,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mies Bouwman"
  },
  {
   "id": "0330",
@@ -1827,7 +1996,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Juliana der Nederlanden"
  },
  {
   "id": "0331",
@@ -1837,7 +2007,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Buitenhof (televisieprogramma)"
  },
  {
   "id": "0332",
@@ -1847,7 +2018,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Aanslagen op 11 september 2001"
  },
  {
   "id": "0333",
@@ -1858,7 +2030,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Boudewijn Büch"
  },
  {
   "id": "0334",
@@ -1869,7 +2042,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0336",
@@ -1880,7 +2054,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0337",
@@ -1890,7 +2065,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "0339",
@@ -1900,7 +2076,8 @@
   "genre": "Muziek",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "0340",
@@ -1910,7 +2087,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "0341",
@@ -1921,7 +2099,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0346",
@@ -1942,7 +2121,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Watergateschandaal"
  },
  {
   "id": "0348",
@@ -1953,7 +2133,8 @@
   "genre": "Muziek",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Chuck Berry"
  },
  {
   "id": "0349",
@@ -1963,7 +2144,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Rock-'n-roll"
  },
  {
   "id": "0350",
@@ -1973,7 +2155,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Rock-'n-roll"
  },
  {
   "id": "0351",
@@ -2005,7 +2188,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Willem-Alexander der Nederlanden"
  },
  {
   "id": "0354",
@@ -2015,7 +2199,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Sonja Barend"
  },
  {
   "id": "0357",
@@ -2025,7 +2210,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Jacqueline Kennedy Onassis"
  },
  {
   "id": "0359",
@@ -2035,7 +2221,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Pink Floyd"
  },
  {
   "id": "0360",
@@ -2046,7 +2233,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Rosanne Hertzberger"
  },
  {
   "id": "0361",
@@ -2057,7 +2245,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Eberhard van der Laan"
  },
  {
   "id": "0362",
@@ -2078,7 +2267,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Silicon Valley"
  },
  {
   "id": "0364",
@@ -2089,7 +2279,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Jinek"
  },
  {
   "id": "0365",
@@ -2100,7 +2291,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Andere Tijden"
  },
  {
   "id": "0366",
@@ -2111,7 +2303,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Claudia de Breij"
  },
  {
   "id": "0367",
@@ -2121,7 +2314,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0368",
@@ -2131,7 +2325,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0369",
@@ -2142,7 +2337,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Jan Wolkers"
  },
  {
   "id": "0370",
@@ -2153,7 +2349,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Jan Wolkers"
  },
  {
   "id": "0371",
@@ -2163,7 +2360,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Jan Wolkers"
  },
  {
   "id": "0372",
@@ -2174,7 +2372,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0373",
@@ -2195,7 +2394,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "0378",
@@ -2206,7 +2406,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0379",
@@ -2217,7 +2418,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0381",
@@ -2228,7 +2430,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Elizabeth II van het Verenigd Koninkrijk"
  },
  {
   "id": "0382",
@@ -2239,7 +2442,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Beatrix der Nederlanden"
  },
  {
   "id": "0383",
@@ -2250,7 +2454,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Beatrix der Nederlanden"
  },
  {
   "id": "0384",
@@ -2260,7 +2465,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Bitcoin"
  },
  {
   "id": "0385",
@@ -2270,7 +2476,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Bitcoin"
  },
  {
   "id": "0386",
@@ -2280,7 +2487,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Nieuwsuur"
  },
  {
   "id": "0387",
@@ -2291,7 +2499,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0388",
@@ -2302,7 +2511,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Ruud Lubbers"
  },
  {
   "id": "0389",
@@ -2312,7 +2522,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Jean-Michel Jarre"
  },
  {
   "id": "0390",
@@ -2323,7 +2534,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Ronald Reagan"
  },
  {
   "id": "0391",
@@ -2334,7 +2546,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "China"
  },
  {
   "id": "0392",
@@ -2344,7 +2557,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mies Bouwman"
  },
  {
   "id": "0393",
@@ -2355,7 +2569,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mies Bouwman"
  },
  {
   "id": "0394",
@@ -2366,7 +2581,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mies Bouwman"
  },
  {
   "id": "0395",
@@ -2376,7 +2592,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Mies Bouwman"
  },
  {
   "id": "0396",
@@ -2386,7 +2603,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Ronald Reagan"
  },
  {
   "id": "0398",
@@ -2396,7 +2614,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Martin Luther King"
  },
  {
   "id": "0400",
@@ -2407,7 +2626,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Willem-Alexander der Nederlanden"
  },
  {
   "id": "0402",
@@ -2417,7 +2637,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Bitcoin"
  },
  {
   "id": "0403",
@@ -2427,7 +2648,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0404",
@@ -2448,7 +2670,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "RTL Late Night"
  },
  {
   "id": "0408",
@@ -2490,7 +2713,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Beatles"
  },
  {
   "id": "0413",
@@ -2500,7 +2724,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Michael Jackson"
  },
  {
   "id": "0414",
@@ -2510,7 +2735,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Michael Jackson"
  },
  {
   "id": "0415",
@@ -2532,7 +2758,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NPO Doc (platform)"
  },
  {
   "id": "0420",
@@ -2542,7 +2769,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Verenigde Staten"
  },
  {
   "id": "0421",
@@ -2552,7 +2780,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Verenigde Staten"
  },
  {
   "id": "0422",
@@ -2562,7 +2791,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0423",
@@ -2572,7 +2802,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Verenigde Staten"
  },
  {
   "id": "0424",
@@ -2583,7 +2814,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0425",
@@ -2593,7 +2825,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Verenigde Staten"
  },
  {
   "id": "0428",
@@ -2604,7 +2837,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0429",
@@ -2614,7 +2848,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Sinterklaasintocht"
  },
  {
   "id": "0430",
@@ -2624,7 +2859,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Vergiftiging van Sergej en Joelia Skripal"
  },
  {
   "id": "0432",
@@ -2634,7 +2870,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Rob de Nijs"
  },
  {
   "id": "0434",
@@ -2644,7 +2881,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Herman Brood"
  },
  {
   "id": "0435",
@@ -2654,7 +2892,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Hans Sibbel"
  },
  {
   "id": "0436",
@@ -2664,7 +2903,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0438",
@@ -2674,7 +2914,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Grammy Award"
  },
  {
   "id": "0439",
@@ -2684,7 +2925,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "0440",
@@ -2695,7 +2937,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0441",
@@ -2704,21 +2947,24 @@
   "genre": "Serie & film",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Easy Rider"
  },
  {
   "id": "0442",
   "titel": "La noche temática - Andy Warhol",
   "jaar": null,
   "genre": "Documentaire",
-  "formaten": []
+  "formaten": [],
+  "onderwerp": "Andy Warhol"
  },
  {
   "id": "0443",
   "titel": "La noche temática - Andy Warhol - ipad",
   "jaar": null,
   "genre": "Documentaire",
-  "formaten": []
+  "formaten": [],
+  "onderwerp": "Andy Warhol"
  },
  {
   "id": "0445",
@@ -2729,7 +2975,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NPO Doc (platform)"
  },
  {
   "id": "0446",
@@ -2740,7 +2987,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Jinek"
  },
  {
   "id": "0447",
@@ -2751,7 +2999,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Andere Tijden"
  },
  {
   "id": "0448",
@@ -2761,7 +3010,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0450",
@@ -2771,7 +3021,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Pink Floyd"
  },
  {
   "id": "0451",
@@ -2781,7 +3032,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0452",
@@ -2791,7 +3043,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Orson Welles"
  },
  {
   "id": "0453",
@@ -2801,7 +3054,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Brexit"
  },
  {
   "id": "0454",
@@ -2811,7 +3065,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0455",
@@ -2821,7 +3076,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0457",
@@ -2831,7 +3087,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0458",
@@ -2842,7 +3099,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0459",
@@ -2852,7 +3110,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0463",
@@ -2863,7 +3122,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0466",
@@ -2873,7 +3133,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Margaret Thatcher"
  },
  {
   "id": "0468",
@@ -2883,7 +3144,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Margaret Thatcher"
  },
  {
   "id": "0470",
@@ -2893,7 +3155,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Margaret Thatcher"
  },
  {
   "id": "0471",
@@ -2903,7 +3166,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Margaret Thatcher"
  },
  {
   "id": "0474",
@@ -2914,7 +3178,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Bank of England"
  },
  {
   "id": "0475",
@@ -2924,7 +3189,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Bank of England"
  },
  {
   "id": "0476",
@@ -2934,7 +3200,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Facebook"
  },
  {
   "id": "0477",
@@ -2944,7 +3211,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Brexit"
  },
  {
   "id": "0478",
@@ -2955,7 +3223,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Hittegolf"
  },
  {
   "id": "0480",
@@ -2965,7 +3234,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Watergateschandaal"
  },
  {
   "id": "0481",
@@ -2975,7 +3245,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Watergateschandaal"
  },
  {
   "id": "0482",
@@ -2985,7 +3256,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Watergateschandaal"
  },
  {
   "id": "0485",
@@ -2995,7 +3267,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Borgen (televisieserie)"
  },
  {
   "id": "0486",
@@ -3006,7 +3279,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0487",
@@ -3017,7 +3291,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NPO Doc (platform)"
  },
  {
   "id": "0488",
@@ -3028,7 +3303,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Bernhard van Lippe-Biesterfeld"
  },
  {
   "id": "0489",
@@ -3038,7 +3314,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Pauw & Witteman"
  },
  {
   "id": "0490",
@@ -3048,7 +3325,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0494",
@@ -3058,7 +3336,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0495",
@@ -3068,7 +3347,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0496",
@@ -3079,7 +3359,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Andere Tijden"
  },
  {
   "id": "0497",
@@ -3090,7 +3371,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0498",
@@ -3100,7 +3382,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "0499",
@@ -3121,7 +3404,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Jinek"
  },
  {
   "id": "0502",
@@ -3131,7 +3415,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0503",
@@ -3141,7 +3426,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0504",
@@ -3151,7 +3437,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0505",
@@ -3162,7 +3449,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Coronacrisis in Nederland"
  },
  {
   "id": "0506",
@@ -3172,7 +3460,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0507",
@@ -3183,7 +3472,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "0508",
@@ -3193,7 +3483,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0509",
@@ -3203,7 +3494,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Coronacrisis in Nederland"
  },
  {
   "id": "0510",
@@ -3213,7 +3505,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Beatrix der Nederlanden"
  },
  {
   "id": "0511",
@@ -3223,7 +3516,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Beatrix der Nederlanden"
  },
  {
   "id": "0512",
@@ -3234,7 +3528,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "De Wereld Draait Door"
  },
  {
   "id": "0514",
@@ -3245,7 +3540,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Coronacrisis in Nederland"
  },
  {
   "id": "0515",
@@ -3255,7 +3551,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Beatrix der Nederlanden"
  },
  {
   "id": "0516",
@@ -3266,7 +3563,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0517",
@@ -3276,7 +3574,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Beatrix der Nederlanden"
  },
  {
   "id": "0518",
@@ -3287,7 +3586,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0519",
@@ -3307,7 +3607,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Nationale Dodenherdenking"
  },
  {
   "id": "0522",
@@ -3328,7 +3629,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0526",
@@ -3338,7 +3640,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tineke de Nooij"
  },
  {
   "id": "0527",
@@ -3349,7 +3652,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0529",
@@ -3359,7 +3663,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0530",
@@ -3369,7 +3674,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0531",
@@ -3379,7 +3685,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Harry Mulisch"
  },
  {
   "id": "0532",
@@ -3389,7 +3696,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0533",
@@ -3399,7 +3707,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0534",
@@ -3409,7 +3718,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0535",
@@ -3419,7 +3729,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0536",
@@ -3429,7 +3740,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0537",
@@ -3439,7 +3751,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0538",
@@ -3449,7 +3762,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0539",
@@ -3460,7 +3774,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Coronacrisis in Nederland"
  },
  {
   "id": "0540",
@@ -3470,7 +3785,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Coronacrisis in Nederland"
  },
  {
   "id": "0541",
@@ -3480,7 +3796,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0543",
@@ -3490,7 +3807,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "De Bijenkorf (warenhuis)"
  },
  {
   "id": "0544",
@@ -3501,7 +3819,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "0545",
@@ -3511,7 +3830,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Geert Mak"
  },
  {
   "id": "0546",
@@ -3522,7 +3842,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0547",
@@ -3532,7 +3853,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0548",
@@ -3542,14 +3864,16 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Matthijs gaat door"
  },
  {
   "id": "0549",
   "titel": "Covid-19. heel veel journaals",
   "jaar": null,
   "genre": "Nieuws",
-  "formaten": []
+  "formaten": [],
+  "onderwerp": "Coronacrisis in Nederland"
  },
  {
   "id": "0553",
@@ -3587,7 +3911,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Coronacrisis in Nederland"
  },
  {
   "id": "0557",
@@ -3598,7 +3923,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0558",
@@ -3608,7 +3934,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Joe Biden"
  },
  {
   "id": "0559",
@@ -3618,7 +3945,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Coronacrisis in Nederland"
  },
  {
   "id": "0565",
@@ -3629,7 +3957,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Aanslagen op 11 september 2001"
  },
  {
   "id": "0566",
@@ -3640,7 +3969,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0567",
@@ -3650,7 +3980,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Televisie in Nederland"
  },
  {
   "id": "0568",
@@ -3660,7 +3991,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Televisie in Nederland"
  },
  {
   "id": "0569",
@@ -3670,7 +4002,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Televisie in Nederland"
  },
  {
   "id": "0570",
@@ -3680,7 +4013,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Televisie in Nederland"
  },
  {
   "id": "0571",
@@ -3690,7 +4024,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Televisie in Nederland"
  },
  {
   "id": "0572",
@@ -3700,7 +4035,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Televisie in Nederland"
  },
  {
   "id": "0573",
@@ -3710,7 +4046,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Televisie in Nederland"
  },
  {
   "id": "0574",
@@ -3720,7 +4057,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Simon & Garfunkel"
  },
  {
   "id": "0575",
@@ -3730,7 +4068,8 @@
   "genre": "Muziek",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Simon & Garfunkel"
  },
  {
   "id": "0576",
@@ -3740,7 +4079,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0577",
@@ -3750,7 +4090,8 @@
   "genre": "Amusement",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0580",
@@ -3761,7 +4102,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0581",
@@ -3771,7 +4113,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Golden Earring"
  },
  {
   "id": "0582",
@@ -3781,7 +4124,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Golden Earring"
  },
  {
   "id": "0585",
@@ -3792,7 +4136,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Catharina-Amalia der Nederlanden"
  },
  {
   "id": "0586",
@@ -3802,7 +4147,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "0587",
@@ -3813,7 +4159,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0588",
@@ -3823,7 +4170,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0589",
@@ -3834,7 +4182,8 @@
   "formaten": [
    "m4v",
    "mp4"
-  ]
+  ],
+  "onderwerp": "Elvis Presley"
  },
  {
   "id": "0590",
@@ -3845,7 +4194,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0591",
@@ -3895,7 +4245,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Renate Rubinstein"
  },
  {
   "id": "0601",
@@ -3905,7 +4256,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Renate Rubinstein"
  },
  {
   "id": "0602",
@@ -3915,7 +4267,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Willibrord Frequin"
  },
  {
   "id": "0603",
@@ -3925,7 +4278,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Elizabeth II van het Verenigd Koninkrijk"
  },
  {
   "id": "0604",
@@ -3936,7 +4290,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0605",
@@ -3946,7 +4301,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "0606",
@@ -3956,7 +4312,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "0607",
@@ -3966,7 +4323,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "0608",
@@ -3976,7 +4334,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "0609",
@@ -3986,7 +4345,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "0610",
@@ -3996,7 +4356,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "0612",
@@ -4006,7 +4367,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "0613",
@@ -4016,7 +4378,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "0614",
@@ -4026,7 +4389,8 @@
   "genre": "Muziek",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "The Rolling Stones"
  },
  {
   "id": "0615",
@@ -4037,7 +4401,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0616",
@@ -4047,7 +4412,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Elizabeth II van het Verenigd Koninkrijk"
  },
  {
   "id": "0617",
@@ -4057,7 +4423,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Catharina-Amalia der Nederlanden"
  },
  {
   "id": "0618",
@@ -4068,7 +4435,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NPO Doc (platform)"
  },
  {
   "id": "0619",
@@ -4078,7 +4446,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0620",
@@ -4088,7 +4457,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0625",
@@ -4099,7 +4469,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Polygoonjournaal"
  },
  {
   "id": "0627",
@@ -4110,7 +4481,8 @@
   "formaten": [
    "m4v",
    "mp4"
-  ]
+  ],
+  "onderwerp": "Ik vertrek"
  },
  {
   "id": "0628",
@@ -4120,7 +4492,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "EenVandaag"
  },
  {
   "id": "0629",
@@ -4181,7 +4554,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0637",
@@ -4191,7 +4565,8 @@
   "genre": "Nieuws",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0638",
@@ -4201,7 +4576,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "0639",
@@ -4211,7 +4587,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Willem-Alexander der Nederlanden"
  },
  {
   "id": "0641",
@@ -4222,7 +4599,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0644",
@@ -4242,7 +4620,8 @@
   "genre": "Serie & film",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "For All Mankind"
  },
  {
   "id": "0647",
@@ -4252,7 +4631,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0648",
@@ -4262,7 +4642,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0649",
@@ -4272,7 +4653,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Beatles"
  },
  {
   "id": "0650",
@@ -4283,7 +4665,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Beatles"
  },
  {
   "id": "0651",
@@ -4294,7 +4677,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "The Beatles"
  },
  {
   "id": "0652",
@@ -4304,7 +4688,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0653",
@@ -4314,7 +4699,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0654",
@@ -4324,7 +4710,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0655",
@@ -4334,7 +4721,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0656",
@@ -4344,7 +4732,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0657",
@@ -4354,7 +4743,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Moord op John F. Kennedy"
  },
  {
   "id": "0661",
@@ -4374,7 +4764,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0664",
@@ -4384,7 +4775,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "0665",
@@ -4395,7 +4787,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0666",
@@ -4405,7 +4798,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Pink Floyd"
  },
  {
   "id": "0668",
@@ -4415,7 +4809,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Dries van Agt"
  },
  {
   "id": "0669",
@@ -4426,7 +4821,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Dries van Agt"
  },
  {
   "id": "0677",
@@ -4436,7 +4832,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Bernhard van Lippe-Biesterfeld"
  },
  {
   "id": "0679",
@@ -4447,7 +4844,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "CrowdStrike"
  },
  {
   "id": "0680",
@@ -4457,7 +4855,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Linda Ronstadt"
  },
  {
   "id": "0681",
@@ -4467,7 +4866,8 @@
   "genre": "Muziek",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Linda Ronstadt"
  },
  {
   "id": "0682",
@@ -4477,7 +4877,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Dolly Parton"
  },
  {
   "id": "0683",
@@ -4507,7 +4908,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Hart van Nederland"
  },
  {
   "id": "0686",
@@ -4517,7 +4919,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0687",
@@ -4527,7 +4930,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0688",
@@ -4537,7 +4941,8 @@
   "genre": "Talkshow",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Harry Mulisch"
  },
  {
   "id": "0691",
@@ -4548,7 +4953,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0692",
@@ -4558,7 +4964,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "0693",
@@ -4569,7 +4976,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0694",
@@ -4590,7 +4998,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Tegenlicht (televisieprogramma)"
  },
  {
   "id": "0696",
@@ -4610,7 +5019,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Paul Simon (artiest)"
  },
  {
   "id": "0698",
@@ -4630,7 +5040,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Paul Simon (artiest)"
  },
  {
   "id": "0700",
@@ -4640,7 +5051,8 @@
   "genre": "Muziek",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Fleetwood Mac"
  },
  {
   "id": "0701",
@@ -4650,7 +5062,8 @@
   "genre": "Muziek",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Fleetwood Mac"
  },
  {
   "id": "0702",
@@ -4660,7 +5073,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Wim Brands"
  },
  {
   "id": "0703",
@@ -4671,7 +5085,8 @@
   "genre": "Sport",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Johan Cruijff"
  },
  {
   "id": "0705",
@@ -4681,7 +5096,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Brandenburgse Concerten"
  },
  {
   "id": "0706",
@@ -4691,7 +5107,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Brandenburgse Concerten"
  },
  {
   "id": "0708",
@@ -4701,7 +5118,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Maurits Cornelis Escher"
  },
  {
   "id": "0709",
@@ -4711,7 +5129,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Maurits Cornelis Escher"
  },
  {
   "id": "0710",
@@ -4721,7 +5140,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NAVO-top in Den Haag"
  },
  {
   "id": "0711",
@@ -4732,7 +5152,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NAVO-top in Den Haag"
  },
  {
   "id": "0712",
@@ -4743,7 +5164,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Andere Tijden"
  },
  {
   "id": "0713",
@@ -4753,7 +5175,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NAVO-top in Den Haag"
  },
  {
   "id": "0714",
@@ -4764,7 +5187,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NAVO-top in Den Haag"
  },
  {
   "id": "0715",
@@ -4774,7 +5198,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Live Aid"
  },
  {
   "id": "0716",
@@ -4784,7 +5209,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Live Aid"
  },
  {
   "id": "0717",
@@ -4795,7 +5221,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Rutger Hauer"
  },
  {
   "id": "0720",
@@ -4805,7 +5232,8 @@
   "genre": "Amusement",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0721",
@@ -4815,7 +5243,8 @@
   "genre": "Amusement",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "Gouden Televizier-Ring Gala"
  },
  {
   "id": "0722",
@@ -4826,7 +5255,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0723",
@@ -4837,7 +5267,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0724",
@@ -4848,7 +5279,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0725",
@@ -4859,7 +5291,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0726",
@@ -4870,7 +5303,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0727",
@@ -4881,7 +5315,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0728",
@@ -4892,7 +5327,8 @@
   "genre": "Documentaire",
   "formaten": [
    "mp4"
-  ]
+  ],
+  "onderwerp": "VARA"
  },
  {
   "id": "0732",
@@ -4902,7 +5338,8 @@
   "genre": "Documentaire",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Sundar Pichai"
  },
  {
   "id": "0734",
@@ -4912,7 +5349,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "John Lennon"
  },
  {
   "id": "0735",
@@ -4922,7 +5360,8 @@
   "genre": "Muziek",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "John Lennon"
  },
  {
   "id": "0736",
@@ -4932,7 +5371,8 @@
   "genre": "Koningshuis",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "Koninklijk Huis (Koninkrijk der Nederlanden)"
  },
  {
   "id": "0737",
@@ -4942,7 +5382,8 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  },
  {
   "id": "0738",
@@ -4953,6 +5394,7 @@
   "genre": "Nieuws",
   "formaten": [
    "m4v"
-  ]
+  ],
+  "onderwerp": "NOS Journaal"
  }
 ]

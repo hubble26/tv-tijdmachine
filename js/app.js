@@ -1,7 +1,7 @@
 // TV-Tijdmachine — geen build-stap, geen afhankelijkheden.
 // Data: data/opnames.json (de collectie) en data/jaren.json (wat er dat jaar gebeurde).
 
-const state = { opnames: [], jaren: {}, decennium: null, jaar: null, gesproken: "" };
+const state = { opnames: [], jaren: {}, onderwerpen: {}, decennium: null, jaar: null, gesproken: "" };
 const $ = (sel) => document.querySelector(sel);
 
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -110,11 +110,13 @@ const toonPrive = () => $("#toon-prive").checked;
 const zichtbaar = () => state.opnames.filter((o) => toonPrive() || !o.prive);
 
 async function laad() {
-  const [o, j, b] = await Promise.all([
+  const [o, j, b, w] = await Promise.all([
     fetch("data/opnames.json").then((r) => r.json()),
     fetch("data/jaren.json").then((r) => r.json()).catch(() => ({})),
     fetch("data/boxen.json").then((r) => r.json()).catch(() => []),
+    fetch("data/onderwerpen.json").then((r) => r.json()).catch(() => ({})),
   ]);
+  state.onderwerpen = w;
   // Harde schijf (opnames.json) + dvd/videoboxen (boxen.json, met boxnummer).
   state.opnames = o.concat(b)
     .map((x) => ({ ...x, jaar: Number(x.jaar || String(x.datum || "").slice(0, 4)) || null }))
@@ -123,7 +125,7 @@ async function laad() {
   state.jaren = j;
   try { $("#toon-prive").checked = localStorage.getItem("toonPrive") === "1"; } catch {}
   vulFilters();
-  window.addEventListener("hashchange", route);
+  window.addEventListener("hashchange", () => { window.scrollTo(0, 0); route(); });
   ["filter-zender", "filter-genre", "filter-box", "sorteer"].forEach((id) => $("#" + id).addEventListener("input", route));
   $("#zoekveld").addEventListener("input", () => { state.gesproken = ""; route(); });
   $("#toon-prive").addEventListener("change", () => {
@@ -131,6 +133,15 @@ async function laad() {
     route();
   });
   initSpraak();
+  $("#hero-spreek").addEventListener("click", () => $("#spreek").click());
+  $("#zap-verder").addEventListener("click", () => zap(1, true));
+  $("#zap-terug").addEventListener("click", () => zap(-1, true));
+  // Niet verder zappen terwijl iemand met muis of toetsenbord bij het toestel is.
+  const toestel = $(".toestel");
+  ["mouseenter", "focusin"].forEach((e) => toestel.addEventListener(e, () => (state.zapPauze = true)));
+  ["mouseleave", "focusout"].forEach((e) => toestel.addEventListener(e, () => (state.zapPauze = false)));
+  $(".logo").addEventListener("click", () => { wisZoeken(); if (location.hash === "#/") route(); });
+  $("#beeld").addEventListener("click", () => { const o = state.zaplijst?.[state.kanaal]; if (o) toonDetail(String(o.id)); });
   route();
 }
 
@@ -198,10 +209,17 @@ function route() {
   state.jaar = m ? Number(m[1]) : null;
   state.decennium = state.jaar ? Math.floor(state.jaar / 10) * 10 : state.decennium ?? (jaren.length ? Math.floor(jaren[0] / 10) * 10 : 1990);
 
+  // Voorpagina als er niet gezocht wordt en geen jaar gekozen is; anders het bladerscherm.
+  const thuis = !actief && !state.jaar;
+  $("#home").hidden = !thuis;
+  $("#bladeren").hidden = thuis;
+  $(".verfijn").hidden = thuis;
+  if (thuis) { toonHome(jaren); document.title = "TV-Tijdmachine"; return; }
+  stopZappen();
+
   tekenKast(jaren);
   if (actief) toonZoekresultaten(f);
-  else if (state.jaar) toonJaar(state.jaar);
-  else toonWelkom(jaren);
+  else toonJaar(state.jaar);
 
   const s = $("#scherm");
   s.classList.remove("aan"); void s.offsetWidth; s.classList.add("aan");
@@ -242,14 +260,21 @@ function wisZoeken() {
   state.gesproken = ""; $("#spraak-status").hidden = true;
 }
 
+const onderwerp = (o) => (o.onderwerp && state.onderwerpen[o.onderwerp]) || null;
+const beeldVan = (o) => onderwerp(o)?.afbeelding || null;
+
 function kaart(o) {
-  const meta = [datumTekst(o.datum, o.jaar), o.zender].filter(Boolean).map(esc).join(" · ");
+  const meta = [datumTekst(o.datum, o.jaar), o.zender].filter(Boolean).map(esc).join(", ");
+  const img = beeldVan(o);
   return `<li><button class="kaart" data-id="${esc(o.id)}">
+      <span class="kaart-beeld${img ? "" : " zonder"}">${img ? `<img src="${esc(img)}" alt="" loading="lazy">` : ""}</span>
+      <span>
       <span class="titel">${esc(o.titel)}</span>
       <span class="meta">${meta}</span>
       ${o.box ? `<span class="label box">Box ${o.box}</span>` : ""}
       ${o.genre ? `<span class="label${o.prive ? " prive" : ""}">${esc(o.genre)}</span>` : ""}
       ${o.voorbeeld ? `<span class="label voorbeeld">voorbeeld</span>` : ""}
+      </span>
     </button></li>`;
 }
 
@@ -338,16 +363,146 @@ function toonDetail(id) {
   const o = state.opnames.find((x) => String(x.id) === id);
   if (!o) return;
   const rij = (k, v) => (v ? `<dt>${k}</dt><dd>${esc(v)}</dd>` : "");
+  const w = onderwerp(o);
   $("#detail-inhoud").innerHTML = `
+    ${w?.afbeelding ? `<div class="detail-beeld"><img src="${esc(w.afbeelding)}" alt="${esc(w.titel)}"></div>` : ""}
     <h3>${esc(o.titel)}</h3>
     <dl>
       ${rij("Datum", datumTekst(o.datum, o.jaar))}${rij("Zender", o.zender)}${rij("Genre", o.genre)}${rij("Box", o.box ? `Box ${o.box}${o.boxnaam ? " · " + o.boxnaam : ""}` : "")}${rij("Rubriek", o.rubriek)}
       ${rij("Duur", o.duur)}${rij("Drager", o.drager)}${rij("Bestanden", (o.formaten || []).join(", "))}
     </dl>
     ${o.beschrijving ? `<p>${esc(o.beschrijving)}</p>` : ""}
-    ${o.jaar ? `<p><a href="#/${o.jaar}" id="meer-uit-jaar">Meer uit ${o.jaar} →</a></p>` : ""}`;
+    ${w ? `<div class="wiki"><p>${esc(w.samenvatting)}</p><p class="bron">Over ${esc(w.titel)}, uit <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikipedia</a>${o.zeker === false ? ". Automatisch gekoppeld, mogelijk niet juist" : ""}.</p></div>` : ""}
+    ${o.jaar ? `<p><a href="#/${o.jaar}" id="meer-uit-jaar">Meer uit ${o.jaar}</a></p>` : ""}`;
   $("#meer-uit-jaar")?.addEventListener("click", () => { wisZoeken(); $("#detail").close(); });
   $("#detail").showModal();
+}
+
+// ---------- Voorpagina ----------
+const MAANDEN = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
+
+// Dag van het jaar (1-366), los van het jaartal, om "rond deze dag" te vinden.
+const dagVanJaar = (m, d) => Math.round((Date.UTC(2000, m - 1, d) - Date.UTC(2000, 0, 1)) / 864e5);
+
+// Vaste "willekeurige" volgorde per dag, zodat de voorpagina een dag lang hetzelfde blijft.
+function geschud(lijst, zaad) {
+  const a = [...lijst];
+  let s = zaad;
+  for (let i = a.length - 1; i > 0; i--) { s = (s * 9301 + 49297) % 233280; const j = Math.floor((s / 233280) * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; }
+  return a;
+}
+
+function rondDezeDag(vandaag, venster = 7) {
+  const nu = dagVanJaar(vandaag.getMonth() + 1, vandaag.getDate());
+  return zichtbaar()
+    .filter((o) => /^\d{4}-\d{2}-\d{2}$/.test(o.datum || ""))
+    .map((o) => {
+      const [, m, d] = o.datum.split("-").map(Number);
+      let v = Math.abs(dagVanJaar(m, d) - nu); v = Math.min(v, 366 - v);
+      return { o, v };
+    })
+    .filter((x) => x.v <= venster)
+    .sort((a, b) => a.v - b.v || b.o.jaar - a.o.jaar)
+    .map((x) => x.o);
+}
+
+function toonHome(jaren) {
+  const vandaag = new Date();
+  const zaad = vandaag.getFullYear() * 1000 + dagVanJaar(vandaag.getMonth() + 1, vandaag.getDate());
+  const dag = `${vandaag.getDate()} ${MAANDEN[vandaag.getMonth()]}`;
+  const rond = rondDezeDag(vandaag);
+
+  $("#hero-kop").textContent = rond.length ? `Wat was er op tv rond ${dag}?` : "Wat staat er in het archief?";
+  const metBeeld = rond.filter(beeldVan);
+  const vulling = geschud(zichtbaar().filter((o) => beeldVan(o) && !metBeeld.includes(o)), zaad);
+  state.zaplijst = [...metBeeld, ...vulling].slice(0, 12);
+  const jarenRond = [...new Set(rond.map((o) => o.jaar))];
+  $("#hero-sub").textContent = rond.length
+    ? `${rond.length} ${rond.length === 1 ? "opname" : "opnames"} uit deze week, opgenomen in ${jarenRond.length === 1 ? jarenRond[0] : `${jarenRond.length} verschillende jaren`}. Het toestel zapt erlangs; druk op het beeld voor meer.`
+    : `${zichtbaar().length} opnames van ${jaren[0]} tot ${jaren[jaren.length - 1]}. Het toestel zapt erlangs; druk op het beeld voor meer.`;
+
+  if (state.kanaal == null || state.kanaal >= state.zaplijst.length) state.kanaal = 0;
+  toonKanaal(false);
+  startZappen();
+  tekenPlank(jaren);
+  tekenRijen(zaad);
+}
+
+function toonKanaal(metRuis) {
+  const o = state.zaplijst?.[state.kanaal];
+  if (!o) return;
+  const b = $("#beeld");
+  if (metRuis) { b.classList.remove("zap"); void b.offsetWidth; b.classList.add("zap"); }
+  $("#beeld-img").src = beeldVan(o);
+  $("#beeld-img").alt = onderwerp(o)?.titel || "";
+  $("#osd").textContent = state.kanaal + 1;
+  $("#ondertitel").innerHTML = `<span>${esc(o.titel)}</span><br><span class="tt-cyaan">${esc(datumTekst(o.datum, o.jaar))}</span>`;
+  $("#paneel-tekst").textContent = `Zender ${state.kanaal + 1} van ${state.zaplijst.length}`;
+}
+
+function zap(stap, doorGebruiker) {
+  if (!state.zaplijst?.length) return;
+  state.kanaal = (state.kanaal + stap + state.zaplijst.length) % state.zaplijst.length;
+  toonKanaal(true);
+  if (doorGebruiker) startZappen(); // timer opnieuw beginnen na zelf zappen
+}
+
+const rustig = () => window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+function startZappen() {
+  stopZappen();
+  if (rustig()) return;
+  state.zapTimer = setInterval(() => {
+    if (document.hidden || state.zapPauze) return;
+    zap(1, false);
+  }, 6500);
+}
+function stopZappen() { clearInterval(state.zapTimer); state.zapTimer = null; }
+
+function tekenPlank(jaren) {
+  const tel = {};
+  zichtbaar().forEach((o) => o.jaar && (tel[o.jaar] = (tel[o.jaar] || 0) + 1));
+  const max = Math.max(1, ...Object.values(tel));
+  let html = "", dec = null;
+  for (const j of jaren) {
+    const d = Math.floor(j / 10) * 10;
+    if (d !== dec) { dec = d; html += `<span class="boekensteun" aria-hidden="true">'${String(d).slice(2)}</span>`; }
+    const n = tel[j] || 0;
+    // Dikte naar aantal opnames; een klein beetje scheef, zoals in een echte kast.
+    const dikte = Math.round(26 + (n / max) * 26);
+    const r = ((j * 37) % 7 - 3) * 0.35;
+    const scheef = ((j * 53) % 5 - 2) * 0.6;
+    html += `<a class="band" href="#/${j}" style="--dikte:${dikte}px;--r:${r}deg;--scheef:${scheef}deg" aria-label="${j}, ${n} opnames">
+      <span class="etiket"><span class="jaar-stift">${j}</span></span><span class="aantal" aria-hidden="true">${n}</span></a>`;
+  }
+  $("#plank").innerHTML = html;
+  $("#plank").querySelectorAll("a").forEach((a) => a.addEventListener("click", wisZoeken));
+}
+
+function tegel(o) {
+  const img = beeldVan(o);
+  return `<li><button class="tegel" data-id="${esc(o.id)}">
+    <span class="tegel-beeld${img ? "" : " zonder"}">${img ? `<img src="${esc(img)}" alt="" loading="lazy">` : esc(o.titel)}</span>
+    <span class="tegel-titel">${esc(o.titel)}</span>
+    <span class="tegel-meta">${esc([datumTekst(o.datum, o.jaar), o.zender].filter(Boolean).join(", "))}</span>
+  </button></li>`;
+}
+
+function tekenRijen(zaad) {
+  const perGenre = {};
+  zichtbaar().filter((o) => o.genre && o.genre !== "Familie").forEach((o) => (perGenre[o.genre] ||= []).push(o));
+  const genres = Object.entries(perGenre).sort((a, b) => b[1].length - a[1].length);
+  $("#rijen").innerHTML = genres.map(([g, lijst]) => {
+    // Eerst opnames met afbeelding, in een vaste volgorde per dag; daarna de rest.
+    const keuze = [...geschud(lijst.filter(beeldVan), zaad), ...lijst.filter((o) => !beeldVan(o))].slice(0, 16);
+    return `<section aria-label="${esc(g)}">
+      <div class="sectiekop"><h2>${esc(g)}</h2><p>${lijst.length} opnames</p>
+        <button type="button" class="knop-link" data-genre="${esc(g)}">Alle ${lijst.length} bekijken</button></div>
+      <ul class="rij-lijst">${keuze.map(tegel).join("")}</ul></section>`;
+  }).join("");
+  $("#rijen").querySelectorAll(".tegel").forEach((b) => b.addEventListener("click", () => toonDetail(b.dataset.id)));
+  $("#rijen").querySelectorAll("[data-genre]").forEach((b) => b.addEventListener("click", () => {
+    $("#filter-genre").value = b.dataset.genre; window.scrollTo(0, 0); route();
+  }));
 }
 
 // ---------- Spraak ----------
@@ -379,7 +534,7 @@ function initSpraak() {
     try { rec.start(); } catch {}
   });
   rec.onstart = () => {
-    luistert = true; knop.classList.add("luistert"); knop.setAttribute("aria-label", "Stop met luisteren");
+    luistert = true; knop.classList.add("luistert"); $("#hero-spreek").classList.add("luistert"); knop.setAttribute("aria-label", "Stop met luisteren");
     status("Ik luister… vraag bijvoorbeeld: “alle video's van Pink Floyd” of “journaals uit de jaren negentig”.");
     stopNa(6000); // niemand begint te praten → na 6 s stoppen
     clearTimeout(maxTimer); maxTimer = setTimeout(() => rec.stop(), MAX);
@@ -402,7 +557,7 @@ function initSpraak() {
   };
   rec.onend = () => {
     luistert = false; clearTimeout(stilteTimer); clearTimeout(maxTimer);
-    knop.classList.remove("luistert"); knop.setAttribute("aria-label", "Vraag het met je stem");
+    knop.classList.remove("luistert"); $("#hero-spreek").classList.remove("luistert"); knop.setAttribute("aria-label", "Vraag het met je stem");
     if (fout) return;
     // Kandidaten: per alternatief (1e, 2e, 3e) de hele zin. Bij geen definitieve tekst: de voorlopige.
     const delen = definitief.filter(Boolean);

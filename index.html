@@ -4,51 +4,93 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TV-Tijdmachine</title>
-  <meta name="description" content="Blader door decennia televisiegeschiedenis: een privécollectie tv-opnames, jaar voor jaar, met wat er toen gebeurde.">
+  <meta name="description" content="Het tv-archief van één liefhebber: ruim duizend opnames van 1992 tot nu, jaar voor jaar, met wat er toen gebeurde.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=VT323&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Permanent+Marker&family=VT323&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='3' y='7' width='26' height='19' rx='4' fill='%23e8a33d'/><rect x='6' y='10' width='16' height='13' rx='2' fill='%23161310'/><circle cx='25.5' cy='13' r='1.6' fill='%23161310'/><circle cx='25.5' cy='19' r='1.6' fill='%23161310'/><path d='M11 7 7 2M19 7l4-5' stroke='%23e8a33d' stroke-width='2' stroke-linecap='round'/></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='2' y='8' width='28' height='17' rx='2' fill='%23111'/><rect x='5' y='11' width='22' height='8' fill='%23ece3cf'/><circle cx='11' cy='22' r='1.5' fill='%23ece3cf'/><circle cx='21' cy='22' r='1.5' fill='%23ece3cf'/><circle cx='26' cy='5' r='3' fill='%23e5392f'/></svg>">
 </head>
 <body>
   <header class="top">
-    <a class="logo" href="#/">
-      <span class="logo-tv" aria-hidden="true"></span>
+    <a class="logo" href="#/" aria-label="TV-Tijdmachine, naar de voorpagina">
+      <span class="logo-band" aria-hidden="true"></span>
       <span>TV-Tijdmachine</span>
     </a>
     <form class="zoek" role="search" onsubmit="return false">
-      <label class="sr-only" for="zoekveld">Zoek in de collectie</label>
+      <label class="sr-only" for="zoekveld">Zoek in het archief</label>
       <div class="zoekbalk">
-        <input id="zoekveld" type="search" placeholder="Zoek op titel, zender, jaar…" autocomplete="off">
+        <input id="zoekveld" type="search" placeholder="Zoek op programma, persoon of jaar" autocomplete="off">
         <button type="button" id="spreek" class="spreek" aria-label="Vraag het met je stem" title="Vraag het met je stem">
           <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 15a3.5 3.5 0 0 0 3.5-3.5v-6a3.5 3.5 0 1 0-7 0v6A3.5 3.5 0 0 0 12 15Zm6-3.5a1 1 0 1 0-2 0 4 4 0 0 1-8 0 1 1 0 1 0-2 0 6 6 0 0 0 5 5.91V20H8.5a1 1 0 1 0 0 2h7a1 1 0 1 0 0-2H13v-2.59A6 6 0 0 0 18 11.5Z"/></svg>
         </button>
       </div>
-      <select id="filter-zender" aria-label="Filter op zender"><option value="">Alle zenders</option></select>
-      <select id="filter-genre" aria-label="Filter op genre"><option value="">Alle genres</option></select>
-      <select id="filter-box" aria-label="Filter op bron of box"><option value="">Alle bronnen</option><option value="schijf">Harde schijf</option></select>
-      <select id="sorteer" aria-label="Sorteren"><option value="datum">Sorteer op datum</option><option value="box">Sorteer op box</option><option value="titel">Sorteer op titel</option></select>
-      <label class="schakel"><input type="checkbox" id="toon-prive"> Familievideo's</label>
     </form>
   </header>
+
+  <div class="verfijn" aria-label="Verfijn">
+    <select id="filter-zender" aria-label="Filter op zender"><option value="">Alle zenders</option></select>
+    <select id="filter-genre" aria-label="Filter op genre"><option value="">Alle genres</option></select>
+    <select id="filter-box" aria-label="Filter op bron of box"><option value="">Alle bronnen</option><option value="schijf">Harde schijf</option></select>
+    <select id="sorteer" aria-label="Sorteren"><option value="datum">Sorteer op datum</option><option value="box">Sorteer op box</option><option value="titel">Sorteer op titel</option></select>
+    <label class="schakel"><input type="checkbox" id="toon-prive"> Familievideo's</label>
+  </div>
   <p id="spraak-status" class="spraak-status" aria-live="polite" hidden></p>
 
   <main>
-    <section class="kast" aria-label="Kies een periode">
-      <div class="decennia" id="decennia" role="tablist" aria-label="Decennium"></div>
-      <div class="jaren" id="jaren" aria-label="Jaar"></div>
+    <section id="home" class="home" hidden>
+      <div class="hero">
+        <div class="hero-tekst">
+          <h1 id="hero-kop">Wat was er op tv rond deze dag?</h1>
+          <p id="hero-sub" class="hero-sub"></p>
+          <button type="button" class="rec-knop" id="hero-spreek">
+            <span class="rec-punt" aria-hidden="true"></span>
+            Vraag het hardop
+          </button>
+          <p class="hero-hint">Bijvoorbeeld: “alles van Mies Bouwman” of “journaals uit de jaren negentig”.</p>
+        </div>
+
+        <figure class="toestel" aria-roledescription="televisie" aria-label="Zappen door opnames van deze week in eerdere jaren">
+          <div class="beeldbuis">
+            <button type="button" class="beeld" id="beeld" aria-describedby="ondertitel">
+              <img id="beeld-img" alt="">
+              <span class="osd" id="osd" aria-hidden="true">1</span>
+              <span class="ruis" aria-hidden="true"></span>
+            </button>
+            <p class="ondertitel" id="ondertitel"></p>
+          </div>
+          <figcaption class="bedieningspaneel">
+            <button type="button" class="zapknop" id="zap-terug" aria-label="Vorige opname">P−</button>
+            <span class="paneel-tekst" id="paneel-tekst"></span>
+            <button type="button" class="zapknop" id="zap-verder" aria-label="Volgende opname">P+</button>
+          </figcaption>
+        </figure>
+      </div>
+
+      <section class="archiefkast" aria-labelledby="kast-kop">
+        <div class="sectiekop">
+          <h2 id="kast-kop">De kast</h2>
+          <p>Eén band per jaar. Hoe dikker de band, hoe meer er dat jaar is opgenomen.</p>
+        </div>
+        <div class="plank" id="plank"></div>
+      </section>
+
+      <div id="rijen" class="rijen"></div>
     </section>
 
-    <section class="scherm-wrap">
-      <div class="scherm" id="scherm" aria-live="polite">
-        <!-- gevuld door js/app.js -->
-      </div>
-    </section>
+    <div id="bladeren" hidden>
+      <section class="kast" aria-label="Kies een periode">
+        <div class="decennia" id="decennia" role="tablist" aria-label="Decennium"></div>
+        <div class="jaren" id="jaren" aria-label="Jaar"></div>
+      </section>
+      <section class="scherm-wrap">
+        <div class="scherm" id="scherm" aria-live="polite"></div>
+      </section>
+    </div>
   </main>
 
   <footer class="voet">
-    <p>Een privécollectie televisie-opnames, verzameld, gedigitaliseerd en beschreven door een liefhebber. De rechten op de uitzendingen liggen bij de oorspronkelijke omroepen.</p>
+    <p>Een privéarchief van televisie-opnames, verzameld en beschreven door een liefhebber. De rechten op de uitzendingen liggen bij de omroepen. Samenvattingen en afbeeldingen komen van Wikipedia (CC BY-SA), met een link naar het artikel.</p>
   </footer>
 
   <dialog id="detail" class="detail">
