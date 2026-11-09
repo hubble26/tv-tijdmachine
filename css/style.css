@@ -1,19 +1,18 @@
-/* TV-Tijdmachine
-   Materiaal: een tv-meubel uit de jaren negentig. Walnoot, zwart beeldbuisglas,
-   videobanden met zelfgeschreven etiketten. Teletekstkleuren alleen waar "signaal" is. */
+/* TV-Tijdmachine — huisstijl: donker tv-meubel, amber knoppen, fosforgroen beeldbuislicht.
+   Lettertypes: VT323 (beeldschermtekst, koppen) en IBM Plex Sans (lopende tekst). */
 :root {
-  --walnoot: #2a1c13;
-  --walnoot-2: #3d2a1d;
-  --fineer: #5a3d27;
-  --glas: #050505;
-  --papier: #ece3cf;
-  --inkt: #1f1b16;
-  --tekst: #f2e8d8;
-  --tekst-zacht: #bfae96;
-  --tt-geel: #ffe14d;
-  --tt-cyaan: #3fd0e0;
-  --tt-rood: #e5392f;
-  --rand: rgba(242, 232, 216, 0.14);
+  --walnoot: #1a140f;
+  --walnoot-2: #2a211a;
+  --fineer: #5b3f2a;
+  --glas: #12160f;
+  --papier: #f3c97e;      /* amber-zacht: etiketten en knoppen */
+  --inkt: #2a1a08;
+  --tekst: #f2e9dc;
+  --tekst-zacht: #b8a993;
+  --tt-geel: #e8a33d;     /* amber */
+  --tt-cyaan: #b9e4a6;    /* fosfor */
+  --tt-rood: #d9534f;
+  --rand: rgba(242, 233, 220, 0.12);
   --gutter: max(16px, calc((100vw - 1180px) / 2));
 }
 
@@ -21,13 +20,8 @@
 html { -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; min-height: 100vh; color: var(--tekst);
-  font: 400 17px/1.6 "Archivo", system-ui, sans-serif;
-  background-color: var(--walnoot);
-  /* fineer: lange, rustige nerven */
-  background-image:
-    repeating-linear-gradient(97deg, rgba(0,0,0,.07) 0 2px, transparent 2px 11px, rgba(255,220,180,.025) 11px 13px, transparent 13px 29px),
-    radial-gradient(ellipse 120% 70% at 30% 0%, #3a281b 0%, var(--walnoot) 70%);
-  background-attachment: fixed;
+  font: 400 17px/1.6 "IBM Plex Sans", system-ui, sans-serif;
+  background: radial-gradient(ellipse at top, #33271d 0%, var(--walnoot) 60%) fixed, var(--walnoot);
 }
 a { color: var(--tt-geel); text-underline-offset: 3px; }
 :focus-visible { outline: 3px solid var(--tt-cyaan); outline-offset: 2px; }
@@ -37,7 +31,7 @@ a { color: var(--tt-geel); text-underline-offset: 3px; }
 /* ---------- Kop ---------- */
 .top { display: flex; flex-wrap: wrap; gap: 12px 28px; align-items: center; justify-content: space-between; padding: 20px var(--gutter) 10px; }
 .logo { display: flex; align-items: center; gap: 12px; text-decoration: none; color: var(--tekst);
-  font: 800 26px/1 "Archivo", sans-serif; font-stretch: 70%; letter-spacing: .2px; }
+  font: 800 26px/1 "IBM Plex Sans", sans-serif; letter-spacing: .2px; }
 .logo-band { width: 38px; height: 24px; border-radius: 3px; background: #111; position: relative; box-shadow: inset 0 0 0 2px #222; flex: 0 0 auto; }
 .logo-band::before { content: ""; position: absolute; left: 5px; right: 5px; top: 5px; height: 7px; background: var(--papier); border-radius: 1px; }
 .logo-band::after { content: ""; position: absolute; left: 9px; bottom: 4px; width: 5px; height: 5px; border-radius: 50%; background: var(--papier); box-shadow: 15px 0 0 var(--papier); }
@@ -58,7 +52,7 @@ a { color: var(--tt-geel); text-underline-offset: 3px; }
 
 .verfijn { display: flex; flex-wrap: wrap; gap: 8px 10px; align-items: center; padding: 0 var(--gutter) 16px; }
 .verfijn select {
-  font: 500 14px "Archivo", sans-serif; color: var(--tekst); background: #1d140d;
+  font: 500 14px "IBM Plex Sans", sans-serif; color: var(--tekst); background: #1d140d;
   border: 1px solid var(--rand); border-radius: 4px; padding: 6px 8px; max-width: 100%;
 }
 .schakel { display: flex; align-items: center; gap: 6px; color: var(--tekst-zacht); font-size: 14px; cursor: pointer; }
@@ -73,11 +67,11 @@ main { padding: 0 var(--gutter) 48px; }
 
 /* ---------- Hero: het toestel ---------- */
 .hero { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(24px, 4vw, 56px); align-items: center; padding: 12px 0 44px; }
-.hero h1 { margin: 0; font: 850 clamp(42px, 6.2vw, 86px)/.92 "Archivo", sans-serif; font-stretch: 62%; letter-spacing: -.5px; text-wrap: balance; }
+.hero h1 { margin: 0; font: 850 clamp(42px, 6.2vw, 86px)/.92 "IBM Plex Sans", sans-serif; letter-spacing: -.5px; text-wrap: balance; }
 .hero-sub { margin: 18px 0 26px; max-width: 42ch; color: var(--tekst-zacht); font-size: 18px; }
 .rec-knop {
   display: inline-flex; align-items: center; gap: 12px; cursor: pointer;
-  font: 700 19px "Archivo", sans-serif; font-stretch: 85%; color: var(--inkt);
+  font: 700 19px "IBM Plex Sans", sans-serif; color: var(--inkt);
   background: var(--papier); border: 0; border-radius: 4px; padding: 14px 22px 14px 18px;
   box-shadow: inset 0 -4px 0 rgba(0,0,0,.18), 0 2px 0 #000;
 }
@@ -121,9 +115,9 @@ main { padding: 0 var(--gutter) 48px; }
 
 /* ---------- De kast met banden ---------- */
 .sectiekop { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 18px; margin: 0 0 14px; }
-.sectiekop h2 { margin: 0; font: 800 36px/1 "Archivo", sans-serif; font-stretch: 62%; }
+.sectiekop h2 { margin: 0; font: 800 36px/1 "IBM Plex Sans", sans-serif; }
 .sectiekop p { margin: 0; color: var(--tekst-zacht); font-size: 15px; max-width: 60ch; }
-.sectiekop .knop-link { margin-left: auto; font: 600 15px "Archivo", sans-serif; color: var(--tt-geel); background: none; border: 0; cursor: pointer; padding: 4px 0; text-decoration: underline; text-underline-offset: 3px; }
+.sectiekop .knop-link { margin-left: auto; font: 600 15px "IBM Plex Sans", sans-serif; color: var(--tt-geel); background: none; border: 0; cursor: pointer; padding: 4px 0; text-decoration: underline; text-underline-offset: 3px; }
 
 .archiefkast { margin: 8px 0 48px; }
 .plank {
@@ -133,7 +127,7 @@ main { padding: 0 var(--gutter) 48px; }
   scrollbar-width: thin;
 }
 .boekensteun { flex: 0 0 auto; align-self: stretch; display: flex; align-items: flex-end; padding: 0 8px 12px 12px;
-  font: 400 28px/1 "Permanent Marker", cursive; color: var(--tekst-zacht); }
+  font: 400 28px/1 "VT323", monospace; color: var(--tekst-zacht); }
 .band {
   --dikte: 34px; flex: 0 0 var(--dikte); height: var(--hoogte, 196px); position: relative; cursor: pointer; text-decoration: none;
   background: linear-gradient(90deg, #0d0d0d, #1f1f1f 45%, #111); border-radius: 2px 2px 0 0;
@@ -145,7 +139,7 @@ main { padding: 0 var(--gutter) 48px; }
   background: var(--papier); border-radius: 1px; display: flex; align-items: center; justify-content: center;
   box-shadow: inset 0 0 0 1px rgba(0,0,0,.06);
 }
-.band .jaar-stift { writing-mode: vertical-rl; rotate: 180deg; font: 400 22px/1 "Permanent Marker", cursive; color: var(--inkt); }
+.band .jaar-stift { writing-mode: vertical-rl; rotate: 180deg; font: 400 22px/1 "VT323", monospace; color: var(--inkt); }
 .band .aantal { position: absolute; bottom: 6px; left: 0; right: 0; text-align: center; font: 18px/1 "VT323", monospace; color: var(--tekst-zacht); }
 @media (prefers-reduced-motion: reduce) { .band { transition: none; } }
 
@@ -161,7 +155,7 @@ main { padding: 0 var(--gutter) 48px; }
 .tegel-beeld img { width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(.85); transition: filter .2s; }
 .tegel:hover .tegel-beeld img, .tegel:focus-visible .tegel-beeld img { filter: saturate(1.1) brightness(1.05); }
 .tegel-beeld.zonder { background: var(--papier); display: flex; align-items: center; justify-content: center; padding: 14px; text-align: center;
-  font: 400 19px/1.15 "Permanent Marker", cursive; color: var(--inkt); box-shadow: 0 0 0 4px #111; }
+  font: 400 19px/1.15 "VT323", monospace; color: var(--inkt); box-shadow: 0 0 0 4px #111; }
 .tegel-titel { display: block; margin-top: 12px; font-weight: 600; font-size: 16px; line-height: 1.3; }
 .tegel-meta { display: block; margin-top: 2px; font-size: 14px; color: var(--tekst-zacht); }
 
@@ -169,10 +163,10 @@ main { padding: 0 var(--gutter) 48px; }
 .kast { background: linear-gradient(180deg, var(--fineer), #4a3220); border-radius: 10px 10px 0 0; padding: 14px 14px 10px; border: 1px solid rgba(0,0,0,.4); border-bottom: 0; }
 .decennia, .jaren { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: thin; padding-bottom: 4px; }
 .jaren { margin-top: 4px; padding: 8px 8px 4px 0; }
-.decennium { font: 400 24px/1 "Permanent Marker", cursive; background: var(--papier); color: var(--inkt); border: 0;
+.decennium { font: 400 24px/1 "VT323", monospace; background: var(--papier); color: var(--inkt); border: 0;
   border-radius: 3px; padding: 6px 14px 4px; cursor: pointer; flex: 0 0 auto; opacity: .6; }
 .decennium[aria-selected="true"] { opacity: 1; box-shadow: 0 3px 0 var(--tt-geel); }
-.jaar { font: 600 15px/1 "Archivo", sans-serif; color: var(--tekst); background: rgba(0,0,0,.28); border: 1px solid transparent;
+.jaar { font: 600 15px/1 "IBM Plex Sans", sans-serif; color: var(--tekst); background: rgba(0,0,0,.28); border: 1px solid transparent;
   border-radius: 4px; padding: 8px 12px 10px; cursor: pointer; flex: 0 0 auto; position: relative; text-decoration: none; }
 .jaar.leeg { color: var(--tekst-zacht); opacity: .5; }
 .jaar.heeft::after { content: attr(data-aantal); position: absolute; top: -7px; right: -6px; background: var(--tt-geel); color: #000;
@@ -189,8 +183,8 @@ main { padding: 0 var(--gutter) 48px; }
 @media (prefers-reduced-motion: reduce) { .scherm.aan { animation: none; } }
 
 .jaartal { font: 400 clamp(72px, 14vw, 132px)/.85 "VT323", monospace; color: #8dff8d; text-shadow: 0 0 16px rgba(109,255,109,.35); margin: 0; }
-.kop { font: 700 clamp(20px, 2.6vw, 26px)/1.2 "Archivo", sans-serif; font-stretch: 75%; color: var(--tt-geel); margin: 6px 0 22px; }
-.scherm h2 { font: 800 28px/1.1 "Archivo", sans-serif; font-stretch: 62%; color: var(--tekst); margin: 30px 0 12px; position: relative; z-index: 1; }
+.kop { font: 700 clamp(20px, 2.6vw, 26px)/1.2 "IBM Plex Sans", sans-serif; color: var(--tt-geel); margin: 6px 0 22px; }
+.scherm h2 { font: 800 28px/1.1 "IBM Plex Sans", sans-serif; color: var(--tekst); margin: 30px 0 12px; position: relative; z-index: 1; }
 .context { border-left: 3px solid var(--tt-cyaan); padding: 2px 0 2px 16px; margin: 0; list-style: none; max-width: 70ch; }
 .context li + li { margin-top: 6px; }
 .context-leeg, .leeg-scherm { color: var(--tekst-zacht); max-width: 60ch; position: relative; z-index: 1; }
@@ -204,13 +198,13 @@ main { padding: 0 var(--gutter) 48px; }
 .kaart-beeld.zonder { background: var(--papier); opacity: .85; }
 .kaart .titel { font-weight: 600; display: block; line-height: 1.3; }
 .kaart .meta { font-size: 14px; color: var(--tekst-zacht); display: block; margin-top: 2px; }
-.label { display: inline-block; font: 600 12px/1.6 "Archivo", sans-serif; background: rgba(63,208,224,.12); color: var(--tt-cyaan);
+.label { display: inline-block; font: 600 12px/1.6 "IBM Plex Sans", sans-serif; background: rgba(63,208,224,.12); color: var(--tt-cyaan);
   border-radius: 3px; padding: 0 6px; margin: 6px 4px 0 0; }
 .label.prive { background: rgba(242,232,216,.1); color: var(--tekst-zacht); }
 .label.box { background: rgba(255,225,77,.12); color: var(--tt-geel); }
 .label.voorbeeld { background: rgba(229,57,47,.18); color: #ff9a92; }
 
-.knop { font: 700 15px "Archivo", sans-serif; background: var(--papier); color: var(--inkt); border: 0; border-radius: 4px; padding: 10px 18px; cursor: pointer;
+.knop { font: 700 15px "IBM Plex Sans", sans-serif; background: var(--papier); color: var(--inkt); border: 0; border-radius: 4px; padding: 10px 18px; cursor: pointer;
   text-decoration: none; display: inline-block; box-shadow: inset 0 -3px 0 rgba(0,0,0,.15); }
 /* "Bedoelde je …?" */
 .link-knop { font: inherit; color: var(--tt-geel); background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
@@ -223,7 +217,7 @@ main { padding: 0 var(--gutter) 48px; }
 .detail > form { padding-bottom: 22px; }
 .detail-beeld { margin: 0 -24px 18px; aspect-ratio: 16 / 9; background: #000; overflow: hidden; }
 .detail-beeld img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.detail h3 { margin: 22px 0 4px; font: 800 30px/1.05 "Archivo", sans-serif; font-stretch: 70%; }
+.detail h3 { margin: 22px 0 4px; font: 800 30px/1.05 "IBM Plex Sans", sans-serif; }
 .detail-beeld + h3 { margin-top: 0; }
 .detail dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 16px; margin: 14px 0; font-size: 15px; }
 .detail dt { color: var(--tekst-zacht); }
@@ -249,3 +243,67 @@ main { padding: 0 var(--gutter) 48px; }
   .band { --dikte: 30px; }
   .rij-lijst { grid-auto-columns: minmax(170px, 68vw); }
 }
+
+/* ---------- Huisstijl: VT323-koppen, amber, afgeronde vormen ---------- */
+.logo { font: 400 34px/1 "VT323", monospace; color: var(--tt-geel); letter-spacing: 1px; }
+.logo-band { background: var(--tt-geel); box-shadow: none; border-radius: 6px; }
+.logo-band::before, .logo-band::after { background: var(--inkt); }
+.logo-band::after { box-shadow: 15px 0 0 var(--inkt); }
+
+.zoekbalk input { color: var(--tekst); background: var(--walnoot-2); border: 1px solid var(--rand); border-radius: 10px; box-shadow: none; }
+.zoekbalk input::placeholder { color: var(--tekst-zacht); }
+.zoekbalk input:focus { outline: 2px solid var(--tt-geel); outline-offset: 1px; }
+.spreek { background: var(--tt-geel); color: var(--inkt); border-radius: 10px; box-shadow: none; }
+.spreek.luistert { color: #fff; }
+@keyframes rec { 0%, 100% { background: var(--tt-rood); box-shadow: 0 0 0 0 rgba(217,83,79,.6); } 50% { background: var(--tt-rood); box-shadow: 0 0 0 8px rgba(217,83,79,0); } }
+.verfijn select { background: var(--walnoot-2); border-radius: 10px; padding: 8px 10px; }
+.spraak-status { border-radius: 10px; background: rgba(232,163,61,.12); border: 1px solid rgba(232,163,61,.35); color: var(--papier);
+  font: 400 16px/1.5 "IBM Plex Sans", sans-serif; }
+:focus-visible { outline-color: var(--tt-geel); }
+
+.hero h1 { font: 400 clamp(52px, 7.4vw, 104px)/.9 "VT323", monospace; color: var(--tt-cyaan); text-shadow: 0 0 18px rgba(185,228,166,.3); letter-spacing: 0; }
+.rec-knop { background: var(--tt-geel); color: var(--inkt); border-radius: 10px; font: 600 17px "IBM Plex Sans", sans-serif; box-shadow: none; }
+.rec-knop:active { box-shadow: none; }
+.rec-punt { background: #fff; box-shadow: 0 0 0 3px rgba(255,255,255,.3); }
+.rec-knop.luistert { background: var(--tt-rood); color: #fff; }
+
+.toestel { background: var(--walnoot-2); border-radius: 14px; border: 1px solid rgba(0,0,0,.4); }
+.beeldbuis { border-radius: 22px; box-shadow: inset 0 0 60px rgba(0,0,0,.8), 0 0 0 6px #0c0a08; }
+.osd { color: var(--tt-cyaan); text-shadow: 0 0 10px rgba(185,228,166,.6), 2px 2px 0 #000; }
+.ondertitel { color: var(--papier); }
+.ondertitel .tt-cyaan { color: var(--tt-cyaan); }
+.zapknop { background: var(--walnoot); border-radius: 999px; padding: 8px 18px; color: var(--tekst-zacht); box-shadow: inset 0 -3px 0 rgba(0,0,0,.35); }
+
+.sectiekop h2 { font: 400 40px/1 "VT323", monospace; color: var(--tt-cyaan); }
+.plank { border-radius: 14px 14px 0 0; background: linear-gradient(180deg, #2a211a, #1a140f); border-bottom-color: var(--fineer); }
+.boekensteun { font: 400 30px/1 "VT323", monospace; color: var(--tt-geel); }
+.band .etiket { border-radius: 3px; }
+.band .jaar-stift { font: 400 24px/1 "VT323", monospace; }
+
+.tegel-beeld { border-radius: 12px; box-shadow: 0 0 0 1px var(--rand); }
+.tegel-beeld.zonder { font: 400 22px/1.1 "VT323", monospace; border-radius: 12px; box-shadow: none; }
+.tegel-titel { font-weight: 600; }
+
+.kast { background: linear-gradient(180deg, var(--fineer), #4a3322); border-radius: 14px 14px 0 0; }
+.decennium { font: 400 26px/1 "VT323", monospace; background: var(--walnoot-2); color: var(--tekst-zacht); border-radius: 999px; padding: 8px 18px; opacity: 1;
+  box-shadow: inset 0 -3px 0 rgba(0,0,0,.35); }
+.decennium[aria-selected="true"] { background: var(--tt-geel); color: var(--inkt); box-shadow: inset 0 -3px 0 rgba(0,0,0,.35); }
+.jaar { border-radius: 10px; font-weight: 500; }
+.jaar.heeft::after { background: var(--tt-geel); color: var(--inkt); font: 600 11px/18px "IBM Plex Sans", sans-serif; border-radius: 9px; }
+.jaar[aria-current="true"] { border-color: var(--tt-geel); background: rgba(232,163,61,.18); }
+.scherm-wrap { background: var(--walnoot-2); border-radius: 0 0 14px 14px; }
+.scherm { border-radius: 22px; background: radial-gradient(ellipse at center, #1b2117, var(--glas) 75%); }
+.jaartal { color: var(--tt-cyaan); text-shadow: 0 0 18px rgba(185,228,166,.35); }
+.kop { color: var(--papier); font: 500 clamp(18px, 2.6vw, 22px)/1.3 "IBM Plex Sans", sans-serif; }
+.scherm h2 { font: 400 28px/1.1 "VT323", monospace; color: var(--tt-cyaan); }
+.context { border-left-color: var(--tt-geel); }
+.kaart { border-radius: 12px; padding: 12px; }
+.kaart:hover, .kaart:focus-visible { border-color: var(--tt-geel); background: rgba(232,163,61,.08); }
+.kaart-beeld { border-radius: 8px; }
+.label { background: rgba(185,228,166,.12); color: var(--tt-cyaan); border-radius: 6px; padding: 1px 7px; }
+.label.box { background: rgba(232,163,61,.18); color: var(--papier); }
+
+.knop { background: var(--tt-geel); color: var(--inkt); border-radius: 10px; font: 600 15px "IBM Plex Sans", sans-serif; box-shadow: none; }
+.link-knop, .sectiekop .knop-link, a { color: var(--papier); }
+.detail { background: #3a2d22; border-radius: 14px; }
+.detail h3 { font: 600 24px/1.2 "IBM Plex Sans", sans-serif; }
