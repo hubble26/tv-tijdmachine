@@ -1,0 +1,86 @@
+[
+  {
+    "id": "voorbeeld-001",
+    "titel": "Voorbeeldopname: avondjournaal",
+    "zender": "Nederland 1",
+    "datum": "1980-04-30",
+    "jaar": 1980,
+    "genre": "Nieuws",
+    "duur": "25 min",
+    "drager": "VHS",
+    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
+    "voorbeeld": true
+  },
+  {
+    "id": "voorbeeld-002",
+    "titel": "Voorbeeldopname: zaterdagavondshow",
+    "zender": "Nederland 2",
+    "datum": "1983-11-12",
+    "jaar": 1983,
+    "genre": "Amusement",
+    "duur": "60 min",
+    "drager": "VHS",
+    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
+    "voorbeeld": true
+  },
+  {
+    "id": "voorbeeld-003",
+    "titel": "Voorbeeldopname: Elfstedentocht-verslag",
+    "zender": "Nederland 1",
+    "datum": "1985-02-21",
+    "jaar": 1985,
+    "genre": "Sport",
+    "duur": "180 min",
+    "drager": "Betamax",
+    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
+    "voorbeeld": true
+  },
+  {
+    "id": "voorbeeld-004",
+    "titel": "Voorbeeldopname: EK-finale",
+    "zender": "Nederland 1",
+    "datum": "1988-06-25",
+    "jaar": 1988,
+    "genre": "Sport",
+    "duur": "120 min",
+    "drager": "VHS",
+    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
+    "voorbeeld": true
+  },
+  {
+    "id": "voorbeeld-005",
+    "titel": "Voorbeeldopname: nieuwsuitzending val van de Muur",
+    "zender": "Nederland 3",
+    "datum": "1989-11-10",
+    "jaar": 1989,
+    "genre": "Nieuws",
+    "duur": "30 min",
+    "drager": "VHS",
+    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
+    "voorbeeld": true
+  },
+  {
+    "id": "voorbeeld-006",
+    "titel": "Voorbeeldopname: eerste uitzendavond commerciële zender",
+    "zender": "RTL-Véronique",
+    "datum": "1989-10-02",
+    "jaar": 1989,
+    "genre": "Amusement",
+    "duur": "45 min",
+    "drager": "VHS",
+    "beschrijving": "Voorbeeldregel. Wordt vervangen zodra de echte collectie is ingeladen.",
+    "voorbeeld": true
+  },
+  {
+    "id": "voorbeeld-007",
+    "titel": "Voorbeeldopname: muziekprogramma",
+    "zender": "Nederland 2",
+    "datum": "1992",
+    "jaar": 1992,
+    "genre": "Muziek",
+    "duur": "50 min",
+    "drager": "VHS",
+    "beschrijving": "Voorbeeldregel zonder exacte datum, alleen een jaartal.",
+    "voorbeeld": true
+  }
+]

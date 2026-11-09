@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TV-Tijdmachine</title>
+  <meta name="description" content="Blader door decennia televisiegeschiedenis: een privécollectie tv-opnames, jaar voor jaar, met wat er toen gebeurde.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='3' y='7' width='26' height='19' rx='4' fill='%23e8a33d'/><rect x='6' y='10' width='16' height='13' rx='2' fill='%23161310'/><circle cx='25.5' cy='13' r='1.6' fill='%23161310'/><circle cx='25.5' cy='19' r='1.6' fill='%23161310'/><path d='M11 7 7 2M19 7l4-5' stroke='%23e8a33d' stroke-width='2' stroke-linecap='round'/></svg>">
+</head>
+<body>
+  <header class="top">
+    <a class="logo" href="#/">
+      <span class="logo-tv" aria-hidden="true"></span>
+      <span>TV-Tijdmachine</span>
+    </a>
+    <form class="zoek" role="search" onsubmit="return false">
+      <label class="sr-only" for="zoekveld">Zoek in de collectie</label>
+      <input id="zoekveld" type="search" placeholder="Zoek op titel, zender, jaar…" autocomplete="off">
+      <select id="filter-zender" aria-label="Filter op zender"><option value="">Alle zenders</option></select>
+      <select id="filter-genre" aria-label="Filter op genre"><option value="">Alle genres</option></select>
+    </form>
+  </header>
+
+  <main>
+    <section class="kast" aria-label="Kies een periode">
+      <div class="decennia" id="decennia" role="tablist" aria-label="Decennium"></div>
+      <div class="jaren" id="jaren" aria-label="Jaar"></div>
+    </section>
+
+    <section class="scherm-wrap">
+      <div class="scherm" id="scherm" aria-live="polite">
+        <!-- gevuld door js/app.js -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="voet">
+    <p>Een privécollectie televisie-opnames, verzameld, gedigitaliseerd en beschreven door een liefhebber. De rechten op de uitzendingen liggen bij de oorspronkelijke omroepen.</p>
+  </footer>
+
+  <dialog id="detail" class="detail">
+    <div id="detail-inhoud"></div>
+    <form method="dialog"><button class="knop">Sluiten</button></form>
+  </dialog>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
