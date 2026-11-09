@@ -1,0 +1,4 @@
+# Familievideo's en geheimen horen niet in de openbare repository
+prive/
+.env
+node_modules/

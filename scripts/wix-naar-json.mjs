@@ -83,7 +83,15 @@ const opnames = [...groepen.values()].map((o) => {
   };
 });
 
-writeFileSync(new URL("../data/opnames.json", import.meta.url), JSON.stringify(opnames, null, 1) + "\n");
+// Openbaar: alleen tv-opnames. Familievideo's gaan naar prive/ (staat in .gitignore) en
+// worden met scripts/prive-naar-supabase.mjs in de afgeschermde database gezet.
+import { mkdirSync, existsSync } from "node:fs";
+const prive = opnames.filter((o) => o.prive);
+const openbaar = opnames.filter((o) => !o.prive);
+writeFileSync(new URL("../data/opnames.json", import.meta.url), JSON.stringify(openbaar, null, 1) + "\n");
+const priveMap = new URL("../prive/", import.meta.url);
+if (!existsSync(priveMap)) mkdirSync(priveMap);
+writeFileSync(new URL("prive.json", priveMap), JSON.stringify(prive, null, 1) + "\n");
 const tel = {};
 opnames.forEach((o) => (tel[o.genre] = (tel[o.genre] || 0) + 1));
 console.log(`${lijst.length} bestanden → ${opnames.length} opnames`, tel);
