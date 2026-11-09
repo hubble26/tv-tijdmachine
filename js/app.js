@@ -59,19 +59,21 @@ const toonPrive = () => $("#toon-prive").checked;
 const zichtbaar = () => state.opnames.filter((o) => toonPrive() || !o.prive);
 
 async function laad() {
-  const [o, j] = await Promise.all([
+  const [o, j, b] = await Promise.all([
     fetch("data/opnames.json").then((r) => r.json()),
     fetch("data/jaren.json").then((r) => r.json()).catch(() => ({})),
+    fetch("data/boxen.json").then((r) => r.json()).catch(() => []),
   ]);
-  state.opnames = o
+  // Harde schijf (opnames.json) + dvd/videoboxen (boxen.json, met boxnummer).
+  state.opnames = o.concat(b)
     .map((x) => ({ ...x, jaar: Number(x.jaar || String(x.datum || "").slice(0, 4)) || null }))
-    .map((x) => ({ ...x, _hooi: norm([x.titel, x.zender, x.genre, x.jaar, x.beschrijving].join(" ")) }))
+    .map((x) => ({ ...x, _hooi: norm([x.titel, x.zender, x.genre, x.jaar, x.beschrijving, x.rubriek, x.box ? `box ${x.box} ${x.boxnaam}` : ""].join(" ")) }))
     .sort((a, b) => String(a.datum || a.jaar || "9999").localeCompare(String(b.datum || b.jaar || "9999")));
   state.jaren = j;
   try { $("#toon-prive").checked = localStorage.getItem("toonPrive") === "1"; } catch {}
   vulFilters();
   window.addEventListener("hashchange", route);
-  ["filter-zender", "filter-genre"].forEach((id) => $("#" + id).addEventListener("input", route));
+  ["filter-zender", "filter-genre", "filter-box", "sorteer"].forEach((id) => $("#" + id).addEventListener("input", route));
   $("#zoekveld").addEventListener("input", () => { state.gesproken = ""; route(); });
   $("#toon-prive").addEventListener("change", () => {
     try { localStorage.setItem("toonPrive", toonPrive() ? "1" : "0"); } catch {}
@@ -92,10 +94,24 @@ function vulFilters() {
   for (const [id, k] of [["filter-zender", "zender"], ["filter-genre", "genre"]]) {
     $("#" + id).insertAdjacentHTML("beforeend", uniek(k).map((v) => `<option>${esc(v)}</option>`).join(""));
   }
+  const boxen = new Map();
+  state.opnames.forEach((o) => o.box && boxen.set(o.box, o.boxnaam));
+  $("#filter-box").insertAdjacentHTML("beforeend", [...boxen].sort((a, c) => a[0] - c[0])
+    .map(([n, naam]) => `<option value="${n}">Box ${n}${naam ? ` · ${esc(naam)}` : ""}</option>`).join(""));
 }
 
 function filters() {
-  return { q: $("#zoekveld").value.trim(), zender: $("#filter-zender").value, genre: $("#filter-genre").value };
+  return { q: $("#zoekveld").value.trim(), zender: $("#filter-zender").value, genre: $("#filter-genre").value, box: $("#filter-box").value, sorteer: $("#sorteer").value };
+}
+
+const pastBox = (o, box) => !box || (box === "schijf" ? !o.box : o.box === Number(box));
+
+function sorteer(lijst, hoe) {
+  const d = (o) => String(o.datum || o.jaar || "9999");
+  const id = (o) => String(o.id);
+  if (hoe === "box") return [...lijst].sort((a, b) => (a.box || 0) - (b.box || 0) || id(a).localeCompare(id(b)));
+  if (hoe === "titel") return [...lijst].sort((a, b) => a.titel.localeCompare(b.titel, "nl"));
+  return [...lijst].sort((a, b) => d(a).localeCompare(d(b)));
 }
 
 // Zoeken: eerst de opnames waarin álle zoekwoorden voorkomen (minstens één voluit).
@@ -103,23 +119,28 @@ function filters() {
 function zoek(f) {
   let lijst = zichtbaar();
   if (f.genre === "Familie") lijst = state.opnames.filter((o) => o.genre === "Familie");
-  lijst = lijst.filter((o) => (!f.zender || o.zender === f.zender) && (!f.genre || o.genre === f.genre));
+  lijst = lijst.filter((o) => (!f.zender || o.zender === f.zender) && (!f.genre || o.genre === f.genre) && pastBox(o, f.box));
   const woorden = zoekwoorden(f.q);
-  if (!woorden.length) return { lijst, woorden };
+  if (!woorden.length) return { lijst: sorteer(lijst, f.sorteer), woorden };
+  const r = zoekScore(lijst, woorden);
+  return { lijst: sorteer(r, f.sorteer), woorden };
+}
+
+function zoekScore(lijst, woorden) {
   const scored = lijst.map((o) => {
     const tokens = o._hooi.split(" ");
     const t = woorden.map((w) => treffer(w, tokens, o._hooi));
     return { o, alles: t.every(Boolean) && t.includes(2), vol: t.filter((x) => x === 2).length };
   });
   const alle = scored.filter((x) => x.alles);
-  if (alle.length) return { lijst: alle.map((x) => x.o), woorden };
+  if (alle.length) return alle.map((x) => x.o);
   const max = Math.max(0, ...scored.map((x) => x.vol));
-  return { lijst: max ? scored.filter((x) => x.vol === max).map((x) => x.o) : [], woorden };
+  return max ? scored.filter((x) => x.vol === max).map((x) => x.o) : [];
 }
 
 function route() {
   const f = filters();
-  const actief = f.q || f.zender || f.genre;
+  const actief = f.q || f.zender || f.genre || f.box;
   const m = location.hash.match(/^#\/(\d{4})$/);
   const jaren = alleJaren();
   state.jaar = m ? Number(m[1]) : null;
@@ -165,7 +186,7 @@ function tekenKast(jaren) {
 }
 
 function wisZoeken() {
-  $("#zoekveld").value = ""; $("#filter-zender").value = ""; $("#filter-genre").value = "";
+  $("#zoekveld").value = ""; $("#filter-zender").value = ""; $("#filter-genre").value = ""; $("#filter-box").value = "";
   state.gesproken = ""; $("#spraak-status").hidden = true;
 }
 
@@ -174,6 +195,7 @@ function kaart(o) {
   return `<li><button class="kaart" data-id="${esc(o.id)}">
       <span class="titel">${esc(o.titel)}</span>
       <span class="meta">${meta}</span>
+      ${o.box ? `<span class="label box">Box ${o.box}</span>` : ""}
       ${o.genre ? `<span class="label${o.prive ? " prive" : ""}">${esc(o.genre)}</span>` : ""}
       ${o.voorbeeld ? `<span class="label voorbeeld">voorbeeld</span>` : ""}
     </button></li>`;
@@ -232,7 +254,7 @@ function toonDetail(id) {
   $("#detail-inhoud").innerHTML = `
     <h3>${esc(o.titel)}</h3>
     <dl>
-      ${rij("Datum", datumTekst(o.datum, o.jaar))}${rij("Zender", o.zender)}${rij("Genre", o.genre)}
+      ${rij("Datum", datumTekst(o.datum, o.jaar))}${rij("Zender", o.zender)}${rij("Genre", o.genre)}${rij("Box", o.box ? `Box ${o.box}${o.boxnaam ? " · " + o.boxnaam : ""}` : "")}${rij("Rubriek", o.rubriek)}
       ${rij("Duur", o.duur)}${rij("Drager", o.drager)}${rij("Bestanden", (o.formaten || []).join(", "))}
     </dl>
     ${o.beschrijving ? `<p>${esc(o.beschrijving)}</p>` : ""}

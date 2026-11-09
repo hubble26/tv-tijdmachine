@@ -64,6 +64,7 @@ a { color: var(--amber-zacht); }
   margin: 0 max(16px, calc((100vw - 1100px) / 2)) 12px; padding: 10px 14px; border-radius: 10px;
   background: rgba(232,163,61,.12); border: 1px solid rgba(232,163,61,.35); color: var(--amber-zacht);
 }
+.label.box { background: var(--amber); color: #2a1a08; margin-right: 4px; }
 .label.prive { background: rgba(242,233,220,.1); color: var(--tekst-zacht); }
 .zoek select { flex: 0 1 160px; }
 .zoek input:focus, .zoek select:focus { outline: 2px solid var(--amber); outline-offset: 1px; }
